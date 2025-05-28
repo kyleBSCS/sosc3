@@ -13,8 +13,7 @@ export const TOPICS: MuseumTopic[] = [
     id: "queer_history_moments",
     title: "Moments of Change",
     description: "Explore key events that shaped LGBTQ+ rights and visibility.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=800&h=600&fit=crop",
+    imageUrl: "/stonewall.webp",
   },
   {
     id: "gender_fluidity",

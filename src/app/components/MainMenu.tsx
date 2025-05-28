@@ -168,7 +168,6 @@ const MainMenu: React.FC<MainMenuProps> = ({
         </motion.div>
 
         <motion.button
-          variants={itemVariants}
           onClick={onShowAbout}
           className="glassmorphism text-sm md:text-base py-2 px-4 md:py-3 md:px-6 rounded-lg hover:bg-white/20 focus:bg-white/20 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-indigo-400 shadow-md hover:shadow-lg"
           whileHover={{ scale: 0.98 }}

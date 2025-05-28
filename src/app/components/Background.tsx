@@ -3,22 +3,29 @@ import { motion, AnimatePresence } from "framer-motion";
 
 interface PlaceholderProps {
   className: string;
-  seed: string;
 }
 
 interface BackgroundProps {
   meshGradientClass?: string;
 }
 
-const BlurredPlaceholder: React.FC<PlaceholderProps> = ({
+const placeholderImages = [
+  "/stonewall.webp",
+  "/card1.webp",
+  "/card2.webp",
+  "/card3.webp",
+  "/card4.webp",
+];
+
+const BlurredPlaceholder: React.FC<PlaceholderProps & { image: string }> = ({
   className,
-  seed,
+  image,
 }) => {
   return (
     <motion.div
       className={`absolute w-48 h-32 md:w-64 md:h-48 bg-gray-500/20 rounded-lg filter blur-lg opacity-30 ${className}`}
       style={{
-        backgroundImage: `url(https://picsum.photos/seed/${seed}/300/200?grayscale)`,
+        backgroundImage: `url(${image})`,
       }}
       initial={{ opacity: 0, scale: 0.5 }}
       animate={{ opacity: 0.25, scale: 1 }}
@@ -58,7 +65,11 @@ const Background: React.FC<BackgroundProps> = ({
         />
       </AnimatePresence>
       {placeholders.map((p, i) => (
-        <BlurredPlaceholder key={i} className={p.className} seed={p.seed} />
+        <BlurredPlaceholder
+          key={i}
+          className={p.className}
+          image={placeholderImages[i % placeholderImages.length]}
+        />
       ))}
     </div>
   );
