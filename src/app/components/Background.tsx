@@ -16,12 +16,12 @@ const BlurredPlaceholder: React.FC<PlaceholderProps> = ({
 }) => {
   return (
     <motion.div
-      className={`absolute w-48 h-32 md:w-64 md:h-48 bg-gray-500/20 rounded-lg filter blur-lg opacity-30 ${className}`} // Reduced blur to blur-lg, adjusted opacity/bg
+      className={`absolute w-48 h-32 md:w-64 md:h-48 bg-gray-500/20 rounded-lg filter blur-lg opacity-30 ${className}`}
       style={{
         backgroundImage: `url(https://picsum.photos/seed/${seed}/300/200?grayscale)`,
-      }} // Added grayscale
+      }}
       initial={{ opacity: 0, scale: 0.5 }}
-      animate={{ opacity: 0.25, scale: 1 }} // Adjusted target opacity
+      animate={{ opacity: 0.25, scale: 1 }}
       transition={{ duration: 1.5, delay: Math.random() * 0.5 }}
     />
   );
