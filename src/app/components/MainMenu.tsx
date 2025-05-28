@@ -74,7 +74,7 @@ const MainMenu: React.FC<MainMenuProps> = ({
       {/* Shadcn Carousel */}
       <motion.div
         variants={itemVariants}
-        className="w-full max-w-6xl mb-8 md:mb-12"
+        className="w-full max-w-6xl mb-8 md:mb-"
       >
         <Carousel
           opts={{
@@ -91,9 +91,9 @@ const MainMenu: React.FC<MainMenuProps> = ({
               >
                 <motion.button
                   onClick={() => onTopicSelect(topic)}
-                  className="glassmorphism w-full text-left rounded-xl hover:bg-white/20 focus:bg-white/20 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-pink-400 shadow-lg hover:shadow-xl overflow-hidden"
-                  whileHover={{ scale: 1.02 }}
-                  whileTap={{ scale: 0.98 }}
+                  className="glassmorphism w-full text-left rounded-xl hover:bg-white/20 focus:bg-white/20 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-pink-400 overflow-hidden"
+                  whileHover={{ scale: 0.98 }}
+                  whileTap={{ scale: 0.96 }}
                 >
                   <div className="relative h-40 md:h-48 w-full">
                     <Image

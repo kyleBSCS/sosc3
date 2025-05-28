@@ -22,7 +22,7 @@ export const TOPICS: MuseumTopic[] = [
     description:
       "Delve into the diverse and evolving understanding of gender identity.",
     imageUrl:
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
+      "https://media.licdn.com/dms/image/v2/D4E12AQFB-Ffi_UdZvw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1687778625506?e=2147483647&v=beta&t=5xUuTtLhDxfJKjy6mTwvfIAp5FXNPU-OKrYqV9qa2vw",
   },
   {
     id: "womens_history_unsung",
@@ -30,7 +30,7 @@ export const TOPICS: MuseumTopic[] = [
     description:
       "Celebrate women whose contributions have often been overlooked.",
     imageUrl:
-      "https://images.unsplash.com/photo-1594736797933-d0cc2fe0a6d6?w=800&h=600&fit=crop",
+      "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_1.7777777777777777,w_3840,h_2163,g_center/dpr_auto/f_auto/q_auto:eco:sensitive/v1/History_TopicIllustration_WomensHistory_gtqhpb?_a=BAVAZGDX0",
   },
   {
     id: "STDs",
@@ -38,14 +38,14 @@ export const TOPICS: MuseumTopic[] = [
     description:
       "Learn about the different kinds of STDs/STIs and how to prevent them.",
     imageUrl:
-      "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=800&h=600&fit=crop",
+      "https://img.freepik.com/free-photo/daughter-holding-her-mothers-hand-hospital_53876-139572.jpg?semt=ais_hybrid&w=740",
   },
   {
     id: "recent_developments",
     title: "Recent Developments",
     description: "Learn about the recent developments in the LGBTQ+ community.",
     imageUrl:
-      "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop",
+      "https://cdn.cfr.org/sites/default/files/styles/full_width_xl/public/image/2021/01/lgbtq.webp",
   },
 ];
 
