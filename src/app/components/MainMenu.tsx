@@ -43,7 +43,7 @@ const MainMenu: React.FC<MainMenuProps> = ({
       animate="visible"
     >
       <motion.div variants={itemVariants} className="mb-8 md:mb-12">
-        <GlassCard className="px-8 py-6 md:px-12 md:py-10">
+        <GlassCard className="px-8 py-6 md:px-12 md:py-10 rounded-t-2xl">
           <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
             The Human Tapestry
           </h1>
@@ -55,7 +55,7 @@ const MainMenu: React.FC<MainMenuProps> = ({
 
       <motion.p
         variants={itemVariants}
-        className="text-md md:text-lg text-gray-300 max-w-2xl mx-auto mb-8 md:mb-12 px-4"
+        className="text-md md:text-lg text-white max-w-2xl mx-auto mb-8 md:mb-12 px-4"
       >
         Weave through the intricate history of gender, celebrating the diverse
         narratives of women and the LGBTQ+ community. Experience the journey
@@ -76,7 +76,7 @@ const MainMenu: React.FC<MainMenuProps> = ({
             <h3 className="text-lg md:text-xl font-semibold text-white">
               {topic.title}
             </h3>
-            <p className="text-sm md:text-base text-gray-300 mt-1">
+            <p className="text-sm md:text-base text-gray-100 mt-1">
               {topic.description}
             </p>
           </motion.button>

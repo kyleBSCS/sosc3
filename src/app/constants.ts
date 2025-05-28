@@ -24,6 +24,17 @@ export const TOPICS: MuseumTopic[] = [
     description:
       "Celebrate women whose contributions have often been overlooked.",
   },
+  {
+    id: "STDs",
+    title: "Kinds of STDs/STIs",
+    description:
+      "Learn about the different kinds of STDs/STIs and how to prevent them.",
+  },
+  {
+    id: "recent_developments",
+    title: "Recent Developments",
+    description: "Learn about the recent developments in the LGBTQ+ community.",
+  },
 ];
 
 type MuseumItemSeed = Omit<MuseumItem, "category">;

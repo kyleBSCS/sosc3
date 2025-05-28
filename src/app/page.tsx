@@ -74,7 +74,25 @@ const App: React.FC = () => {
 
   return (
     <div className="relative min-h-screen w-full text-white overflow-hidden flex flex-col items-center justify-center">
-      <Background />
+      <Background
+        meshGradientClass={(() => {
+          if (selectedTopic) {
+            switch (selectedTopic.id) {
+              case "lgbtq_pioneers":
+                return "rainbow-mesh-gradient";
+              case "queer_history_moments":
+                return "yellow-mesh-gradient";
+              case "gender_fluidity":
+                return "violet-pink-mesh-gradient";
+              case "womens_history_unsung":
+                return "pink-mesh-gradient";
+              default:
+                return "rainbow-mesh-gradient";
+            }
+          }
+          return "rainbow-mesh-gradient";
+        })()}
+      />
       {isLoading && <LoadingIndicator />}
 
       {!isLoading && error && (

@@ -109,7 +109,7 @@ const SlideshowView: React.FC<SlideshowViewProps> = ({
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.1, duration: 0.4 }}
-        className="text-2xl sm:text-3xl md:text-4xl font-bold mb-1 md:mb-2 text-center tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400"
+        className="text-2xl sm:text-3xl md:text-4xl font-bold mb-1 md:mb-2 text-center tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-pink-200 via-purple-200 to-indigo-300 text-shadow-xs"
       >
         {topic.title}
       </motion.h2>
@@ -117,7 +117,9 @@ const SlideshowView: React.FC<SlideshowViewProps> = ({
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2, duration: 0.4 }}
-        className="text-xs sm:text-sm md:text-base text-gray-300 mb-3 md:mb-4 text-center"
+        className={`text-xs sm:text-sm md:text-base ${
+          topic.title === "Moments of Change" ? "text-black" : "text-white"
+        } text-shadow-xs mb-3 md:mb-4 text-center`}
       >
         Exhibit {currentIndex + 1} of {items.length}
       </motion.p>
@@ -264,7 +266,9 @@ const SlideshowView: React.FC<SlideshowViewProps> = ({
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5, duration: 0.5 }}
-        className="mt-3 md:mt-4 text-xs sm:text-sm text-gray-400"
+        className={`text-xs sm:text-sm md:text-base ${
+          topic.title === "Moments of Change" ? "text-black" : "text-white"
+        } text-shadow-xs mb-3 md:mb-4 mt-4 text-center`}
       >
         {items.length > 1 ? "Click or drag cards to navigate. " : ""}Click card
         to learn more.

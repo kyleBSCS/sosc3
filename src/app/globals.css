@@ -45,21 +45,50 @@ body {
 
 .glassmorphism-background {
   background: rgba(1, 0, 0, 0.4);
-  border: 1px solid rgba(255, 255, 255, 0.25); /* Slightly more defined border */
+  border: 1px solid rgba(255, 255, 255, 0.25);
 }
 .rainbow-mesh-gradient {
-  background-image: radial-gradient(
-      at 27% 37%,
-      hsla(0, 0%, 20%, 0.8) 0px,
-      transparent 50%
-    ),
-    radial-gradient(at 97% 21%, hsla(0, 0%, 30%, 0.8) 0px, transparent 50%),
-    radial-gradient(at 52% 99%, hsla(0, 0%, 25%, 0.8) 0px, transparent 50%),
-    radial-gradient(at 10% 29%, hsla(0, 0%, 35%, 0.8) 0px, transparent 50%),
-    radial-gradient(at 97% 96%, hsla(0, 0%, 15%, 0.8) 0px, transparent 50%),
-    radial-gradient(at 33% 50%, hsla(0, 0%, 40%, 0.8) 0px, transparent 50%),
-    radial-gradient(at 79% 53%, hsla(0, 0%, 45%, 0.8) 0px, transparent 50%);
-  background-color: hsla(0, 0%, 10%, 1); /* Fallback color */
+  background-image: radial-gradient(at 27% 37%, #ffb347 0px, transparent 50%),
+    radial-gradient(at 97% 21%, #ff6961 0px, transparent 50%),
+    radial-gradient(at 52% 99%, #77dd77 0px, transparent 50%),
+    radial-gradient(at 10% 29%, #f49ac2 0px, transparent 50%),
+    radial-gradient(at 97% 96%, #84b6f4 0px, transparent 50%),
+    radial-gradient(at 33% 50%, #fdcae1 0px, transparent 50%),
+    radial-gradient(at 79% 53%, #fffac8 0px, transparent 50%);
+  background-color: #434ecd;
+}
+
+.yellow-mesh-gradient {
+  background-image: radial-gradient(at 27% 37%, #fff9b0 0px, transparent 50%),
+    radial-gradient(at 97% 21%, #ffe066 0px, transparent 50%),
+    radial-gradient(at 52% 99%, #ffd700 0px, transparent 50%),
+    radial-gradient(at 10% 29%, #fff3cd 0px, transparent 50%),
+    radial-gradient(at 97% 96%, #ffe066 0px, transparent 50%),
+    radial-gradient(at 33% 50%, #fffbe7 0px, transparent 50%),
+    radial-gradient(at 79% 53%, #fffde4 0px, transparent 50%);
+  background-color: #fffbe7;
+}
+
+.violet-pink-mesh-gradient {
+  background-image: radial-gradient(at 27% 37%, #b983ff 0px, transparent 50%),
+    radial-gradient(at 97% 21%, #f7c1ff 0px, transparent 50%),
+    radial-gradient(at 52% 99%, #a084ee 0px, transparent 50%),
+    radial-gradient(at 10% 29%, #f7b2ff 0px, transparent 50%),
+    radial-gradient(at 97% 96%, #e2afff 0px, transparent 50%),
+    radial-gradient(at 33% 50%, #cdb4f6 0px, transparent 50%),
+    radial-gradient(at 79% 53%, #f7c1ff 0px, transparent 50%);
+  background-color: #f7e1ff;
+}
+
+.pink-mesh-gradient {
+  background-image: radial-gradient(at 27% 37%, #ffb6b9 0px, transparent 50%),
+    radial-gradient(at 97% 21%, #fae1dd 0px, transparent 50%),
+    radial-gradient(at 52% 99%, #fcd5ce 0px, transparent 50%),
+    radial-gradient(at 10% 29%, #f8cdda 0px, transparent 50%),
+    radial-gradient(at 97% 96%, #f9bec7 0px, transparent 50%),
+    radial-gradient(at 33% 50%, #f6abb6 0px, transparent 50%),
+    radial-gradient(at 79% 53%, #f7cac9 0px, transparent 50%);
+  background-color: #fae1dd;
 }
 /* Perspective for 3D transforms */
 .perspective {
