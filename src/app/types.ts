@@ -14,4 +14,5 @@ export interface MuseumTopic {
   id: string;
   title: string;
   description: string;
+  imageUrl: string;
 }

@@ -2,6 +2,14 @@ import React from "react";
 import { motion } from "framer-motion";
 import { MuseumTopic } from "../types";
 import GlassCard from "./GlassCard";
+import Image from "next/image";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 
 interface MainMenuProps {
   topics: MuseumTopic[];
@@ -37,7 +45,7 @@ const MainMenu: React.FC<MainMenuProps> = ({
 
   return (
     <motion.div
-      className="flex flex-col items-center justify-center min-h-screen p-4 md:p-8 text-center w-full max-w-3xl mx-auto"
+      className="flex flex-col items-center justify-center min-h-screen p-4 md:p-8 text-center w-full max-w-7xl mx-auto"
       variants={containerVariants}
       initial="hidden"
       animate="visible"
@@ -63,24 +71,63 @@ const MainMenu: React.FC<MainMenuProps> = ({
         fluidity and self-discovery.
       </motion.p>
 
-      <motion.div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 w-full mb-8">
-        {topics.map((topic) => (
-          <motion.button
-            key={topic.id}
-            variants={itemVariants}
-            onClick={() => onTopicSelect(topic)}
-            className="glassmorphism w-full text-left p-4 md:p-6 rounded-xl hover:bg-white/20 focus:bg-white/20 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-pink-400 shadow-lg hover:shadow-xl"
-            whileHover={{ scale: 1.03 }}
-            whileTap={{ scale: 0.98 }}
-          >
-            <h3 className="text-lg md:text-xl font-semibold text-white">
-              {topic.title}
-            </h3>
-            <p className="text-sm md:text-base text-gray-100 mt-1">
-              {topic.description}
-            </p>
-          </motion.button>
-        ))}
+      {/* Shadcn Carousel */}
+      <motion.div
+        variants={itemVariants}
+        className="w-full max-w-6xl mb-8 md:mb-12"
+      >
+        <Carousel
+          opts={{
+            align: "start",
+            loop: true,
+          }}
+          className="w-full"
+        >
+          <CarouselContent className="-ml-2 md:-ml-4">
+            {topics.map((topic) => (
+              <CarouselItem
+                key={topic.id}
+                className="pl-2 md:pl-4 md:basis-1/2 lg:basis-1/3"
+              >
+                <motion.button
+                  onClick={() => onTopicSelect(topic)}
+                  className="glassmorphism w-full text-left rounded-xl hover:bg-white/20 focus:bg-white/20 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-pink-400 shadow-lg hover:shadow-xl overflow-hidden"
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
+                >
+                  <div className="relative h-40 md:h-48 w-full">
+                    <Image
+                      src={topic.imageUrl}
+                      alt={topic.title}
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      draggable={false}
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+                  </div>
+                  <div className="p-4 md:p-6">
+                    <h3 className="text-lg md:text-xl font-semibold text-white mb-2">
+                      {topic.title}
+                    </h3>
+                    <p
+                      className="text-sm md:text-base text-gray-100 overflow-hidden"
+                      style={{
+                        display: "-webkit-box",
+                        WebkitLineClamp: 3,
+                        WebkitBoxOrient: "vertical",
+                      }}
+                    >
+                      {topic.description}
+                    </p>
+                  </div>
+                </motion.button>
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+          <CarouselPrevious className="glassmorphism border-none bg-white/10 hover:bg-white/20 text-white -left-12 md:-left-16" />
+          <CarouselNext className="glassmorphism border-none bg-white/10 hover:bg-white/20 text-white -right-12 md:-right-16" />
+        </Carousel>
       </motion.div>
 
       <motion.button

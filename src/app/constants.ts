@@ -6,34 +6,46 @@ export const TOPICS: MuseumTopic[] = [
     title: "Pioneers of Pride",
     description:
       "Discover influential LGBTQ+ activists and their impact on history.",
+    imageUrl:
+      "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/marsha-p-johnson.jpg",
   },
   {
     id: "queer_history_moments",
     title: "Moments of Change",
     description: "Explore key events that shaped LGBTQ+ rights and visibility.",
+    imageUrl:
+      "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=800&h=600&fit=crop",
   },
   {
     id: "gender_fluidity",
     title: "Beyond the Binary",
     description:
       "Delve into the diverse and evolving understanding of gender identity.",
+    imageUrl:
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
   },
   {
     id: "womens_history_unsung",
     title: "Herstory: Unsung Women",
     description:
       "Celebrate women whose contributions have often been overlooked.",
+    imageUrl:
+      "https://images.unsplash.com/photo-1594736797933-d0cc2fe0a6d6?w=800&h=600&fit=crop",
   },
   {
     id: "STDs",
     title: "Kinds of STDs/STIs",
     description:
       "Learn about the different kinds of STDs/STIs and how to prevent them.",
+    imageUrl:
+      "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=800&h=600&fit=crop",
   },
   {
     id: "recent_developments",
     title: "Recent Developments",
     description: "Learn about the recent developments in the LGBTQ+ community.",
+    imageUrl:
+      "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop",
   },
 ];
 
@@ -220,6 +232,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "A series of spontaneous demonstrations by members of the LGBTQ+ community in response to a police raid.",
       longDescription:
         "The Stonewall Riots, which began in the early hours of June 28, 1969, at the Stonewall Inn in New York City, are widely considered the single most important event leading to the gay liberation movement and the modern fight for LGBTQ+ rights in the United States. Patrons of the bar, along with other community members, resisted a police raid, sparking six days of protests and clashes with law enforcement. Stonewall marked a shift from a more passive rights movement to radical, direct action.",
+      imageUrl:
+        "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=800&h=600&fit=crop",
     },
     {
       id: "act_up_formation",
@@ -229,6 +243,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Formation of AIDS Coalition to Unleash Power (ACT UP), a direct-action advocacy group.",
       longDescription:
         "ACT UP was formed in March 1987 in New York City to combat the AIDS pandemic through direct action, medical research, treatment advocacy, and policy changes. Frustrated by government inaction and societal indifference, ACT UP used confrontational protests and civil disobedience to raise awareness, demand research funding, and accelerate the availability of life-saving treatments. Their activism significantly impacted public health policy and the fight against HIV/AIDS.",
+      imageUrl:
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=600&fit=crop",
     },
     {
       id: "obergefell_v_hodges",
@@ -238,6 +254,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "U.S. Supreme Court ruling legalizing same-sex marriage nationwide.",
       longDescription:
         "In a landmark decision, the U.S. Supreme Court ruled in Obergefell v. Hodges that the fundamental right to marry is guaranteed to same-sex couples by both the Due Process Clause and the Equal Protection Clause of the Fourteenth Amendment. This ruling legalized same-sex marriage in all fifty states, marking a pivotal victory for LGBTQ+ rights and equality in the United States after decades of activism and legal challenges.",
+      imageUrl:
+        "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=800&h=600&fit=crop",
     },
   ],
   gender_fluidity: [
@@ -249,6 +267,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Term used by some Indigenous North Americans to describe Native people who fulfill a third-gender ceremonial and social role.",
       longDescription:
         "Two-Spirit is an umbrella term created in 1990 by Indigenous LGBTQ+ activists to describe individuals in many Native American and First Nations cultures who embody both masculine and feminine spirits. These individuals often held respected spiritual and social roles within their communities, long before European colonization. The term aims to reclaim and honor pre-colonial understandings of gender diversity that were suppressed by colonization and Western binary gender norms.",
+      imageUrl:
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
     },
     {
       id: "hijra_community",
@@ -258,6 +278,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Third gender community in South Asia, particularly India, Pakistan, and Bangladesh.",
       longDescription:
         "Hijras are a recognized third gender community in South Asia with a recorded history spanning thousands of years. Traditionally, they have held significant social and religious roles, often associated with blessings and performances at ceremonies. While facing discrimination and marginalization in modern times, the Hijra community continues to be a visible and culturally significant part of South Asian society, and some countries have legally recognized them as a third gender.",
+      imageUrl:
+        "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=800&h=600&fit=crop",
     },
     {
       id: "nonbinary_identities",
@@ -267,6 +289,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Umbrella term for gender identities that are not solely male or female.",
       longDescription:
         'Non-binary is an umbrella term for people whose gender identity does not fit neatly into the categories of "man" or "woman." Non-binary identities are diverse and can include people who identify as having no gender, multiple genders, or a gender that fluctuates. The increasing visibility and understanding of non-binary identities challenge traditional binary notions of gender and highlight the spectrum of human experience.',
+      imageUrl:
+        "https://images.unsplash.com/photo-1506629905770-b42efb4cc492?w=800&h=600&fit=crop",
     },
   ],
   womens_history_unsung: [
@@ -278,6 +302,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "English mathematician and writer, widely considered the first computer programmer.",
       longDescription:
         "Augusta Ada King, Countess of Lovelace, was an English mathematician and writer chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. She was the first to recognize that the machine had applications beyond pure calculation and published the first algorithm intended to be carried out by such a machine. As a result, she is often regarded as the first computer programmer.",
+      imageUrl:
+        "https://images.unsplash.com/photo-1594736797933-d0cc2fe0a6d6?w=800&h=600&fit=crop",
     },
     {
       id: "hildegard_von_bingen",
@@ -287,6 +313,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "German Benedictine abbess, writer, composer, philosopher, mystic, visionary, and medical writer.",
       longDescription:
         "Hildegard von Bingen was a remarkable polymath of the High Middle Ages. She founded monasteries, composed an entire corpus of liturgical music, wrote theological, botanical, and medicinal texts, as well as letters, and liturgical songs. Her visionary theology and scientific insights were extraordinary for her time. Despite the constraints placed on women, she became an influential figure, advising popes, emperors, and other notables.",
+      imageUrl:
+        "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=800&h=600&fit=crop",
     },
     {
       id: "artemisia_gentileschi",
@@ -296,6 +324,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Italian Baroque painter, one of the most accomplished painters in the generation following Caravaggio.",
       longDescription:
         "Artemisia Gentileschi was a pioneering Italian Baroque painter, renowned for her dramatic and naturalistic depictions of strong women from myths, allegories, and the Bible. In an era when female painters were not easily accepted, she achieved international success. Her works often feature female heroines and victims, imbued with a powerful emotional intensity, reflecting her own life experiences and challenging patriarchal norms.",
+      imageUrl:
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop",
     },
   ],
 };
