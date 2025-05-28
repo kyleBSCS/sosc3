@@ -8,7 +8,7 @@ export interface MuseumItem {
   category: string;
 }
 
-export type ViewMode = "main_menu" | "slideshow" | "detail";
+export type ViewMode = "main_menu" | "slideshow" | "detail" | "about";
 
 export interface MuseumTopic {
   id: string;

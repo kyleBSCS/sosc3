@@ -9,6 +9,7 @@ import SlideshowView from "./components/SlideshowView";
 import DetailModal from "./components/DetailModal";
 import Background from "./components/Background";
 import LoadingIndicator from "./components/LoadingIndicator";
+import AboutModal from "./components/AboutModal";
 
 const App: React.FC = () => {
   const [currentView, setCurrentView] = useState<ViewMode>("main_menu");
@@ -67,9 +68,7 @@ const App: React.FC = () => {
   };
 
   const handleShowAbout = () => {
-    alert(
-      "The Human Tapestry Museum\n\nDeveloped by a World-Class Senior Frontend React Engineer.\n\nThis project showcases interactive UI/UX design for educational purposes using hardcoded content and Framer Motion for animations."
-    );
+    setCurrentView("about");
   };
 
   return (
@@ -114,6 +113,7 @@ const App: React.FC = () => {
             <MainMenu
               topics={TOPICS}
               onTopicSelect={handleTopicSelect}
+              setCurrentView={setCurrentView}
               onShowAbout={handleShowAbout}
             />
           )}
@@ -127,6 +127,9 @@ const App: React.FC = () => {
           )}
           {currentView === "detail" && selectedItem && (
             <DetailModal item={selectedItem} onClose={handleCloseDetail} />
+          )}
+          {currentView === "about" && (
+            <AboutModal onBackToMenu={handleBackToMenu} />
           )}
         </>
       )}

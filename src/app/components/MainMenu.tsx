@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { MuseumTopic } from "../types";
+import { MuseumTopic, ViewMode } from "../types";
 import GlassCard from "./GlassCard";
 import Image from "next/image";
 import {
@@ -14,12 +14,14 @@ import {
 interface MainMenuProps {
   topics: MuseumTopic[];
   onTopicSelect: (topic: MuseumTopic) => void;
+  setCurrentView: (view: ViewMode) => void;
   onShowAbout: () => void;
 }
 
 const MainMenu: React.FC<MainMenuProps> = ({
   topics,
   onTopicSelect,
+  setCurrentView,
   onShowAbout,
 }) => {
   const containerVariants = {
