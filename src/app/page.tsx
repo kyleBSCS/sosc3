@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { MuseumItem, ViewMode, MuseumTopic } from "./types";
 import { TOPICS } from "./constants";
-import { getHardcodedMuseumTopicContent } from "./services/geminiService"; // Updated import
+import { MUSEUM_DATA } from "./constants";
 import MainMenu from "./components/MainMenu";
 import SlideshowView from "./components/SlideshowView";
 import DetailModal from "./components/DetailModal";
@@ -18,13 +18,16 @@ const App: React.FC = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
 
-  const fetchItemsForTopic = useCallback(async (topic: MuseumTopic) => {
+  const fetchItemsForTopic = useCallback((topic: MuseumTopic) => {
     if (!topic) return;
     setIsLoading(true);
     setError(null);
     try {
-      // Use hardcoded content service
-      const items = await getHardcodedMuseumTopicContent(topic.id);
+      // Directly get items from MUSEUM_DATA and map to MuseumItem
+      const items = (MUSEUM_DATA[topic.id] || []).map((item) => ({
+        ...item,
+        category: topic.id,
+      }));
       setTopicItems(items);
       setCurrentView("slideshow");
     } catch (err) {
@@ -34,7 +37,6 @@ const App: React.FC = () => {
           ? err.message
           : "Failed to load museum exhibits. Please try again later.";
       setError(errorMessage);
-      // Optionally, set empty items or specific error items
       setTopicItems([]);
     } finally {
       setIsLoading(false);

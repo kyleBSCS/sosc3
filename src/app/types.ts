@@ -8,11 +8,10 @@ export interface MuseumItem {
   category: string;
 }
 
-export type ViewMode = 'main_menu' | 'slideshow' | 'detail';
+export type ViewMode = "main_menu" | "slideshow" | "detail";
 
 export interface MuseumTopic {
   id: string;
   title: string;
   description: string;
-  // promptQuery: string; // Removed
 }

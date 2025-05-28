@@ -1,8 +1,7 @@
-
-import React from 'react';
-import { motion } from 'framer-motion';
-import { MuseumTopic } from '../types';
-import GlassCard from './GlassCard';
+import React from "react";
+import { motion } from "framer-motion";
+import { MuseumTopic } from "../types";
+import GlassCard from "./GlassCard";
 
 interface MainMenuProps {
   topics: MuseumTopic[];
@@ -10,7 +9,11 @@ interface MainMenuProps {
   onShowAbout: () => void;
 }
 
-const MainMenu: React.FC<MainMenuProps> = ({ topics, onTopicSelect, onShowAbout }) => {
+const MainMenu: React.FC<MainMenuProps> = ({
+  topics,
+  onTopicSelect,
+  onShowAbout,
+}) => {
   const containerVariants = {
     hidden: { opacity: 0, scale: 0.9 },
     visible: {
@@ -24,8 +27,12 @@ const MainMenu: React.FC<MainMenuProps> = ({ topics, onTopicSelect, onShowAbout 
   };
 
   const itemVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0, transition: { type: 'spring', stiffness: 100 } },
+    hidden: { opacity: 1, y: 20 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { type: "spring", stiffness: 100 },
+    },
   };
 
   return (
@@ -50,13 +57,13 @@ const MainMenu: React.FC<MainMenuProps> = ({ topics, onTopicSelect, onShowAbout 
         variants={itemVariants}
         className="text-md md:text-lg text-gray-300 max-w-2xl mx-auto mb-8 md:mb-12 px-4"
       >
-        Weave through the intricate history of gender, celebrating the diverse narratives of women and the LGBTQ+ community. Experience the journey from traditional understandings to the expansive landscape of gender fluidity and self-discovery.
+        Weave through the intricate history of gender, celebrating the diverse
+        narratives of women and the LGBTQ+ community. Experience the journey
+        from traditional understandings to the expansive landscape of gender
+        fluidity and self-discovery.
       </motion.p>
 
-      <motion.div
-        className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 w-full mb-8"
-        variants={containerVariants} // Stagger children within this grid too
-      >
+      <motion.div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 w-full mb-8">
         {topics.map((topic) => (
           <motion.button
             key={topic.id}
@@ -66,12 +73,16 @@ const MainMenu: React.FC<MainMenuProps> = ({ topics, onTopicSelect, onShowAbout 
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.98 }}
           >
-            <h3 className="text-lg md:text-xl font-semibold text-white">{topic.title}</h3>
-            <p className="text-sm md:text-base text-gray-300 mt-1">{topic.description}</p>
+            <h3 className="text-lg md:text-xl font-semibold text-white">
+              {topic.title}
+            </h3>
+            <p className="text-sm md:text-base text-gray-300 mt-1">
+              {topic.description}
+            </p>
           </motion.button>
         ))}
       </motion.div>
-      
+
       <motion.button
         variants={itemVariants}
         onClick={onShowAbout}

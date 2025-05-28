@@ -2,28 +2,26 @@ import React from "react";
 import { motion } from "framer-motion";
 import { MuseumItem } from "../types";
 import GlassCard from "./GlassCard";
+import Image from "next/image";
 
 interface SlideCardProps {
   item: MuseumItem;
-  isCurrent: boolean; // To potentially style the current card differently if needed via props
-  // onSelect is now handled by the parent motion.div in SlideshowView
+  isCurrent: boolean;
 }
 
 const SlideCard: React.FC<SlideCardProps> = ({ item, isCurrent }) => {
   return (
-    <motion.div
-      className="w-full h-full relative"
-      // Hover effect is now managed by the parent in SlideshowView for better coordination
-      // but individual hover on current card can be refined here if needed
-    >
-      {/* Image fills the entire card and acts as background */}
-      <img
+    <motion.div className="w-full h-full relative">
+      <Image
         src={item.imageUrl}
         alt={item.title}
-        className="absolute inset-0 w-full h-full object-cover rounded-lg"
-        draggable="false"
+        fill
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        className="object-cover rounded-lg"
+        priority={isCurrent}
+        quality={85}
       />
-      {/* GlassCard now only for text content, positioned at the bottom with z-index */}
+
       <GlassCard className="absolute bottom-0 left-0 right-0 z-50 p-3 md:p-4 rounded-b-lg">
         {/* Text content */}
         <div>

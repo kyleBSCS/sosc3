@@ -1,5 +1,4 @@
-
-import React from 'react';
+import React from "react";
 
 interface GlassCardProps {
   children: React.ReactNode;
@@ -7,10 +6,14 @@ interface GlassCardProps {
   onClick?: () => void;
 }
 
-const GlassCard: React.FC<GlassCardProps> = ({ children, className = '', onClick }) => {
+const GlassCard: React.FC<GlassCardProps> = ({
+  children,
+  className = "",
+  onClick,
+}) => {
   return (
     <div
-      className={`glassmorphism rounded-2xl p-6 md:p-8 shadow-2xl transition-all duration-300 ease-in-out ${className}`}
+      className={`glassmorphism-background rounded-b-2xl p-6 md:p-8 shadow-2xl transition-all duration-300 ease-in-out ${className}`}
       onClick={onClick}
     >
       {children}

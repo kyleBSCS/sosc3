@@ -210,7 +210,6 @@ const SlideshowView: React.FC<SlideshowViewProps> = ({
                 initial={{ opacity: 0, scale: 0.5 }} // Generic initial for new items
                 animate={variants}
                 exit={{
-                  // Define exit animation based on direction for smoother transitions
                   x: direction > 0 ? "-150%" : "150%",
                   opacity: 0,
                   scale: 0.5,

@@ -42,6 +42,11 @@ body {
   -webkit-backdrop-filter: blur(6px); /* Safari */
   border: 1px solid rgba(255, 255, 255, 0.25); /* Slightly more defined border */
 }
+
+.glassmorphism-background {
+  background: rgba(1, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.25); /* Slightly more defined border */
+}
 .rainbow-mesh-gradient {
   background-image: radial-gradient(
       at 27% 37%,
