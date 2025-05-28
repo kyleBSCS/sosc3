@@ -24,3 +24,39 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(6px); /* Reduced blur */
+  -webkit-backdrop-filter: blur(6px); /* Safari */
+  border: 1px solid rgba(255, 255, 255, 0.25); /* Slightly more defined border */
+}
+.rainbow-mesh-gradient {
+  background-image: radial-gradient(
+      at 27% 37%,
+      hsla(0, 0%, 20%, 0.8) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 97% 21%, hsla(0, 0%, 30%, 0.8) 0px, transparent 50%),
+    radial-gradient(at 52% 99%, hsla(0, 0%, 25%, 0.8) 0px, transparent 50%),
+    radial-gradient(at 10% 29%, hsla(0, 0%, 35%, 0.8) 0px, transparent 50%),
+    radial-gradient(at 97% 96%, hsla(0, 0%, 15%, 0.8) 0px, transparent 50%),
+    radial-gradient(at 33% 50%, hsla(0, 0%, 40%, 0.8) 0px, transparent 50%),
+    radial-gradient(at 79% 53%, hsla(0, 0%, 45%, 0.8) 0px, transparent 50%);
+  background-color: hsla(0, 0%, 10%, 1); /* Fallback color */
+}
+/* Perspective for 3D transforms */
+.perspective {
+  perspective: 1000px;
+}
