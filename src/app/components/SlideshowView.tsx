@@ -207,7 +207,7 @@ const SlideshowView: React.FC<SlideshowViewProps> = ({
             return (
               <motion.div
                 key={item.id} // Use item.id for stable key for AnimatePresence
-                className="absolute w-3/5 sm:w-1/2 md:w-2/5 lg:w-[30%] aspect-[9/13]" // Taller aspect ratio
+                className="absolute w-3/5 sm:w-1/2 md:w-2/5 lg:w-[30%] aspect-[9/13] md:aspect-[11/13]" // Taller aspect ratio
                 custom={direction}
                 initial={{ opacity: 0, scale: 0.5 }} // Generic initial for new items
                 animate={variants}

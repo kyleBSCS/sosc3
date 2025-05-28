@@ -31,7 +31,7 @@ const MainMenu: React.FC<MainMenuProps> = ({
       scale: 1,
       transition: {
         staggerChildren: 0.1,
-        delayChildren: 0.2,
+        delayChildren: 0.1,
       },
     },
   };
@@ -171,8 +171,8 @@ const MainMenu: React.FC<MainMenuProps> = ({
           variants={itemVariants}
           onClick={onShowAbout}
           className="glassmorphism text-sm md:text-base py-2 px-4 md:py-3 md:px-6 rounded-lg hover:bg-white/20 focus:bg-white/20 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-indigo-400 shadow-md hover:shadow-lg"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
+          whileHover={{ scale: 0.98 }}
+          whileTap={{ scale: 0.96 }}
         >
           About the Developers
         </motion.button>
