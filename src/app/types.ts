@@ -1,3 +1,13 @@
+export interface ProminentFigure {
+  name: string;
+  bio: string;
+  works: string[];
+  events: string[];
+  born: string;
+  died: string;
+  imageUrl?: string; // Optional portrait
+}
+
 export interface MuseumItem {
   id: string;
   title: string;
@@ -6,6 +16,7 @@ export interface MuseumItem {
   longDescription: string;
   imageUrl: string;
   category: string;
+  prominentFigure?: ProminentFigure; // Only for relevant items
 }
 
 export type ViewMode = "main_menu" | "slideshow" | "detail" | "about";

@@ -4,6 +4,7 @@ import { MuseumItem } from "../types";
 import GlassCard from "./GlassCard";
 import { CloseIcon } from "./icons/NavigationIcons";
 import Image from "next/image";
+import ProminentFigureSidebar from "./ProminentFigureSidebar";
 
 interface DetailModalProps {
   item: MuseumItem | null;
@@ -57,37 +58,50 @@ const DetailModal: React.FC<DetailModalProps> = ({ item, onClose }) => {
             initial="hidden"
             animate="visible"
             exit="exit"
-            className="w-full max-w-2xl max-h-[90vh] relative"
+            className="w-full max-w-5xl max-h-[90vh] relative flex flex-col sm:flex-row overflow-y-auto"
             onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside modal
           >
-            <GlassCard className="w-full flex flex-col">
-              <div className="relative w-full h-[50vh] rounded-t-xl overflow-hidden">
-                <Image
-                  src={item.imageUrl}
-                  alt={item.title}
-                  fill
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                  className="object-cover"
-                  priority
-                />
-                <button
-                  onClick={onClose}
-                  className="absolute top-3 right-3 z-10 glassmorphism p-2 rounded-full hover:bg-white/30 transition-colors duration-300"
-                  aria-label="Close details"
+            <GlassCard className="w-full flex flex-col rounded-t-2xl">
+              <div
+                className={
+                  item.prominentFigure ? "flex flex-col md:flex-row" : ""
+                }
+              >
+                <div
+                  className={item.prominentFigure ? "flex-1 min-w-0" : "w-full"}
                 >
-                  <CloseIcon className="w-5 h-5 md:w-6 md:h-6 text-white" />
-                </button>
-              </div>
-              <div className="p-5 md:p-6 flex-grow overflow-y-auto">
-                <p className="text-sm text-gray-300 mb-1">{item.date}</p>
-                <h2 className="text-2xl md:text-3xl font-bold text-white mb-3">
-                  {item.title}
-                </h2>
-                <p className="text-base text-gray-200 whitespace-pre-line leading-relaxed">
-                  {item.longDescription}
-                </p>
+                  <div className="relative w-full h-[50vh] rounded-t-xl overflow-hidden">
+                    <Image
+                      src={item.imageUrl}
+                      alt={item.title}
+                      fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      className="object-cover"
+                      priority
+                    />
+                    <button
+                      onClick={onClose}
+                      className="absolute top-3 right-3 z-10 glassmorphism p-2 rounded-full hover:bg-white/30 transition-colors duration-300"
+                      aria-label="Close details"
+                    >
+                      <CloseIcon className="w-5 h-5 md:w-6 md:h-6 text-white" />
+                    </button>
+                  </div>
+                  <div className="p-5 md:p-6 flex-grow overflow-y-auto">
+                    <p className="text-sm text-gray-300 mb-1">{item.date}</p>
+                    <h2 className="text-2xl md:text-3xl font-bold text-white mb-3">
+                      {item.title}
+                    </h2>
+                    <p className="text-base text-gray-200 whitespace-pre-line leading-relaxed">
+                      {item.longDescription}
+                    </p>
+                  </div>
+                </div>
               </div>
             </GlassCard>
+            {item.prominentFigure && (
+              <ProminentFigureSidebar figure={item.prominentFigure} />
+            )}
           </motion.div>
         </motion.div>
       )}

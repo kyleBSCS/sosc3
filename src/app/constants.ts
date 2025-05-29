@@ -73,6 +73,25 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "James Baldwin was a novelist, essayist, and social critic whose works, including 'Go Tell It on the Mountain' and 'Giovanni's Room,' addressed complex social and psychological pressures facing Black and LGBTQ+ people. Baldwin's eloquence and activism made him a key voice in both the civil rights and gay rights movements.",
       imageUrl:
         "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/jamesbaldwin.jpg",
+      prominentFigure: {
+        name: "James Baldwin",
+        born: "Aug 2, 1924",
+        died: "Dec 1, 1987",
+        bio: "American novelist, playwright, essayist, poet, and activist. His work explores intricacies of racial, sexual, and class distinctions in Western societies.",
+        works: [
+          "Go Tell It on the Mountain (1953)",
+          "Giovanni's Room (1956)",
+          "The Fire Next Time (1963)",
+          "Notes of a Native Son (1955)",
+        ],
+        events: [
+          "Civil Rights Movement activism (1960s)",
+          "Speech at the March on Washington (1963)",
+          "Debate with William F. Buckley at Cambridge (1965)",
+        ],
+        imageUrl:
+          "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/jamesbaldwin.jpg",
+      },
     },
     {
       id: "barbara_jordan",
