@@ -858,4 +858,152 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop",
     },
   ],
+  STDs: [
+    {
+      "id": "chlamydia",
+      "title": "Chlamydia",
+      "date": "",
+      "shortDescription": "A common bacterial STI that often shows no symptoms.",
+      "longDescription": "Chlamydia is a prevalent sexually transmitted infection caused by the bacterium Chlamydia trachomatis. It's often asymptomatic, making regular screenings crucial. If untreated, it can lead to serious reproductive complications. Fortunately, it is easily curable with antibiotics.",
+      "imageUrl": ""
+    },
+    {
+      "id": "gonorrhea",
+      "title": "Gonorrhea",
+      "date": "",
+      "shortDescription": "A bacterial STI that can infect the genitals, rectum, and throat.",
+      "longDescription": "Gonorrhea is a common sexually transmitted infection caused by Neisseria gonorrhoeae. It can affect multiple areas of the body and often presents no symptoms, especially in women. If left untreated, it can cause serious health issues. Prompt antibiotic treatment is effective.",
+      "imageUrl": ""
+    },
+    {
+      "id": "hpv",
+      "title": "Human Papillomavirus (HPV)",
+      "date": "",
+      "shortDescription": "The most common STI, with some types leading to warts or cancer.",
+      "longDescription": "HPV is a widespread sexually transmitted infection with over 100 types. While many infections resolve on their own, some can cause genital warts or lead to cancers such as cervical cancer. Vaccination and regular screenings are key preventive measures.",
+      "imageUrl": ""
+    },
+    {
+      "id": "herpes",
+      "title": "Herpes Simplex Virus (HSV)",
+      "date": "",
+      "shortDescription": "A viral STI causing painful blisters or ulcers.",
+      "longDescription": "Herpes simplex virus, encompassing HSV-1 and HSV-2, leads to infections that can cause blisters or ulcers, commonly around the mouth or genitals. The virus remains in the body for life, with symptoms managed through antiviral medications.",
+      "imageUrl": ""
+    },
+    {
+      "id": "syphilis",
+      "title": "Syphilis",
+      "date": "",
+      "shortDescription": "A bacterial STI with multiple stages, potentially leading to severe health issues.",
+      "longDescription": "Syphilis is a sexually transmitted infection that progresses through stages: primary, secondary, latent, and tertiary. Early stages may present sores or rashes, while later stages can cause serious health problems. Early detection and antibiotic treatment are crucial.",
+      "imageUrl": ""
+    },
+    {
+      "id": "hiv",
+      "title": "Human Immunodeficiency Virus (HIV)",
+      "date": "",
+      "shortDescription": "A virus that attacks the immune system, potentially leading to AIDS.",
+      "longDescription": "HIV is a virus that compromises the immune system, making individuals more susceptible to infections and diseases. Without treatment, it can progress to AIDS. While there's no cure, antiretroviral therapy allows individuals to manage the virus effectively.",
+      "imageUrl": ""
+    },
+    {
+      "id": "trichomoniasis",
+      "title": "Trichomoniasis",
+      "date": "",
+      "shortDescription": "A common parasitic STI, often without symptoms.",
+      "longDescription": "Trichomoniasis is a sexually transmitted infection caused by the parasite Trichomonas vaginalis. Many infected individuals show no symptoms, but it can cause discomfort and increase the risk of other STIs. It is treatable with prescribed medications.",
+      "imageUrl": ""
+    },
+    {
+      "id": "hepatitis_b",
+      "title": "Hepatitis B",
+      "date": "",
+      "shortDescription": "A viral infection affecting the liver, transmissible through sexual contact.",
+      "longDescription": "Hepatitis B is a liver infection caused by the hepatitis B virus. It can be acute or chronic and is transmitted through bodily fluids, including during sexual activity. Vaccination is the most effective prevention method.",
+      "imageUrl": ""
+    }
+  ],
+  recent_developments: [
+    {
+      "id": "liechtenstein_same_sex_marriage",
+      "title": "Liechtenstein Legalizes Same-Sex Marriage",
+      "date": "2025-01-01",
+      "shortDescription": "Liechtenstein's same-sex marriage law comes into effect.",
+      "longDescription": "On January 1, 2025, Liechtenstein's law allowing same-sex marriages officially came into effect, marking a significant step forward for LGBTQ+ rights in the country.",
+      "imageUrl": ""
+    },
+    {
+      "id": "thailand_same_sex_marriage",
+      "title": "Thailand Legalizes Same-Sex Marriage",
+      "date": "2025-01-23",
+      "shortDescription": "Thailand's same-sex marriage law comes into effect.",
+      "longDescription": "On January 23, 2025, Thailand's law allowing same-sex marriages officially came into effect, making it the first Southeast Asian country to legalize same-sex marriage.",
+      "imageUrl": ""
+    },
+    {
+      "id": "trump_executive_order_gender_identity",
+      "title": "Trump Signs Executive Order on Gender Identity",
+      "date": "2025-01-20",
+      "shortDescription": "Executive order mandates federal recognition of gender as binary.",
+      "longDescription": "On January 20, 2025, President Donald Trump signed an executive order titled 'Defending Women from Gender Ideology Extremism and Restoring Biological Truth to the Federal Government,' requiring federal departments to recognize gender as a male-female binary only, determined by biological sex assigned at conception.",
+      "imageUrl": ""
+    },
+    {
+      "id": "hungary_bans_lgbtq_events",
+      "title": "Hungary Bans LGBTQ+ Public Events",
+      "date": "2025-03-18",
+      "shortDescription": "Hungarian parliament votes to ban LGBTQ+ events.",
+      "longDescription": "On March 18, 2025, the Hungarian parliament voted 136–27 to ban LGBTQ+ events in the country, including the annual Budapest Pride event, as part of a series of anti-LGBTQ+ legislative measures.",
+      "imageUrl": ""
+    },
+    {
+      "id": "utah_bans_pride_flags",
+      "title": "Utah Bans LGBTQ+ Pride Flags in Government Buildings",
+      "date": "2025-03-28",
+      "shortDescription": "Utah becomes first U.S. state to ban pride flags in government spaces.",
+      "longDescription": "On March 28, 2025, Utah enacted a law banning LGBTQ+ pride flags in government buildings and schools, becoming the first U.S. state to implement such a measure.",
+      "imageUrl": ""
+    },
+    {
+      "id": "idaho_resolution_same_sex_marriage",
+      "title": "Idaho House Calls for Reconsideration of Same-Sex Marriage Ruling",
+      "date": "2025-01-27",
+      "shortDescription": "Idaho House votes for resolution to reconsider Obergefell v. Hodges.",
+      "longDescription": "On January 27, 2025, the Idaho House of Representatives voted for a resolution calling for the U.S. Supreme Court to reconsider its 2015 decision in Obergefell v. Hodges, which legalized same-sex marriage nationwide.",
+      "imageUrl": ""
+    },
+    {
+      "id": "uk_supreme_court_gender_definition",
+      "title": "UK Supreme Court Rules on Legal Gender Definition",
+      "date": "2025-04-16",
+      "shortDescription": "UK Supreme Court defines legal gender based on birth sex.",
+      "longDescription": "On April 16, 2025, the Supreme Court of the United Kingdom ruled that legal gender is based upon sex assigned at birth, excluding transgender women from the legal definition of 'woman' for the purposes of the Equality Act 2010.",
+      "imageUrl": ""
+    },
+    {
+      "id": "lithuania_same_sex_partnerships",
+      "title": "Lithuania Grants Same-Sex Couples Right to Register Partnerships",
+      "date": "2025-04-17",
+      "shortDescription": "Lithuania's Constitutional Court allows same-sex partnership registration.",
+      "longDescription": "On April 17, 2025, the Constitutional Court of Lithuania granted same-sex couples the right to register their partnerships with the courts until the Seimas adopts a comprehensive law on registered partnerships.",
+      "imageUrl": ""
+    },
+    {
+      "id": "poland_abolishes_lgbt_free_zones",
+      "title": "Poland Abolishes Last 'LGBT-Free Zone'",
+      "date": "2025-04-30",
+      "shortDescription": "Poland's last 'LGBT-free zone' is abolished.",
+      "longDescription": "On April 30, 2025, the last 'LGBT-free zone' in Poland was abolished, marking a significant step toward LGBTQ+ inclusivity in the country.",
+      "imageUrl": ""
+    },
+    {
+      "id": "italy_recognizes_lesbian_parenthood",
+      "title": "Italy Recognizes Automatic Parenthood for Lesbian Couples",
+      "date": "2025-05-22",
+      "shortDescription": "Italy's Constitutional Court recognizes automatic parenthood for children of lesbian partnerships.",
+      "longDescription": "On May 22, 2025, Italy's Constitutional Court recognized automatic parenthood on birth certificates for children of lesbian partnerships, eliminating the need for adoption procedures.",
+      "imageUrl": ""
+    }
+  ]
 };
