@@ -27,19 +27,17 @@ const BlurredPlaceholder: React.FC<PlaceholderProps & { image: string }> = ({
       style={{
         backgroundImage: `url(${image})`,
       }}
-      initial={{ opacity: 0, scale: 0.5 }}
-      animate={{ 
-        opacity: 0.25, 
+      initial={{ opacity: 0, scale: 0.5, y: 20, rotate: -10 }}
+      animate={{
+        opacity: 0.25,
         scale: 1,
-        y: [0, -20, 0],
-        x: [0, 10, 0],
-        rotate: [-8, 8, -8]
+        y: 0,
+        rotate: 0,
       }}
-      transition={{ 
-        duration: 8,
-        repeat: Infinity,
-        ease: "easeInOut",
-        delay: Math.random() * 2
+      transition={{
+        duration: 1.2,
+        ease: "easeOut",
+        delay: Math.random() * 0.8,
       }}
     />
   );
