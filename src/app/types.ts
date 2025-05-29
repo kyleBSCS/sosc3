@@ -1,8 +1,8 @@
 export interface ProminentFigure {
   name: string;
   bio: string;
-  works: string[];
-  events: string[];
+  works: { title: string; imageUrl: string }[];
+  events: { title: string; imageUrl: string }[];
   born: string;
   died: string;
   imageUrl?: string; // Optional portrait

@@ -60,8 +60,44 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "American poet, social activist, novelist, and playwright; leader of the Harlem Renaissance.",
       longDescription:
         "Langston Hughes was a prominent figure in the Harlem Renaissance, known for his poetry, novels, and plays that celebrated Black life and culture. Though never openly gay, his work and life have been influential in LGBTQ+ history. His poetry, such as 'Dreams' and 'Harlem,' continues to inspire generations.",
-      imageUrl:
-        "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/langstonhuges.jpg",
+      imageUrl: "/public-figs/langston-hughes.webp",
+      prominentFigure: {
+        name: "Langston Hughes",
+        born: "Feb 1, 1901",
+        died: "May 22, 1967",
+        bio: "American poet, social activist, novelist, playwright, and a central figure of the Harlem Renaissance. His work celebrated Black life and culture, and though he was not openly gay, his contributions are significant to LGBTQ+ history.",
+        works: [
+          {
+            title: "The Weary Blues (1925)",
+            imageUrl:
+              "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1708067460i/15762561.jpg",
+          },
+          {
+            title: "Not Without Laughter (1930)",
+            imageUrl:
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR-fuPDElYLWpMtkbu-5ZIwMgM0_SUjzzNUg&s",
+          },
+          {
+            title: "Montage of a Dream Deferred (1951)",
+            imageUrl:
+              "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1516059506i/8249177.jpg",
+          },
+        ],
+        events: [
+          {
+            title: "Leading figure in the Harlem Renaissance (1920s-1930s)",
+            imageUrl:
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaCjzbHbBruD0xcbab7oEniAjqYZtXxlbPTQ&s",
+          },
+          {
+            title:
+              "Work as a war correspondent during the Spanish Civil War (1937)",
+            imageUrl:
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGo8YGiaUhsr2ScgiBxju594binY3tT-Jx4Q&s",
+          },
+        ],
+        imageUrl: "/public-figs/langston-hughes.webp",
+      },
     },
     {
       id: "james_baldwin",
@@ -79,15 +115,43 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         died: "Dec 1, 1987",
         bio: "American novelist, playwright, essayist, poet, and activist. His work explores intricacies of racial, sexual, and class distinctions in Western societies.",
         works: [
-          "Go Tell It on the Mountain (1953)",
-          "Giovanni's Room (1956)",
-          "The Fire Next Time (1963)",
-          "Notes of a Native Son (1955)",
+          {
+            title: "Go Tell It on the Mountain (1953)",
+            imageUrl:
+              "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327881361i/17143.jpg",
+          },
+          {
+            title: "Giovanni's Room (1956)",
+            imageUrl:
+              "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1389628081i/38462.jpg",
+          },
+          {
+            title: "The Fire Next Time (1963)",
+            imageUrl:
+              "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388269701i/464260.jpg",
+          },
+          {
+            title: "Notes of a Native Son (1955)",
+            imageUrl:
+              "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327219872i/216527.jpg",
+          },
         ],
         events: [
-          "Civil Rights Movement activism (1960s)",
-          "Speech at the March on Washington (1963)",
-          "Debate with William F. Buckley at Cambridge (1965)",
+          {
+            title: "Civil Rights Movement activism (1960s)",
+            imageUrl:
+              "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=400&h=300&fit=crop",
+          },
+          {
+            title: "Speech at the March on Washington (1963)",
+            imageUrl:
+              "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=300&fit=crop",
+          },
+          {
+            title: "Debate with William F. Buckley at Cambridge (1965)",
+            imageUrl:
+              "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=400&h=300&fit=crop",
+          },
         ],
         imageUrl:
           "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/jamesbaldwin.jpg",
@@ -103,6 +167,40 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Barbara Jordan was a groundbreaking politician and civil rights leader. She was the first African American woman elected to the Texas Senate and later to the U.S. Congress from the South. Jordan was also the first LGBTQ+ woman in Congress, remembered for her powerful oratory and dedication to justice.",
       imageUrl:
         "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/barbarajordan.png",
+      prominentFigure: {
+        name: "Barbara Jordan",
+        born: "Feb 21, 1936",
+        died: "Jan 17, 1996",
+        bio: "American lawyer, educator, and politician who was a leader of the Civil Rights Movement. The first African American elected to the Texas Senate after Reconstruction and the first Southern African-American woman elected to the United States House of Representatives. She was also the first known LGBTQ+ woman in Congress.",
+        works: [
+          {
+            title: "Barbara Jordan: A Self-Portrait (Autobiography, 1979)",
+            imageUrl:
+              "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1386922013i/844298.jpg",
+          },
+        ],
+        events: [
+          {
+            title:
+              "Keynote speaker at the Democratic National Convention (1976 & 1992)",
+            imageUrl:
+              "https://images.unsplash.com/photo-1605065030960-7c31f06400aa?w=400&h=300&fit=crop",
+          },
+          {
+            title:
+              "Member of House Judiciary Committee during Nixon impeachment hearings (1974)",
+            imageUrl:
+              "https://images.unsplash.com/photo-1541845019790-852108165250?w=400&h=300&fit=crop",
+          },
+          {
+            title: "Awarded Presidential Medal of Freedom (1994)",
+            imageUrl:
+              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+          },
+        ],
+        imageUrl:
+          "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/barbarajordan.png",
+      },
     },
     {
       id: "hulleah_tsinhnahjinnie",
@@ -114,6 +212,40 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Hulleah J. Tsinhnahjinnie is a two-spirit artist known for her photographic work rooted in Native American sovereignty. She is a professor and museum director, using her art and scholarship to uplift Indigenous and LGBTQ+ voices.",
       imageUrl:
         "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/hulleahtisnhanahjinnie.jpg",
+      prominentFigure: {
+        name: "Hulleah Tsinhnahjinnie",
+        born: "1954",
+        died: "present",
+        bio: "Seminole/Muscogee/Diné photographer, curator, and writer. A two-spirit multi-media artist and professor of Native American Studies at UC Davis. Her work challenges stereotypical representations of Native Americans and explores themes of sovereignty and identity.",
+        works: [
+          {
+            title:
+              "Photographic series like 'Native Programming' and 'Aboriginal Savant'",
+            imageUrl:
+              "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400&h=300&fit=crop",
+          },
+          {
+            title:
+              "Contributions to books like 'Strong Hearts: Native American Visions and Voices'",
+            imageUrl:
+              "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400&h=300&fit=crop",
+          },
+        ],
+        events: [
+          {
+            title: "Director of the C.N. Gorman Museum at UC Davis",
+            imageUrl:
+              "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=400&h=300&fit=crop",
+          },
+          {
+            title: "Numerous solo and group exhibitions internationally",
+            imageUrl:
+              "https://images.unsplash.com/photo-1505373877841-8256f7739841?w=400&h=300&fit=crop",
+          },
+        ],
+        imageUrl:
+          "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/hulleahtisnhanahjinnie.jpg",
+      },
     },
     {
       id: "audre_lorde",
@@ -125,6 +257,43 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Audre Lorde described herself as a 'Black, lesbian, mother, warrior, poet.' Her powerful writings explored themes of racism, sexism, homophobia, and classism. Lorde emphasized the importance of intersectionality and using differences as a catalyst for change. Her essays and poems, such as 'Sister Outsider' and 'Zami: A New Spelling of My Name,' continue to inspire activists and thinkers worldwide.",
       imageUrl:
         "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/audrelorde.jpg",
+      prominentFigure: {
+        name: "Audre Lorde",
+        born: "Feb 18, 1934",
+        died: "Nov 17, 1992",
+        bio: "American writer, feminist, womanist, librarian, and civil rights activist. She described herself as a 'Black, lesbian, mother, warrior, poet.' Her work confronts issues of racism, sexism, classism, and homophobia.",
+        works: [
+          {
+            title: "Sister Outsider: Essays and Speeches (1984)",
+            imageUrl:
+              "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1553282706i/32951.jpg",
+          },
+          {
+            title: "Zami: A New Spelling of My Name (1982)",
+            imageUrl:
+              "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348482332i/32960.jpg",
+          },
+          {
+            title: "The Cancer Journals (1980)",
+            imageUrl:
+              "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1347309687i/32953.jpg",
+          },
+        ],
+        events: [
+          {
+            title: "Co-founder of Kitchen Table: Women of Color Press (1980)",
+            imageUrl:
+              "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
+          },
+          {
+            title: "Activism in feminist and civil rights movements",
+            imageUrl:
+              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+          },
+        ],
+        imageUrl:
+          "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/audrelorde.jpg",
+      },
     },
     {
       id: "ceyenne_doroshow",
@@ -136,6 +305,38 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Ceyenne Doroshow is a Black trans activist and author who founded G.L.I.T.S., an organization supporting Black trans people with housing and healthcare. She is a prominent advocate for sex workers and trans rights, working to provide safe spaces and support for marginalized communities.",
       imageUrl:
         "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/ceyenne-doroshow.jpg",
+      prominentFigure: {
+        name: "Ceyenne Doroshow",
+        born: "Unknown",
+        died: "Unknown",
+        bio: "Black transgender activist, author, and community organizer. Founder and Executive Director of G.L.I.T.S. (Gays and Lesbians Living In a Transgender Society), an organization dedicated to supporting transgender sex workers and other marginalized members of the LGBTQ+ community, particularly with housing and healthcare.",
+        works: [
+          {
+            title: "Cooking in Heels (Cookbook and Memoir)",
+            imageUrl:
+              "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400&h=300&fit=crop",
+          },
+          {
+            title: "Founding G.L.I.T.S. Inc.",
+            imageUrl:
+              "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=400&h=300&fit=crop",
+          },
+        ],
+        events: [
+          {
+            title: "Advocacy for transgender rights and sex workers' rights",
+            imageUrl:
+              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+          },
+          {
+            title: "Establishing housing initiatives for Black trans people",
+            imageUrl:
+              "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=400&h=300&fit=crop",
+          },
+        ],
+        imageUrl:
+          "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/ceyenne-doroshow.jpg",
+      },
     },
     {
       id: "erestine_eckstein",
@@ -146,6 +347,34 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Erestine Eckstein was a leader of the Daughters of Bilitis, the first lesbian civil and political rights organization in the U.S. She was also an early activist in the Black feminist movement, advocating for the intersection of civil rights and LGBTQ+ rights.",
       imageUrl:
         "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/erestein-eckstein.jpg",
+      prominentFigure: {
+        name: "Erestine Eckstein",
+        born: "Apr 23, 1941",
+        died: "Jul 15, 1992",
+        bio: "African American lesbian activist and a key figure in the early homophile movement. She served as vice-president of the New York chapter of Daughters of Bilitis and was one of the few women of color visible in the movement at the time. She advocated for more radical tactics and intersectional approaches.",
+        works: [
+          {
+            title: "Leadership in Daughters of Bilitis, New York Chapter",
+            imageUrl:
+              "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
+          },
+        ],
+        events: [
+          {
+            title: "Participation in early LGBTQ+ rights pickets (mid-1960s)",
+            imageUrl:
+              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+          },
+          {
+            title:
+              "Featured on the cover of 'The Ladder' (June 1966), a prominent lesbian publication",
+            imageUrl:
+              "https://images.unsplash.com/photo-1580130379629-170229f87908?w=400&h=300&fit=crop",
+          },
+        ],
+        imageUrl:
+          "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/erestein-eckstein.jpg",
+      },
     },
     {
       id: "barbara_gittings",
@@ -156,6 +385,40 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Barbara Gittings was a key figure in the early gay rights movement, founding the first lesbian civil rights organization in the U.S. and organizing public demonstrations for equality. She also promoted gay literature and worked with the American Library Association to increase LGBTQ+ representation.",
       imageUrl:
         "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/barbara-gittings.jpg",
+      prominentFigure: {
+        name: "Barbara Gittings",
+        born: "Jul 31, 1932",
+        died: "Feb 18, 2007",
+        bio: "Prominent American activist for LGBTQ+ equality. She organized the New York chapter of the Daughters of Bilitis (DOB) from 1958 to 1963, edited its national magazine The Ladder from 1963 to 1966, and picketed with the DOB for والمساواة for gay rights in the 1960s. She was instrumental in the American Psychiatric Association's 1973 decision to de-list homosexuality as a mental illness.",
+        works: [
+          {
+            title: "Editor of 'The Ladder' (1963-1966)",
+            imageUrl:
+              "https://images.unsplash.com/photo-1580130379629-170229f87908?w=400&h=300&fit=crop",
+          },
+        ],
+        events: [
+          {
+            title:
+              "Organized 'Annual Reminder' pickets at Independence Hall (1965-1969)",
+            imageUrl:
+              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+          },
+          {
+            title:
+              "Campaigned to remove homosexuality from APA's list of mental illnesses (successfully in 1973)",
+            imageUrl:
+              "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=400&h=300&fit=crop",
+          },
+          {
+            title: "Headed the American Library Association's Gay Task Force",
+            imageUrl:
+              "https://images.unsplash.com/photo-1549675584-b942d1000650?w=400&h=300&fit=crop",
+          },
+        ],
+        imageUrl:
+          "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/barbara-gittings.jpg",
+      },
     },
     {
       id: "major_griffin_gracy",
@@ -167,6 +430,35 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Miss Major Griffin-Gracy is a Black transgender activist and community leader who participated in the Stonewall riots. She has spent decades advocating for transgender women of color, especially those affected by incarceration and HIV/AIDS, and founded the House of GG, a safe house for the transgender community.",
       imageUrl:
         "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/miss-major-griffin-gracy.jpg",
+      prominentFigure: {
+        name: "Major Griffin-Gracy (Miss Major)",
+        born: "Oct 25, 1940",
+        died: "present",
+        bio: "Black transgender elder, activist, and community leader. A veteran of the Stonewall Riots, she has been advocating for transgender rights for over 50 years, particularly for transgender women of color, and those who have been incarcerated or involved in sex work. Founder of the House of GG (Griffin-Gracy Educational Retreat & Historical Center).",
+        works: [
+          {
+            title:
+              "Founding The House of GG (Griffin-Gracy Educational Retreat & Historical Center)",
+            imageUrl:
+              "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=400&h=300&fit=crop",
+          },
+        ],
+        events: [
+          {
+            title: "Participant in the Stonewall Riots (1969)",
+            imageUrl:
+              "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=400&h=300&fit=crop",
+          },
+          {
+            title:
+              "Lifelong advocacy for transgender women of color, incarcerated individuals, and sex workers",
+            imageUrl:
+              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+          },
+        ],
+        imageUrl:
+          "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/miss-major-griffin-gracy.jpg",
+      },
     },
     {
       id: "marsha_p_johnson",
@@ -178,6 +470,39 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Marsha P. Johnson, a Black transgender woman, was a prominent figure in the gay liberation movement. She is often cited as one of the key individuals involved in the 1969 Stonewall uprising. A co-founder of Street Transvestite Action Revolutionaries (STAR), she dedicated her life to advocating for homeless LGBTQ+ youth, sex workers, and people with HIV/AIDS. Her vibrant personality and tireless activism made her an icon of resilience and compassion.",
       imageUrl:
         "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/marsha-p-johnson.jpg",
+      prominentFigure: {
+        name: "Marsha P. Johnson",
+        born: "Aug 24, 1945",
+        died: "Jul 6, 1992",
+        bio: "African American gay liberation activist and self-identified drag queen. A prominent figure in the Stonewall uprising of 1969, Johnson was a co-founder of the Street Transvestite Action Revolutionaries (STAR) with Sylvia Rivera, advocating for homeless transgender youth, sex workers, and people with HIV/AIDS.",
+        works: [
+          {
+            title:
+              "Co-founder of Street Transvestite Action Revolutionaries (STAR)",
+            imageUrl:
+              "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
+          },
+          {
+            title: "Performances with Hot Peaches drag troupe",
+            imageUrl:
+              "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=400&h=300&fit=crop",
+          },
+        ],
+        events: [
+          {
+            title: "Key figure in the Stonewall Uprising (1969)",
+            imageUrl:
+              "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=400&h=300&fit=crop",
+          },
+          {
+            title: "Activism with Gay Liberation Front and ACT UP",
+            imageUrl:
+              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+          },
+        ],
+        imageUrl:
+          "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/marsha-p-johnson.jpg",
+      },
     },
     {
       id: "ifti_nasim",
@@ -188,6 +513,33 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Ifti Nasim was a gay poet from Pakistan who wrote 'Narman,' the first Urdu book to openly express homosexuality. Fleeing persecution, he co-founded Sangat, a group for queer South Asian youth in the U.S., and became a celebrated voice for LGBTQ+ rights.",
       imageUrl:
         "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/ifti-nasim.jpg",
+      prominentFigure: {
+        name: "Ifti Nasim",
+        born: "Sep 1946",
+        died: "Jul 22, 2011",
+        bio: "Pakistani-American gay poet and activist. He published 'Narman' (Persian for 'hermaphrodite' or 'half-man, half-woman'), considered the first openly gay-themed poetry collection in Urdu. He co-founded Sangat, an organization supporting LGBTQ South Asians, and was inducted into the Chicago Gay and Lesbian Hall of Fame.",
+        works: [
+          {
+            title: "Narman (Poetry Collection, 1994)",
+            imageUrl:
+              "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400&h=300&fit=crop",
+          },
+        ],
+        events: [
+          {
+            title: "Co-founder of Sangat/Chicago",
+            imageUrl:
+              "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
+          },
+          {
+            title: "Inducted into Chicago Gay and Lesbian Hall of Fame (1996)",
+            imageUrl:
+              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+          },
+        ],
+        imageUrl:
+          "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/ifti-nasim.jpg",
+      },
     },
     {
       id: "simon_nkoli",
@@ -198,6 +550,40 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Simon Nkoli was a gay and AIDS activist who fought against apartheid in South Africa. He helped found the Gay Association of South Africa and paved the way for queer rights in the country, making a lasting impact on both LGBTQ+ and civil rights.",
       imageUrl:
         "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/simon-nkoli.jpg",
+      prominentFigure: {
+        name: "Simon Nkoli",
+        born: "Nov 26, 1957",
+        died: "Nov 30, 1998",
+        bio: "South African anti-apartheid, gay rights, and HIV/AIDS activist. He founded the Gay and Lesbian Organisation of the Witwatersrand (GLOW) and was one of the first Black anti-apartheid activists to publicly identify as gay. He played a crucial role in the fight for LGBTQ+ equality in post-apartheid South Africa.",
+        works: [
+          {
+            title:
+              "Founding Gay and Lesbian Organisation of the Witwatersrand (GLOW)",
+            imageUrl:
+              "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
+          },
+        ],
+        events: [
+          {
+            title: "Delmas Treason Trial defendant (1985-1989)",
+            imageUrl:
+              "https://images.unsplash.com/photo-1541845019790-852108165250?w=400&h=300&fit=crop",
+          },
+          {
+            title:
+              "Campaigning for the inclusion of non-discrimination based on sexual orientation in the South African Constitution",
+            imageUrl:
+              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+          },
+          {
+            title: "One of the first openly HIV-positive African men",
+            imageUrl:
+              "https://images.unsplash.com/photo-1605065030960-7c31f06400aa?w=400&h=300&fit=crop",
+          },
+        ],
+        imageUrl:
+          "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/simon-nkoli.jpg",
+      },
     },
     {
       id: "sylvia_rivera",
@@ -208,6 +594,41 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Sylvia Rivera was a transgender American woman, LGBT liberation activist, and self-identified drag queen. She co-founded STAR with Marsha P. Johnson to support homeless transgender youth and was a fierce advocate for the most marginalized in the LGBTQ+ community.",
       imageUrl:
         "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/sylvia-rivera.jpg",
+      prominentFigure: {
+        name: "Sylvia Rivera",
+        born: "Jul 2, 1951",
+        died: "Feb 19, 2002",
+        bio: "American gay liberation and transgender rights activist of Puerto Rican and Venezuelan descent. A veteran of the Stonewall uprising, she co-founded the Street Transvestite Action Revolutionaries (STAR) with Marsha P. Johnson, focusing on supporting homeless young drag queens, gay youth, and trans women.",
+        works: [
+          {
+            title:
+              "Co-founder of Street Transvestite Action Revolutionaries (STAR)",
+            imageUrl:
+              "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
+          },
+        ],
+        events: [
+          {
+            title: "Key figure in the Stonewall Uprising (1969)",
+            imageUrl:
+              "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=400&h=300&fit=crop",
+          },
+          {
+            title:
+              "Advocacy for transgender rights and inclusion within the broader LGBTQ+ movement",
+            imageUrl:
+              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+          },
+          {
+            title:
+              "'Y'all Better Quiet Down' speech (1973 Christopher Street Liberation Day Rally)",
+            imageUrl:
+              "https://images.unsplash.com/photo-1605065030960-7c31f06400aa?w=400&h=300&fit=crop",
+          },
+        ],
+        imageUrl:
+          "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/sylvia-rivera.jpg",
+      },
     },
     {
       id: "hannah_mouseback",
@@ -218,6 +639,30 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Hannah Moushabeck is a second-generation Palestinian American author, editor, and book marketer who was raised in a family of publishers and booksellers in Western Massachusetts and England. Born in Brooklyn, into a family-run independent publishing house, she learned the power of literature at a young age. She is the author of Homeland: My Father Dreams of Palestine. Hannah talks about her queer pandemic love story and what it was like coming out as an adult. ",
       imageUrl:
         "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/hannahmoucheback.jpg",
+      prominentFigure: {
+        name: "Hannah Mouseback",
+        born: "Unknown",
+        died: "Unknown",
+        bio: "The provided `longDescription` refers to Hannah Moushabeck, a Palestinian American author, editor, and book marketer, known for 'Homeland: My Father Dreams of Palestine' and sharing her queer love story. The `shortDescription` states 'Transgender rights activist and community organizer.' Due to this discrepancy, the bio synthesizes available information while noting the name in the description differs.",
+        works: [
+          {
+            title:
+              "Homeland: My Father Dreams of Palestine (as Hannah Moushabeck)",
+            imageUrl:
+              "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400&h=300&fit=crop",
+          },
+        ],
+        events: [
+          {
+            title:
+              "Public speaking on literature, Palestinian heritage, and queer identity (as Hannah Moushabeck)",
+            imageUrl:
+              "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=400&h=300&fit=crop",
+          },
+        ],
+        imageUrl:
+          "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/hannahmoucheback.jpg",
+      },
     },
     {
       id: "bayard_rustin",
@@ -229,6 +674,40 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Bayard Rustin was a key organizer of the 1963 March on Washington and advisor to Martin Luther King Jr. As an openly gay man, he faced discrimination but remained a tireless advocate for nonviolence, civil rights, and LGBTQ+ equality.",
       imageUrl:
         "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/bayard-rustin.jpg",
+      prominentFigure: {
+        name: "Bayard Rustin",
+        born: "Mar 17, 1912",
+        died: "Aug 24, 1987",
+        bio: "American leader in social movements for civil rights, socialism, nonviolence, and gay rights. He was a chief architect of the 1963 March on Washington for Jobs and Freedom and a close advisor to Martin Luther King Jr. Despite facing discrimination for being openly gay, he was a lifelong activist.",
+        works: [
+          {
+            title:
+              "Organizer of the March on Washington for Jobs and Freedom (1963)",
+            imageUrl:
+              "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=400&h=300&fit=crop",
+          },
+        ],
+        events: [
+          {
+            title: "Advisor to Martin Luther King Jr. on nonviolent tactics",
+            imageUrl:
+              "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
+          },
+          {
+            title: "Advocacy for gay rights, particularly in his later years",
+            imageUrl:
+              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+          },
+          {
+            title:
+              "Posthumously awarded the Presidential Medal of Freedom (2013)",
+            imageUrl:
+              "https://images.unsplash.com/photo-1541845019790-852108165250?w=400&h=300&fit=crop",
+          },
+        ],
+        imageUrl:
+          "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/bayard-rustin.jpg",
+      },
     },
     {
       id: "jackie_shane",
@@ -239,6 +718,39 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Jackie Shane was a transgender soul singer from Nashville who built a large following in the U.S. and Canada during the 1960s. Her album 'Any Other Way' received a Grammy for best historical album in 2019, cementing her legacy as a music and LGBTQ+ icon.",
       imageUrl:
         "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/jackie-shane.jpg",
+      prominentFigure: {
+        name: "Jackie Shane",
+        born: "May 15, 1940",
+        died: "Feb 21, 2019",
+        bio: "American-Canadian soul and R&B singer who was a pioneering transgender performer. She was prominent in the Toronto music scene in the 1960s. Her live album 'Any Other Way' (reissued in 2017) gained critical acclaim and a Grammy nomination, bringing renewed attention to her legacy.",
+        works: [
+          {
+            title: "Any Other Way (Live album, reissued 2017)",
+            imageUrl:
+              "https://images-na.ssl-images-amazon.com/images/I/81yV-w3nZpL._SL1500_.jpg",
+          },
+          {
+            title: "Stand Up Straight and Tall (Single)",
+            imageUrl:
+              "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&h=300&fit=crop",
+          },
+        ],
+        events: [
+          {
+            title: "Prominent R&B performance career in Toronto (1960s)",
+            imageUrl:
+              "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=400&h=300&fit=crop",
+          },
+          {
+            title:
+              "Grammy Award nomination for Best Historical Album for 'Any Other Way' (2019)",
+            imageUrl:
+              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+          },
+        ],
+        imageUrl:
+          "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/jackie-shane.jpg",
+      },
     },
   ],
   queer_history_moments: [

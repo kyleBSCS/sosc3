@@ -8,9 +8,9 @@ interface Props {
 
 const ProminentFigureSidebar: React.FC<Props> = ({ figure }) => {
   return (
-    <div className="flex flex-col gap-0 sm:gap-2">
+    <div className="flex flex-col gap-2 h-full">
       {/* TITLE */}
-      <aside className="w-full md:w-80 bg-white/10 rounded-2xl p-4 md:ml-6 mt-6 md:mt-0 flex-shrink-0 flex flex-col items-center shadow-lg backdrop-blur-md">
+      <aside className="w-full bg-white/10 rounded-2xl p-4  mt-6 md:mt-0 flex-shrink-0 flex flex-col items-center shadow-lg backdrop-blur-md">
         <div className="w-full mb-3">
           <h4 className="text-white font-semibold mb-2 text-2xl flex items-center gap-2">
             <User />
@@ -21,7 +21,7 @@ const ProminentFigureSidebar: React.FC<Props> = ({ figure }) => {
       </aside>
 
       {/* BORN AND DIED */}
-      <aside className="w-full md:w-80 bg-white/10 rounded-2xl p-4 md:ml-6 mt-6 md:mt-0 flex-shrink-0 flex flex-col items-center shadow-lg backdrop-blur-md">
+      <aside className="w-full bg-white/10 rounded-2xl p-4 mt-6 md:mt-0 flex-shrink-0 flex flex-col items-center shadow-lg backdrop-blur-md">
         <div className="w-full mb-3">
           <h4 className="text-white font-semibold mb-2 text-2xl flex items-center  gap-2">
             <Calendar />
@@ -49,32 +49,52 @@ const ProminentFigureSidebar: React.FC<Props> = ({ figure }) => {
       </aside>
 
       {/* IMPORTANT WORKS */}
-      <aside className="w-full md:w-80 bg-white/10 rounded-2xl p-4 md:ml-6 mt-6 md:mt-0 flex-shrink-0 flex flex-col items-center shadow-lg backdrop-blur-md">
+      <aside className="w-full bg-white/10 rounded-2xl p-4 mt-6 md:mt-0 flex-shrink-0 flex flex-col items-center shadow-lg backdrop-blur-md">
         <div className="w-full mb-3">
           <h4 className="text-white font-semibold mb-2 text-2xl flex items-center gap-2">
             <Star />
             Important Works
           </h4>
-          <ul className="list-disc list-inside text-gray-100 text-sm">
+          <div className="space-y-3">
             {figure.works.map((work, i) => (
-              <li key={i}>{work}</li>
+              <div
+                key={i}
+                className="flex items-center gap-3 p-2 bg-white/5 rounded-lg"
+              >
+                <img
+                  src={work.imageUrl}
+                  alt={work.title}
+                  className="w-12 h-16 object-cover rounded-md flex-shrink-0"
+                />
+                <span className="text-gray-100 text-sm">{work.title}</span>
+              </div>
             ))}
-          </ul>
+          </div>
         </div>
       </aside>
 
       {/* KEY EVENTS */}
-      <aside className="w-full md:w-80 bg-white/10 rounded-2xl p-4 md:ml-6 mt-6 md:mt-0 flex-shrink-0 flex flex-col items-center shadow-lg backdrop-blur-md">
+      <aside className="w-full bg-white/10 rounded-2xl p-4 mt-6 md:mt-0 flex-shrink-0 flex flex-col items-center shadow-lg backdrop-blur-md">
         <div className="w-full">
           <h4 className="text-white font-semibold mb-2 text-2xl flex items-center gap-2">
             <Calendar />
             Key Events
           </h4>
-          <ul className="list-disc list-inside text-gray-100 text-sm">
+          <div className="space-y-3">
             {figure.events.map((event, i) => (
-              <li key={i}>{event}</li>
+              <div
+                key={i}
+                className="flex items-center gap-3 p-2 bg-white/5 rounded-lg"
+              >
+                <img
+                  src={event.imageUrl}
+                  alt={event.title}
+                  className="w-12 h-12 object-cover rounded-md flex-shrink-0"
+                />
+                <span className="text-gray-100 text-sm">{event.title}</span>
+              </div>
             ))}
-          </ul>
+          </div>
         </div>
       </aside>
     </div>

@@ -58,50 +58,59 @@ const DetailModal: React.FC<DetailModalProps> = ({ item, onClose }) => {
             initial="hidden"
             animate="visible"
             exit="exit"
-            className="w-full max-w-5xl max-h-[90vh] relative flex flex-col sm:flex-row overflow-y-auto"
+            className="w-full max-w-6xl max-h-[90vh] relative"
             onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside modal
           >
-            <GlassCard className="w-full flex flex-col rounded-t-2xl">
-              <div
-                className={
-                  item.prominentFigure ? "flex flex-col md:flex-row" : ""
-                }
+            <div
+              className={
+                item.prominentFigure
+                  ? "flex flex-col md:flex-row h-full max-h-[90vh] gap-0 md:gap-4"
+                  : "h-full max-h-[90vh] overflow-y-auto "
+              }
+            >
+              {/* Main Content - Glass Card */}
+              <GlassCard
+                className={`flex flex-col rounded-2xl overflow-hidden ${
+                  item.prominentFigure
+                    ? "flex-1 md:h-[90vh] md:overflow-y-auto"
+                    : "w-full h-full"
+                }`}
               >
-                <div
-                  className={item.prominentFigure ? "flex-1 min-w-0" : "w-full"}
-                >
-                  <div className="relative w-full h-[50vh] rounded-t-xl overflow-hidden">
-                    <Image
-                      src={item.imageUrl}
-                      alt={item.title}
-                      fill
-                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                      className="object-cover"
-                      priority
-                    />
-                    <button
-                      onClick={onClose}
-                      className="absolute top-3 right-3 z-10 glassmorphism p-2 rounded-full hover:bg-white/30 transition-colors duration-300"
-                      aria-label="Close details"
-                    >
-                      <CloseIcon className="w-5 h-5 md:w-6 md:h-6 text-white" />
-                    </button>
-                  </div>
-                  <div className="p-5 md:p-6 flex-grow overflow-y-auto">
-                    <p className="text-sm text-gray-300 mb-1">{item.date}</p>
-                    <h2 className="text-2xl md:text-3xl font-bold text-white mb-3">
-                      {item.title}
-                    </h2>
-                    <p className="text-base text-gray-200 whitespace-pre-line leading-relaxed">
-                      {item.longDescription}
-                    </p>
-                  </div>
+                <div className="relative w-full h-[50vh] md:h-[40vh] rounded-t-xl overflow-hidden flex-shrink-0">
+                  <Image
+                    src={item.imageUrl}
+                    alt={item.title}
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    className="object-cover"
+                    priority
+                  />
+                  <button
+                    onClick={onClose}
+                    className="absolute top-3 right-3 z-10 glassmorphism p-2 rounded-full hover:bg-white/30 transition-colors duration-300"
+                    aria-label="Close details"
+                  >
+                    <CloseIcon className="w-5 h-5 md:w-6 md:h-6 text-white" />
+                  </button>
                 </div>
-              </div>
-            </GlassCard>
-            {item.prominentFigure && (
-              <ProminentFigureSidebar figure={item.prominentFigure} />
-            )}
+                <div className="p-5 md:p-6 flex-grow md:overflow-y-auto">
+                  <p className="text-sm text-gray-300 mb-1">{item.date}</p>
+                  <h2 className="text-2xl md:text-3xl font-bold text-white mb-3">
+                    {item.title}
+                  </h2>
+                  <p className="text-base text-gray-200 whitespace-pre-line leading-relaxed">
+                    {item.longDescription}
+                  </p>
+                </div>
+              </GlassCard>
+
+              {/* Sidebar - Separate from Glass Card */}
+              {item.prominentFigure && (
+                <div className="md:w-80 md:flex-shrink-0 md:h-[90vh] md:overflow-y-auto overflow-x-hidden">
+                  <ProminentFigureSidebar figure={item.prominentFigure} />
+                </div>
+              )}
+            </div>
           </motion.div>
         </motion.div>
       )}
