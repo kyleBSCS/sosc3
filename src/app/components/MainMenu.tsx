@@ -21,7 +21,6 @@ interface MainMenuProps {
 const MainMenu: React.FC<MainMenuProps> = ({
   topics,
   onTopicSelect,
-  setCurrentView,
   onShowAbout,
 }) => {
   const containerVariants = {

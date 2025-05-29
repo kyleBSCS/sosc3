@@ -78,7 +78,7 @@ const SlideshowView: React.FC<SlideshowViewProps> = ({
     return (
       <div className="flex flex-col items-center justify-center h-screen text-center p-4">
         <h2 className="text-2xl font-semibold mb-4">
-          No exhibits found for "{topic.title}"
+          No exhibits found for &quot;{topic.title}&quot;
         </h2>
         <p className="text-gray-300 mb-6">
           There might be an issue fetching data or this topic is currently

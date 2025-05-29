@@ -1,6 +1,7 @@
 import React from "react";
 import { ProminentFigure } from "../types";
 import { Calendar, Star, User } from "lucide-react";
+import Image from "next/image";
 
 interface Props {
   figure: ProminentFigure;
@@ -61,10 +62,12 @@ const ProminentFigureSidebar: React.FC<Props> = ({ figure }) => {
                 key={i}
                 className="flex items-center gap-3 p-2 bg-white/5 rounded-lg"
               >
-                <img
+                <Image
                   src={work.imageUrl}
                   alt={work.title}
-                  className="w-12 h-16 object-cover rounded-md flex-shrink-0"
+                  width={48}
+                  height={64}
+                  className="object-cover rounded-md flex-shrink-0"
                 />
                 <span className="text-gray-100 text-sm">{work.title}</span>
               </div>
@@ -86,10 +89,12 @@ const ProminentFigureSidebar: React.FC<Props> = ({ figure }) => {
                 key={i}
                 className="flex items-center gap-3 p-2 bg-white/5 rounded-lg"
               >
-                <img
+                <Image
                   src={event.imageUrl}
                   alt={event.title}
-                  className="w-12 h-12 object-cover rounded-md flex-shrink-0"
+                  width={48}
+                  height={48}
+                  className="object-cover rounded-md flex-shrink-0"
                 />
                 <span className="text-gray-100 text-sm">{event.title}</span>
               </div>

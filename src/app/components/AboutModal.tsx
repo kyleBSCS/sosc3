@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 interface AboutModalProps {
   onBackToMenu: () => void;
 }
@@ -14,10 +16,13 @@ export default function AboutModal({ onBackToMenu }: AboutModalProps) {
         <div className="flex flex-col md:flex-row gap-6 text-center justify-center mb-4">
           {/* Kyle Vinuya */}
           <div className="relative w-72 h-128 rounded-xl overflow-hidden shadow-lg text-left">
-            <img
+            <Image
               src="/kyle.jpg"
               alt="Kyle Vinuya"
+              width={288}
+              height={512}
               className="object-cover w-full h-full"
+              priority
             />
             <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/40 to-transparent p-4">
               <span className="text-white font-semibold text-4xl drop-shadow-md">
@@ -27,9 +32,11 @@ export default function AboutModal({ onBackToMenu }: AboutModalProps) {
           </div>
           {/* John Russel Ilagan */}
           <div className="relative w-72 h-128 rounded-xl overflow-hidden shadow-lg text-left">
-            <img
+            <Image
               src="/john.jpg"
               alt="Russel Ilagan"
+              width={288}
+              height={512}
               className="object-cover w-full h-full"
             />
             <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/40 to-transparent p-4">
@@ -40,9 +47,11 @@ export default function AboutModal({ onBackToMenu }: AboutModalProps) {
           </div>
           {/* Heather Bedonia */}
           <div className="relative w-72 h-128 rounded-xl overflow-hidden shadow-lg text-left">
-            <img
+            <Image
               src="/heather.jpg"
               alt="Heather Bedonia"
+              width={288}
+              height={512}
               className="object-cover w-full h-full"
             />
             <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/40 to-transparent p-4">

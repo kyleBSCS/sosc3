@@ -117,39 +117,39 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
           {
             title: "Go Tell It on the Mountain (1953)",
             imageUrl:
-              "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327881361i/17143.jpg",
+              "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1701361318i/17143.jpg",
           },
           {
             title: "Giovanni's Room (1956)",
             imageUrl:
-              "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1389628081i/38462.jpg",
+              "https://storage.googleapis.com/circlesoft/document/photos/003/535/296/original_temp_img.jpg20250208-1-224ccw?1739055304",
           },
           {
             title: "The Fire Next Time (1963)",
             imageUrl:
-              "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388269701i/464260.jpg",
+              "https://upload.wikimedia.org/wikipedia/commons/c/ce/The_Fire_Next_Time_%281963%29_front_cover%2C_first_edition.jpg",
           },
           {
             title: "Notes of a Native Son (1955)",
             imageUrl:
-              "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327219872i/216527.jpg",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsLbjN05b-DZ5heDr63bup_h_OnzaivthQ5w&s",
           },
         ],
         events: [
           {
             title: "Civil Rights Movement activism (1960s)",
             imageUrl:
-              "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=400&h=300&fit=crop",
+              "https://upload.wikimedia.org/wikipedia/commons/4/4c/Civil_Rights_March_on_Washington%2C_D.C._%28Leaders_marching_from_the_Washington_Monument_to_the_Lincoln_Memorial%29_-_NARA_-_542010.jpg",
           },
           {
             title: "Speech at the March on Washington (1963)",
             imageUrl:
-              "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHlLOuBKNGN2-U0-NcQzPTdjcwpkGo1qeqsg&s",
           },
           {
             title: "Debate with William F. Buckley at Cambridge (1965)",
             imageUrl:
-              "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh0MfPjzXpeGX-Exby-ydZRo9Xpg4eYBk7og&s",
           },
         ],
         imageUrl:
@@ -300,8 +300,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Black trans activist, author, and founder of G.L.I.T.S.",
       longDescription:
         "Ceyenne Doroshow is a Black trans activist and author who founded G.L.I.T.S., an organization supporting Black trans people with housing and healthcare. She is a prominent advocate for sex workers and trans rights, working to provide safe spaces and support for marginalized communities.",
-      imageUrl:
-        "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/ceyenne-doroshow.jpg",
+      imageUrl: "/public-figs/ceyenne.jpg",
       prominentFigure: {
         name: "Ceyenne Doroshow",
         born: "Unknown",

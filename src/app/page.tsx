@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useCallback } from "react";
 import { MuseumItem, ViewMode, MuseumTopic } from "./types";
 import { TOPICS } from "./constants";
 import { MUSEUM_DATA } from "./constants";
