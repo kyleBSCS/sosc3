@@ -51,6 +51,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "cz.usembassy.gov",
       },
+      {
+        protocol: "https",
+        hostname: "sam.nmartmuseum.org",
+      },
     ],
   },
 };

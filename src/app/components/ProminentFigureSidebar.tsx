@@ -87,16 +87,18 @@ const ProminentFigureSidebar: React.FC<Props> = ({ figure }) => {
             {figure.events.map((event, i) => (
               <div
                 key={i}
-                className="flex items-center gap-3 p-2 bg-white/5 rounded-lg"
+                className="flex items-center gap-3 p-2 bg-white/5 rounded-lg flex-col"
               >
                 <Image
                   src={event.imageUrl}
                   alt={event.title}
-                  width={48}
-                  height={48}
+                  width={256}
+                  height={128}
                   className="object-cover rounded-md flex-shrink-0"
                 />
-                <span className="text-gray-100 text-sm">{event.title}</span>
+                <span className="text-gray-100 text-sm text-center">
+                  {event.title}
+                </span>
               </div>
             ))}
           </div>

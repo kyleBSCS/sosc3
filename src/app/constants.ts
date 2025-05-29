@@ -144,7 +144,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
           {
             title: "Speech at the March on Washington (1963)",
             imageUrl:
-              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHlLOuBKNGN2-U0-NcQzPTdjcwpkGo1qeqsg&s",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3MKKbgyF--UtsD7X__1JhIW0vDGXF1z2VUQ&s",
           },
           {
             title: "Debate with William F. Buckley at Cambridge (1965)",
@@ -219,25 +219,25 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
             title:
               "Photographic series like 'Native Programming' and 'Aboriginal Savant'",
             imageUrl:
-              "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOGekIG3BnrRkjv-tcB8o-u4HM2D37LvbALg&s",
           },
           {
             title:
               "Contributions to books like 'Strong Hearts: Native American Visions and Voices'",
             imageUrl:
-              "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6g4ilhcqI6ZJ1usrDr7rk4IetIDdktcv5BQ&s",
           },
         ],
         events: [
           {
             title: "Director of the C.N. Gorman Museum at UC Davis",
             imageUrl:
-              "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg5wuy1GNMddSt7JTmCHbgRpSUYerIo--0ew&s",
           },
           {
             title: "Numerous solo and group exhibitions internationally",
             imageUrl:
-              "https://images.unsplash.com/photo-1505373877841-8256f7739841?w=400&h=300&fit=crop",
+              "https://sam.nmartmuseum.org/internal/media/dispatcher/11732/thumbnail",
           },
         ],
         imageUrl:
