@@ -174,7 +174,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
           {
             title: "Barbara Jordan: A Self-Portrait (Autobiography, 1979)",
             imageUrl:
-              "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1386922013i/844298.jpg",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxCTPk7EaVCiD0S5u8Bnbm5ih4vN86Wc2WDQ&s",
           },
         ],
         events: [
@@ -182,18 +182,18 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
             title:
               "Keynote speaker at the Democratic National Convention (1976 & 1992)",
             imageUrl:
-              "https://images.unsplash.com/photo-1605065030960-7c31f06400aa?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKDGm5PJvYGttR6PAY1_4CcoR-nXidVl1m0of40WFZugk7ZMO2-tcvM0PXyeVVy5Fmy5k&usqp=CAU",
           },
           {
             title:
               "Member of House Judiciary Committee during Nixon impeachment hearings (1974)",
             imageUrl:
-              "https://images.unsplash.com/photo-1541845019790-852108165250?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT49OC_a0YPJUV9pFUo62Fsg7Ou5oqF-vqdvQ&s",
           },
           {
             title: "Awarded Presidential Medal of Freedom (1994)",
             imageUrl:
-              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy4ZzOVGS5ke17Gy3weXB7bVXz5Y76iADwsw&s",
           },
         ],
         imageUrl:
