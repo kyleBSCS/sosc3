@@ -781,39 +781,134 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=800&h=600&fit=crop",
     },
   ],
-  gender_fluidity: [
+  "gender_fluidity": [
     {
-      id: "two_spirit",
-      title: "Two-Spirit Traditions",
-      date: "Pre-colonial to Present",
-      shortDescription:
-        "Term used by some Indigenous North Americans to describe Native people who fulfill a third-gender ceremonial and social role.",
-      longDescription:
-        "Two-Spirit is an umbrella term created in 1990 by Indigenous LGBTQ+ activists to describe individuals in many Native American and First Nations cultures who embody both masculine and feminine spirits. These individuals often held respected spiritual and social roles within their communities, long before European colonization. The term aims to reclaim and honor pre-colonial understandings of gender diversity that were suppressed by colonization and Western binary gender norms.",
-      imageUrl:
-        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
+      id: "nonbinary",
+      title: "Nonbinary",
+      date: "Nonbinary",
+      shortDescription: "An umbrella term for gender identities that are not exclusively male or female.",
+      longDescription: "Nonbinary people may identify as a mix of both male and female, neither, or as a different gender entirely. It challenges the binary notion of gender and encompasses a variety of identities.",
+      imageUrl: ""
     },
     {
-      id: "hijra_community",
-      title: "Hijra Community",
-      date: "Ancient to Present",
-      shortDescription:
-        "Third gender community in South Asia, particularly India, Pakistan, and Bangladesh.",
-      longDescription:
-        "Hijras are a recognized third gender community in South Asia with a recorded history spanning thousands of years. Traditionally, they have held significant social and religious roles, often associated with blessings and performances at ceremonies. While facing discrimination and marginalization in modern times, the Hijra community continues to be a visible and culturally significant part of South Asian society, and some countries have legally recognized them as a third gender.",
-      imageUrl:
-        "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=800&h=600&fit=crop",
+      id: "bigender",
+      title: "Bigender",
+      date: "Nonbinary",
+      shortDescription: "A person who identifies as having two distinct genders.",
+      longDescription: "Bigender individuals experience two gender identities, either simultaneously or switching between them. These genders can be male and female or any combination of genders.",
+      imageUrl: ""
     },
     {
-      id: "nonbinary_identities",
-      title: "Non-Binary Identities",
-      date: "Contemporary",
-      shortDescription:
-        "Umbrella term for gender identities that are not solely male or female.",
-      longDescription:
-        'Non-binary is an umbrella term for people whose gender identity does not fit neatly into the categories of "man" or "woman." Non-binary identities are diverse and can include people who identify as having no gender, multiple genders, or a gender that fluctuates. The increasing visibility and understanding of non-binary identities challenge traditional binary notions of gender and highlight the spectrum of human experience.',
-      imageUrl:
-        "https://images.unsplash.com/photo-1506629905770-b42efb4cc492?w=800&h=600&fit=crop",
+      id: "demiboy",
+      title: "Demiboy",
+      date: "Nonbinary",
+      shortDescription: "Someone partially, but not fully, identifying as male.",
+      longDescription: "A demiboy feels a partial connection to being a boy or man, but does not wholly identify with male gender. This identity exists on a spectrum between male and other genders.",
+      imageUrl: ""
+    },
+    {
+      id: "demigirl",
+      title: "Demigirl",
+      date: "Nonbinary",
+      shortDescription: "Someone partially, but not fully, identifying as female.",
+      longDescription: "A demigirl feels a partial connection to being a girl or woman, but does not fully identify with female gender. It represents a gender experience between female and other identities.",
+      imageUrl: ""
+    },
+    {
+      id: "genderfluid",
+      title: "Genderfluid",
+      date: "Nonbinary",
+      shortDescription: "A gender identity that varies over time.",
+      longDescription: "Genderfluid people experience shifts in their gender identity or expression over time. Their gender can fluctuate between male, female, both, neither, or other genders.",
+      imageUrl: ""
+    },
+    {
+      id: "maverique",
+      title: "Maverique",
+      date: "Nonbinary",
+      shortDescription: "A nonbinary gender that is independent from male, female, or anything in between.",
+      longDescription: "Maverique is a gender identity characterized by autonomy and inner conviction regarding gender, distinct from the binary or spectrum models. It is an independent gender experience.",
+      imageUrl: ""
+    },
+    {
+      id: "neutrois",
+      title: "Neutrois",
+      date: "Nonbinary",
+      shortDescription: "A nonbinary gender identity that is neutral or null.",
+      longDescription: "Neutrois individuals often identify as neutral or null gender, rejecting gendered classifications entirely. It is a nonbinary identity associated with neutrality or absence of gender.",
+      imageUrl: ""
+    },
+    {
+      id: "androgyne",
+      title: "Androgyne",
+      date: "Nonbinary",
+      shortDescription: "A gender identity blending both masculine and feminine traits.",
+      longDescription: "Androgyne people experience a mix of male and female characteristics, or identify as both genders simultaneously. It can describe a gender expression or identity that is balanced or ambiguous.",
+      imageUrl: ""
+    },
+    {
+      id: "two-spirit",
+      title: "Two-Spirit",
+      date: "nonbinary",
+      shortDescription: "A term used by some Indigenous North American cultures to describe a person embodying both masculine and feminine qualities.",
+      longDescription: "Two-Spirit is a culturally specific identity used by Indigenous peoples of North America, encompassing gender diversity and spiritual roles beyond the male-female binary. It recognizes complex gender and social roles in those cultures.",
+      imageUrl: ""
+    },
+    {
+      id: "pangender",
+      title: "Pangender",
+      date: "nonbinary",
+      shortDescription: "A pangender person identifies with many or all genders, either simultaneously or over time.",
+      longDescription: "Pangender individuals experience a wide or infinite range of gender identities. They may feel connected to all genders or a multitude of gender expressions. Their identity may be fluid or consistent, and is often expansive and inclusive of all possible genders.",
+      imageUrl: ""
+    },
+    {
+      id: "agender",
+      title: "Agender",
+      date: "nonbinary",
+      shortDescription: "Someone who identifies as having no gender.",
+      longDescription: "Agender people do not identify with any gender or feel a lack of gender altogether. It is sometimes described as genderlessness or gender neutrality.",
+      imageUrl: ""
+    },
+    {
+      id: "genderqueer",
+      title: "Genderqueer",
+      date: "nonbinary",
+      shortDescription: "An umbrella term for gender identities that are not exclusively male or female.",
+      longDescription: "Genderqueer individuals may reject traditional gender distinctions or express a mix of genders. This term is often used broadly to describe nonbinary gender identities.",
+      imageUrl: ""
+    },
+    {
+      id: "cisgender",
+      title: "Cisgender",
+      date: "binary",
+      shortDescription: "A person whose gender identity matches their sex assigned at birth.",
+      longDescription: "Cisgender individuals identify with the gender they were assigned at birth, typically male or female. This term contrasts with transgender and nonbinary identities.",
+      imageUrl: ""
+    },
+    {
+      id: "transgender",
+      title: "Transgender",
+      date: "binary",
+      shortDescription: "A person whose gender identity differs from their sex assigned at birth.",
+      longDescription: "Transgender individuals identify as a gender different from the one assigned at birth. This can include binary transgender identities like trans men and trans women, as well as nonbinary trans identities.",
+      imageUrl: ""
+    },
+    {
+      id: "male",
+      title: "Male",
+      date: "binary",
+      shortDescription: "A person who identifies as a man or boy.",
+      longDescription: "Male individuals identify with the male gender, typically associated with masculine traits and societal roles.",
+      imageUrl: ""
+    },
+    {
+      id: "female",
+      title: "Female",
+      date: "binary",
+      shortDescription: "A person who identifies as a woman or girl.",
+      longDescription: "Female individuals identify with the female gender, typically associated with feminine traits and societal roles.",
+      imageUrl: ""
     },
   ],
   womens_history_unsung: [
