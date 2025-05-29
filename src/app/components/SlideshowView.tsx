@@ -9,6 +9,8 @@ import { ChevronLeftIcon, ChevronRightIcon } from "./icons/NavigationIcons";
 interface SlideshowViewProps {
   topic: MuseumTopic;
   items: MuseumItem[];
+  currentIndex: number;
+  onIndexChange: (index: number) => void;
   onItemSelect: (item: MuseumItem) => void;
   onBackToMenu: () => void;
 }
@@ -16,23 +18,22 @@ interface SlideshowViewProps {
 const SlideshowView: React.FC<SlideshowViewProps> = ({
   topic,
   items,
+  currentIndex,
+  onIndexChange,
   onItemSelect,
   onBackToMenu,
 }) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
   const [direction, setDirection] = useState(0); // For animation hint: 1 for next, -1 for prev
 
   const paginate = useCallback(
     (newDirection: number) => {
       setDirection(newDirection);
-      setCurrentIndex((prevIndex) => {
-        let newIndex = prevIndex + newDirection;
-        if (newIndex < 0) newIndex = items.length - 1;
-        else if (newIndex >= items.length) newIndex = 0;
-        return newIndex;
-      });
+      let newIndex = currentIndex + newDirection;
+      if (newIndex < 0) newIndex = items.length - 1;
+      else if (newIndex >= items.length) newIndex = 0;
+      onIndexChange(newIndex);
     },
-    [items.length]
+    [items.length, currentIndex, onIndexChange]
   );
 
   const handleDragEnd = (
@@ -70,7 +71,7 @@ const SlideshowView: React.FC<SlideshowViewProps> = ({
       } else {
         setDirection(newDirection);
       }
-      setCurrentIndex(index);
+      onIndexChange(index);
     }
   };
 

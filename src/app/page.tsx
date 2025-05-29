@@ -16,6 +16,7 @@ const App: React.FC = () => {
   const [selectedTopic, setSelectedTopic] = useState<MuseumTopic | null>(null);
   const [topicItems, setTopicItems] = useState<MuseumItem[]>([]);
   const [selectedItem, setSelectedItem] = useState<MuseumItem | null>(null);
+  const [currentCarouselIndex, setCurrentCarouselIndex] = useState<number>(0);
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -23,6 +24,7 @@ const App: React.FC = () => {
     if (!topic) return;
     setIsLoading(true);
     setError(null);
+    setCurrentCarouselIndex(0);
     try {
       // Directly get items from MUSEUM_DATA and map to MuseumItem
       const items = (MUSEUM_DATA[topic.id] || []).map((item) => ({
@@ -63,6 +65,7 @@ const App: React.FC = () => {
     setSelectedTopic(null);
     setTopicItems([]);
     setSelectedItem(null);
+    setCurrentCarouselIndex(0);
     setError(null);
     setCurrentView("main_menu");
   };
@@ -121,6 +124,8 @@ const App: React.FC = () => {
             <SlideshowView
               topic={selectedTopic}
               items={topicItems}
+              currentIndex={currentCarouselIndex}
+              onIndexChange={setCurrentCarouselIndex}
               onItemSelect={handleItemSelect}
               onBackToMenu={handleBackToMenu}
             />
