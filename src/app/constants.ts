@@ -107,8 +107,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "American writer and activist whose works explored race, sexuality, and class.",
       longDescription:
         "James Baldwin was a novelist, essayist, and social critic whose works, including 'Go Tell It on the Mountain' and 'Giovanni's Room,' addressed complex social and psychological pressures facing Black and LGBTQ+ people. Baldwin's eloquence and activism made him a key voice in both the civil rights and gay rights movements.",
-      imageUrl:
-        "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/jamesbaldwin.jpg",
+      imageUrl: "/public-figs/james-baldwin.jpg",
       prominentFigure: {
         name: "James Baldwin",
         born: "Aug 2, 1924",
@@ -165,8 +164,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "First African American woman from the South elected to Congress; LGBTQ+ trailblazer.",
       longDescription:
         "Barbara Jordan was a groundbreaking politician and civil rights leader. She was the first African American woman elected to the Texas Senate and later to the U.S. Congress from the South. Jordan was also the first LGBTQ+ woman in Congress, remembered for her powerful oratory and dedication to justice.",
-      imageUrl:
-        "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/barbarajordan.png",
+      imageUrl: "/public-figs/barbara-jordan.jpg",
       prominentFigure: {
         name: "Barbara Jordan",
         born: "Feb 21, 1936",
@@ -210,8 +208,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Two-spirit multi-media artist and professor of Native American Studies.",
       longDescription:
         "Hulleah J. Tsinhnahjinnie is a two-spirit artist known for her photographic work rooted in Native American sovereignty. She is a professor and museum director, using her art and scholarship to uplift Indigenous and LGBTQ+ voices.",
-      imageUrl:
-        "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/hulleahtisnhanahjinnie.jpg",
+      imageUrl: "/public-figs/Hulleah-Tsinhnahjinnie.jpeg",
       prominentFigure: {
         name: "Hulleah Tsinhnahjinnie",
         born: "1954",
@@ -345,8 +342,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       shortDescription: "Leader in early lesbian and Black feminist movements.",
       longDescription:
         "Erestine Eckstein was a leader of the Daughters of Bilitis, the first lesbian civil and political rights organization in the U.S. She was also an early activist in the Black feminist movement, advocating for the intersection of civil rights and LGBTQ+ rights.",
-      imageUrl:
-        "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/erestein-eckstein.jpg",
+      imageUrl: "/public-figs/ernestine.webp",
       prominentFigure: {
         name: "Erestine Eckstein",
         born: "Apr 23, 1941",
@@ -383,8 +379,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       shortDescription: "Pioneering gay rights activist and organizer.",
       longDescription:
         "Barbara Gittings was a key figure in the early gay rights movement, founding the first lesbian civil rights organization in the U.S. and organizing public demonstrations for equality. She also promoted gay literature and worked with the American Library Association to increase LGBTQ+ representation.",
-      imageUrl:
-        "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/barbara-gittings.jpg",
+      imageUrl: "/public-figs/barbara-gittings.jpg",
       prominentFigure: {
         name: "Barbara Gittings",
         born: "Jul 31, 1932",
