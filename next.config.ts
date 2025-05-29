@@ -55,6 +55,34 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "sam.nmartmuseum.org",
       },
+      {
+        protocol: "https",
+        hostname: "cdn.std.uw.edu",
+      },
+      {
+        protocol: "https",
+        hostname: "img.medscapestatic.com",
+      },
+      {
+        protocol: "https",
+        hostname: "images.everydayhealth.com",
+      },
+      {
+        protocol: "https",
+        hostname: "encrypted-tbn0.gstatic.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.verywellhealth.com",
+      },
+      {
+        protocol: "https",
+        hostname: "almostadoctor.co.uk",
+      },
+      {
+        protocol: "https",
+        hostname: "www.hepb.org",
+      },
     ],
   },
 };

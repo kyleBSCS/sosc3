@@ -5,6 +5,7 @@ import GlassCard from "./GlassCard";
 import { CloseIcon } from "./icons/NavigationIcons";
 import Image from "next/image";
 import ProminentFigureSidebar from "./ProminentFigureSidebar";
+import STDSymptomsSidebar from "./STDSymptomsSidebar";
 
 interface DetailModalProps {
   item: MuseumItem | null;
@@ -12,45 +13,23 @@ interface DetailModalProps {
 }
 
 const DetailModal: React.FC<DetailModalProps> = ({ item, onClose }) => {
-  const backdropVariants = {
-    hidden: { opacity: 0 },
-    visible: { opacity: 1 },
-  };
+  if (!item) return null;
 
   const modalVariants = {
-    hidden: { opacity: 0, scale: 0.8, y: 50 },
-    visible: {
-      opacity: 1,
-      scale: 1,
-      y: 0,
-      transition: {
-        type: "spring",
-        stiffness: 300,
-        damping: 30,
-        duration: 0.3,
-      },
-    },
-    exit: {
-      opacity: 0,
-      scale: 0.8,
-      y: 50,
-      transition: { duration: 0.2 },
-    },
+    hidden: { opacity: 0, scale: 0.9 },
+    visible: { opacity: 1, scale: 1 },
+    exit: { opacity: 0, scale: 0.9 },
   };
-
-  if (!item) return null;
 
   return (
     <AnimatePresence>
       {item && (
         <motion.div
-          key="backdrop"
-          className="fixed inset-0 bg-black/70 flex items-center justify-center p-4 z-40"
-          variants={backdropVariants}
-          initial="hidden"
-          animate="visible"
-          exit="hidden"
-          onClick={onClose} // Close on backdrop click
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm"
+          onClick={onClose}
         >
           <motion.div
             key="modal"
@@ -59,19 +38,19 @@ const DetailModal: React.FC<DetailModalProps> = ({ item, onClose }) => {
             animate="visible"
             exit="exit"
             className="w-full max-w-6xl max-h-[90vh] relative"
-            onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside modal
+            onClick={(e) => e.stopPropagation()}
           >
             <div
               className={
-                item.prominentFigure
+                item.prominentFigure || item.category === "STDs"
                   ? "flex flex-col md:flex-row h-full max-h-[90vh] gap-0 md:gap-4"
-                  : "h-full max-h-[90vh] overflow-y-auto "
+                  : "h-full max-h-[90vh] overflow-y-auto"
               }
             >
               {/* Main Content - Glass Card */}
               <GlassCard
                 className={`flex flex-col rounded-2xl overflow-hidden ${
-                  item.prominentFigure
+                  item.prominentFigure || item.category === "STDs"
                     ? "flex-1 md:h-[90vh] md:overflow-y-auto"
                     : "w-full h-full"
                 }`}
@@ -104,10 +83,15 @@ const DetailModal: React.FC<DetailModalProps> = ({ item, onClose }) => {
                 </div>
               </GlassCard>
 
-              {/* Sidebar - Separate from Glass Card */}
-              {item.prominentFigure && (
+              {/* Sidebar */}
+              {(item.prominentFigure || item.category === "STDs") && (
                 <div className="md:w-80 md:flex-shrink-0 md:h-[90vh] md:overflow-y-auto overflow-x-hidden">
-                  <ProminentFigureSidebar figure={item.prominentFigure} />
+                  {item.prominentFigure && (
+                    <ProminentFigureSidebar figure={item.prominentFigure} />
+                  )}
+                  {item.category === "STDs" && item.symptoms && (
+                    <STDSymptomsSidebar symptoms={item.symptoms} />
+                  )}
                 </div>
               )}
             </div>
