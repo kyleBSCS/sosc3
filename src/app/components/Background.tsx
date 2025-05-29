@@ -28,8 +28,19 @@ const BlurredPlaceholder: React.FC<PlaceholderProps & { image: string }> = ({
         backgroundImage: `url(${image})`,
       }}
       initial={{ opacity: 0, scale: 0.5 }}
-      animate={{ opacity: 0.25, scale: 1 }}
-      transition={{ duration: 1.5, delay: Math.random() * 0.5 }}
+      animate={{ 
+        opacity: 0.25, 
+        scale: 1,
+        y: [0, -20, 0],
+        x: [0, 10, 0],
+        rotate: [-8, 8, -8]
+      }}
+      transition={{ 
+        duration: 8,
+        repeat: Infinity,
+        ease: "easeInOut",
+        delay: Math.random() * 2
+      }}
     />
   );
 };
@@ -38,22 +49,22 @@ const Background: React.FC<BackgroundProps> = ({
   meshGradientClass = "rainbow-mesh-gradient",
 }) => {
   const placeholders = [
-    { className: "top-[10%] left-[5%] rotate-[-8deg]", seed: "bg1" },
-    { className: "top-[5%] right-[8%] rotate-[5deg]", seed: "bg2" },
-    { className: "bottom-[8%] left-[12%] rotate-[3deg]", seed: "bg3" },
-    { className: "bottom-[15%] right-[5%] rotate-[-6deg]", seed: "bg4" },
+    { className: "top-[10%] left-[5%]", seed: "bg1" },
+    { className: "top-[5%] right-[8%]", seed: "bg2" },
+    { className: "bottom-[8%] left-[12%]", seed: "bg3" },
+    { className: "bottom-[15%] right-[5%]", seed: "bg4" },
     {
-      className: "top-[35%] left-[30%] rotate-[2deg] hidden md:block",
+      className: "top-[35%] left-[30%] hidden md:block",
       seed: "bg5",
     },
     {
-      className: "bottom-[30%] right-[25%] rotate-[4deg] hidden md:block",
+      className: "bottom-[30%] right-[25%] hidden md:block",
       seed: "bg6",
     },
   ];
 
   return (
-    <div className="fixed inset-0 -z-10 w-full h-full pointer-events-none">
+    <div className="fixed inset-0 -z-10 w-full h-full pointer-events-none overflow-hidden">
       <AnimatePresence mode="wait">
         <motion.div
           key={meshGradientClass}
