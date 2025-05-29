@@ -781,135 +781,119 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=800&h=600&fit=crop",
     },
   ],
-  "gender_fluidity": [
+  gender_fluidity: [
     {
       id: "nonbinary",
       title: "Nonbinary",
-      date: "Nonbinary",
+      date: "",
       shortDescription: "An umbrella term for gender identities that are not exclusively male or female.",
       longDescription: "Nonbinary people may identify as a mix of both male and female, neither, or as a different gender entirely. It challenges the binary notion of gender and encompasses a variety of identities.",
-      imageUrl: ""
+      imageUrl: "https://plus.unsplash.com/premium_photo-1673248252099-9afbcdeac347?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       id: "bigender",
       title: "Bigender",
-      date: "Nonbinary",
+      date: "",
       shortDescription: "A person who identifies as having two distinct genders.",
       longDescription: "Bigender individuals experience two gender identities, either simultaneously or switching between them. These genders can be male and female or any combination of genders.",
-      imageUrl: ""
+      imageUrl: "https://img.freepik.com/free-vector/organic-flat-non-binary-people-illustration_23-2148911688.jpg?semt=ais_hybrid&w=740",
     },
     {
       id: "demiboy",
       title: "Demiboy",
-      date: "Nonbinary",
+      date: "",
       shortDescription: "Someone partially, but not fully, identifying as male.",
       longDescription: "A demiboy feels a partial connection to being a boy or man, but does not wholly identify with male gender. This identity exists on a spectrum between male and other genders.",
-      imageUrl: ""
+      imageUrl: "https://static.vecteezy.com/system/resources/previews/023/673/724/non_2x/gender-symbol-of-demiboy-in-pride-colors-free-vector.jpg",
     },
     {
       id: "demigirl",
       title: "Demigirl",
-      date: "Nonbinary",
+      date: "",
       shortDescription: "Someone partially, but not fully, identifying as female.",
       longDescription: "A demigirl feels a partial connection to being a girl or woman, but does not fully identify with female gender. It represents a gender experience between female and other identities.",
-      imageUrl: ""
+      imageUrl: "https://static.vecteezy.com/system/resources/previews/023/480/417/non_2x/gender-symbol-of-demigirl-in-pride-colors-vector.jpg",
     },
     {
       id: "genderfluid",
       title: "Genderfluid",
-      date: "Nonbinary",
+      date: "",
       shortDescription: "A gender identity that varies over time.",
       longDescription: "Genderfluid people experience shifts in their gender identity or expression over time. Their gender can fluctuate between male, female, both, neither, or other genders.",
-      imageUrl: ""
+      imageUrl: "https://i.pinimg.com/736x/b3/06/bc/b306bcb9218ce93b992912758a1f0075.jpg",
     },
     {
       id: "maverique",
       title: "Maverique",
-      date: "Nonbinary",
+      date: "",
       shortDescription: "A nonbinary gender that is independent from male, female, or anything in between.",
       longDescription: "Maverique is a gender identity characterized by autonomy and inner conviction regarding gender, distinct from the binary or spectrum models. It is an independent gender experience.",
-      imageUrl: ""
+      imageUrl: "https://img.freepik.com/free-vector/hand-drawn-background-pride-month-celebration_23-2150245080.jpg?semt=ais_hybrid&w=740",
     },
     {
       id: "neutrois",
       title: "Neutrois",
-      date: "Nonbinary",
+      date: "",
       shortDescription: "A nonbinary gender identity that is neutral or null.",
       longDescription: "Neutrois individuals often identify as neutral or null gender, rejecting gendered classifications entirely. It is a nonbinary identity associated with neutrality or absence of gender.",
-      imageUrl: ""
+      imageUrl: "https://img.freepik.com/free-vector/people-celebrating-pride-day_23-2148509528.jpg?semt=ais_hybrid&w=740",
     },
     {
-      id: "androgyne",
-      title: "Androgyne",
-      date: "Nonbinary",
+      id: "androgynous",
+      title: "Androgynous",
+      date: "",
       shortDescription: "A gender identity blending both masculine and feminine traits.",
-      longDescription: "Androgyne people experience a mix of male and female characteristics, or identify as both genders simultaneously. It can describe a gender expression or identity that is balanced or ambiguous.",
-      imageUrl: ""
+      longDescription: "Androgynous people experience a mix of male and female characteristics, or identify as both genders simultaneously. It can describe a gender expression or identity that is balanced or ambiguous.",
+      imageUrl: "https://thumbs.dreamstime.com/b/drawn-abstract-image-androgyne-man-androgyne-symbols-295663401.jpg",
     },
     {
       id: "two-spirit",
       title: "Two-Spirit",
-      date: "nonbinary",
+      date: "",
       shortDescription: "A term used by some Indigenous North American cultures to describe a person embodying both masculine and feminine qualities.",
       longDescription: "Two-Spirit is a culturally specific identity used by Indigenous peoples of North America, encompassing gender diversity and spiritual roles beyond the male-female binary. It recognizes complex gender and social roles in those cultures.",
-      imageUrl: ""
+      imageUrl: "https://therevealer.org/wp-content/uploads/2022/09/Artworkfor1stannualPowwow_MichaelHorse_2012.jpeg",
     },
     {
       id: "pangender",
       title: "Pangender",
-      date: "nonbinary",
+      date: "",
       shortDescription: "A pangender person identifies with many or all genders, either simultaneously or over time.",
       longDescription: "Pangender individuals experience a wide or infinite range of gender identities. They may feel connected to all genders or a multitude of gender expressions. Their identity may be fluid or consistent, and is often expansive and inclusive of all possible genders.",
-      imageUrl: ""
+      imageUrl: "https://img.freepik.com/free-vector/cartoon-transgender-people-illustrated_23-2148967007.jpg",
     },
     {
       id: "agender",
       title: "Agender",
-      date: "nonbinary",
+      date: "",
       shortDescription: "Someone who identifies as having no gender.",
       longDescription: "Agender people do not identify with any gender or feel a lack of gender altogether. It is sometimes described as genderlessness or gender neutrality.",
-      imageUrl: ""
+      imageUrl: "https://www.wikihow.com/images/thumb/4/46/Live-As-an-Agender-Person-Step-1.jpg/v4-460px-Live-As-an-Agender-Person-Step-1.jpg",
     },
     {
       id: "genderqueer",
       title: "Genderqueer",
-      date: "nonbinary",
+      date: "",
       shortDescription: "An umbrella term for gender identities that are not exclusively male or female.",
       longDescription: "Genderqueer individuals may reject traditional gender distinctions or express a mix of genders. This term is often used broadly to describe nonbinary gender identities.",
-      imageUrl: ""
+      imageUrl: "https://media.craiyon.com/2025-04-15/d6Kvf8QkRT2kfbhb2ZsEBg.webp",
     },
     {
       id: "cisgender",
       title: "Cisgender",
-      date: "binary",
+      date: "",
       shortDescription: "A person whose gender identity matches their sex assigned at birth.",
       longDescription: "Cisgender individuals identify with the gender they were assigned at birth, typically male or female. This term contrasts with transgender and nonbinary identities.",
-      imageUrl: ""
+      imageUrl: "https://equaliteach.co.uk/wp-content/uploads/valentines.jpg",
     },
     {
       id: "transgender",
       title: "Transgender",
-      date: "binary",
+      date: "",
       shortDescription: "A person whose gender identity differs from their sex assigned at birth.",
       longDescription: "Transgender individuals identify as a gender different from the one assigned at birth. This can include binary transgender identities like trans men and trans women, as well as nonbinary trans identities.",
-      imageUrl: ""
-    },
-    {
-      id: "male",
-      title: "Male",
-      date: "binary",
-      shortDescription: "A person who identifies as a man or boy.",
-      longDescription: "Male individuals identify with the male gender, typically associated with masculine traits and societal roles.",
-      imageUrl: ""
-    },
-    {
-      id: "female",
-      title: "Female",
-      date: "binary",
-      shortDescription: "A person who identifies as a woman or girl.",
-      longDescription: "Female individuals identify with the female gender, typically associated with feminine traits and societal roles.",
-      imageUrl: ""
-    },
+      imageUrl: "https://img.freepik.com/free-vector/cartoon-transgender-people-pack_23-2148964621.jpg",
+    }
   ],
   womens_history_unsung: [
     {

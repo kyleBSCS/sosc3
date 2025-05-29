@@ -76,7 +76,7 @@ const DetailModal: React.FC<DetailModalProps> = ({ item, onClose }) => {
                     : "w-full h-full"
                 }`}
               >
-                <div className="relative w-full flex-grow min-h-[200px] rounded-xl overflow-hidden flex-shrink-0">
+                <div className="relative w-full flex-grow min-h-[800px] rounded-xl overflow-hidden flex-shrink-0">
                   <Image
                     src={item.imageUrl}
                     alt={item.title}

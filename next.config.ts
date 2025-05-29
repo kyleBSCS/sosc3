@@ -29,10 +29,6 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "www.unco.edu",
-      },
-      {
-        protocol: "https",
         hostname: "images-na.ssl-images-amazon.com",
       },
       {
@@ -54,6 +50,39 @@ const nextConfig: NextConfig = {
       {
         protocol: "https",
         hostname: "sam.nmartmuseum.org",
+      },
+      {
+        protocol: "https",
+        hostname: "plus.unsplash.com",
+      },
+      {
+        protocol: "https",
+        hostname: "thumbs.dreamstime.com",
+      },
+      {
+        protocol: "https",
+        hostname: "therevealer.org",
+      },
+      {
+        protocol: "https",
+        hostname: "equaliteach.co.uk",
+      },
+      {
+        protocol: "https",
+        hostname: "static.vecteezy.com",
+      },
+      {
+        protocol: "https",
+        hostname: "i.pinimg.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.wikihow.com",
+      },
+      {
+        protocol:"https",
+        hostname:"media.craiyon.com",
+
       },
     ],
   },
