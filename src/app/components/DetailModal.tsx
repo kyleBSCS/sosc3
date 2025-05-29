@@ -76,7 +76,7 @@ const DetailModal: React.FC<DetailModalProps> = ({ item, onClose }) => {
                     : "w-full h-full"
                 }`}
               >
-                <div className="relative w-full h-[50vh] md:h-[40vh] rounded-t-xl overflow-hidden flex-shrink-0">
+                <div className="relative w-full flex-grow min-h-[200px] rounded-xl overflow-hidden flex-shrink-0">
                   <Image
                     src={item.imageUrl}
                     alt={item.title}
@@ -93,7 +93,7 @@ const DetailModal: React.FC<DetailModalProps> = ({ item, onClose }) => {
                     <CloseIcon className="w-5 h-5 md:w-6 md:h-6 text-white" />
                   </button>
                 </div>
-                <div className="p-5 md:p-6 flex-grow md:overflow-y-auto">
+                <div className="p-5 md:p-6 flex-grow-0">
                   <p className="text-sm text-gray-300 mb-1">{item.date}</p>
                   <h2 className="text-2xl md:text-3xl font-bold text-white mb-3">
                     {item.title}
