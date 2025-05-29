@@ -15,8 +15,14 @@ export interface MuseumItem {
   shortDescription: string;
   longDescription: string;
   imageUrl: string;
-  category: string;
-  prominentFigure?: ProminentFigure; // Only for relevant items
+  category?: string;
+  prominentFigure?: ProminentFigure;
+  symptoms?: {
+    common: string[];
+    severe: string[];
+    longTerm: string[];
+    prevention: string[];
+  };
 }
 
 export type ViewMode = "main_menu" | "slideshow" | "detail" | "about";
