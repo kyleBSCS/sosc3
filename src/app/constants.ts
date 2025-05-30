@@ -976,37 +976,38 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       shortDescription: "A common bacterial STI that often shows no symptoms.",
       longDescription:
         "Chlamydia is a prevalent sexually transmitted infection caused by the bacterium Chlamydia trachomatis. It's often asymptomatic, making regular screenings crucial. If untreated, it can lead to serious reproductive complications. Fortunately, it is easily curable with antibiotics.",
-      imageUrl: "https://cdn.std.uw.edu/doc/568-1/adult-chlamydial-inclusion-conjunctivitis-.jpg",
+      imageUrl:
+        "https://cdn.std.uw.edu/doc/568-1/adult-chlamydial-inclusion-conjunctivitis-.jpg",
       symptoms: {
         common: [
           "Abnormal vaginal discharge",
           "Burning sensation during urination",
           "Pain during sexual intercourse",
           "Bleeding between periods",
-          "Testicular pain or swelling"
+          "Testicular pain or swelling",
         ],
         severe: [
           "Pelvic inflammatory disease",
           "Chronic pelvic pain",
           "Epididymitis in men",
           "Proctitis (rectal inflammation)",
-          "Conjunctivitis"
+          "Conjunctivitis",
         ],
         longTerm: [
           "Infertility in women",
           "Increased risk of ectopic pregnancy",
           "Chronic pelvic pain",
           "Reactive arthritis",
-          "Increased risk of HIV transmission"
+          "Increased risk of HIV transmission",
         ],
         prevention: [
           "Regular STI testing",
           "Consistent condom use",
           "Limiting sexual partners",
           "Open communication with partners",
-          "Annual screening for sexually active individuals"
-        ]
-      }
+          "Annual screening for sexually active individuals",
+        ],
+      },
     },
     {
       id: "gonorrhea",
@@ -1023,30 +1024,30 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
           "Painful urination",
           "Increased vaginal discharge",
           "Bleeding between periods",
-          "Swollen testicles"
+          "Swollen testicles",
         ],
         severe: [
           "Disseminated gonococcal infection",
           "Meningitis",
           "Endocarditis",
           "Septic arthritis",
-          "Pelvic inflammatory disease"
+          "Pelvic inflammatory disease",
         ],
         longTerm: [
           "Infertility",
           "Chronic pelvic pain",
           "Increased risk of HIV",
           "Ectopic pregnancy risk",
-          "Joint damage"
+          "Joint damage",
         ],
         prevention: [
           "Regular STI testing",
           "Consistent condom use",
           "Mutual monogamy",
           "Regular medical check-ups",
-          "Partner notification and testing"
-        ]
-      }
+          "Partner notification and testing",
+        ],
+      },
     },
     {
       id: "hpv",
@@ -1056,37 +1057,38 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "The most common STI, with some types leading to warts or cancer.",
       longDescription:
         "HPV is a widespread sexually transmitted infection with over 100 types. While many infections resolve on their own, some can cause genital warts or lead to cancers such as cervical cancer. Vaccination and regular screenings are key preventive measures.",
-      imageUrl: "https://images.everydayhealth.com/images/stds/hpv/hpv-warts-722x406.jpg",
+      imageUrl:
+        "https://images.everydayhealth.com/images/stds/hpv/hpv-warts-722x406.jpg",
       symptoms: {
         common: [
           "Genital warts",
           "Common warts on hands",
           "Plantar warts on feet",
           "Flat warts on face",
-          "No visible symptoms (most cases)"
+          "No visible symptoms (most cases)",
         ],
         severe: [
           "Cervical cancer",
           "Anal cancer",
           "Penile cancer",
           "Throat cancer",
-          "Vulvar cancer"
+          "Vulvar cancer",
         ],
         longTerm: [
           "Persistent infection",
           "Recurrent warts",
           "Increased cancer risk",
           "Psychological impact",
-          "Relationship challenges"
+          "Relationship challenges",
         ],
         prevention: [
           "HPV vaccination",
           "Regular Pap smears",
           "Safe sex practices",
           "Limiting sexual partners",
-          "Regular health screenings"
-        ]
-      }
+          "Regular health screenings",
+        ],
+      },
     },
     {
       id: "herpes",
@@ -1095,37 +1097,38 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       shortDescription: "A viral STI causing painful blisters or ulcers.",
       longDescription:
         "Herpes simplex virus, encompassing HSV-1 and HSV-2, leads to infections that can cause blisters or ulcers, commonly around the mouth or genitals. The virus remains in the body for life, with symptoms managed through antiviral medications.",
-      imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvfyguxyA7qrPvjA37jVuQhaYURvAouSWttw&s",
+      imageUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvfyguxyA7qrPvjA37jVuQhaYURvAouSWttw&s",
       symptoms: {
         common: [
           "Painful blisters or ulcers",
           "Flu-like symptoms",
           "Swollen lymph nodes",
           "Burning sensation",
-          "Itching or tingling"
+          "Itching or tingling",
         ],
         severe: [
           "Severe outbreaks",
           "Meningitis",
           "Encephalitis",
           "Eye infections",
-          "Neonatal herpes"
+          "Neonatal herpes",
         ],
         longTerm: [
           "Recurrent outbreaks",
           "Psychological impact",
           "Relationship challenges",
           "Increased HIV risk",
-          "Chronic pain"
+          "Chronic pain",
         ],
         prevention: [
           "Antiviral medication",
           "Safe sex practices",
           "Avoiding contact during outbreaks",
           "Regular medical care",
-          "Stress management"
-        ]
-      }
+          "Stress management",
+        ],
+      },
     },
     {
       id: "syphilis",
@@ -1135,37 +1138,38 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "A bacterial STI with multiple stages, potentially leading to severe health issues.",
       longDescription:
         "Syphilis is a sexually transmitted infection that progresses through stages: primary, secondary, latent, and tertiary. Early stages may present sores or rashes, while later stages can cause serious health problems. Early detection and antibiotic treatment are crucial.",
-      imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYX7NlhbELZGFW0k1zAp-abK5V2PrCfEmLyg&s",
+      imageUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYX7NlhbELZGFW0k1zAp-abK5V2PrCfEmLyg&s",
       symptoms: {
         common: [
           "Painless sores (chancre)",
           "Rash on palms and soles",
           "Fever and fatigue",
           "Swollen lymph nodes",
-          "Muscle aches"
+          "Muscle aches",
         ],
         severe: [
           "Neurosyphilis",
           "Cardiovascular complications",
           "Gummatous lesions",
           "Hearing loss",
-          "Vision problems"
+          "Vision problems",
         ],
         longTerm: [
           "Brain damage",
           "Heart disease",
           "Organ damage",
           "Mental health issues",
-          "Death (if untreated)"
+          "Death (if untreated)",
         ],
         prevention: [
           "Regular STI testing",
           "Safe sex practices",
           "Early treatment",
           "Partner notification",
-          "Regular medical check-ups"
-        ]
-      }
+          "Regular medical check-ups",
+        ],
+      },
     },
     {
       id: "hiv",
@@ -1175,37 +1179,38 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "A virus that attacks the immune system, potentially leading to AIDS.",
       longDescription:
         "HIV is a virus that compromises the immune system, making individuals more susceptible to infections and diseases. Without treatment, it can progress to AIDS. While there's no cure, antiretroviral therapy allows individuals to manage the virus effectively.",
-      imageUrl: "https://www.verywellhealth.com/thmb/KvDUuWf8x7VdR9bLys2spw68_5k=/965x610/filters:no_upscale():max_bytes(150000):strip_icc()/maculopapular-569fdede3df78cafda9eb2dd.png",
+      imageUrl:
+        "https://www.verywellhealth.com/thmb/KvDUuWf8x7VdR9bLys2spw68_5k=/965x610/filters:no_upscale():max_bytes(150000):strip_icc()/maculopapular-569fdede3df78cafda9eb2dd.png",
       symptoms: {
         common: [
           "Flu-like symptoms",
           "Fever and chills",
           "Night sweats",
           "Muscle aches",
-          "Fatigue"
+          "Fatigue",
         ],
         severe: [
           "Opportunistic infections",
           "Rapid weight loss",
           "Pneumonia",
           "Tuberculosis",
-          "Certain cancers"
+          "Certain cancers",
         ],
         longTerm: [
           "AIDS development",
           "Immune system damage",
           "Chronic infections",
           "Neurological problems",
-          "Organ failure"
+          "Organ failure",
         ],
         prevention: [
           "Pre-exposure prophylaxis (PrEP)",
           "Post-exposure prophylaxis (PEP)",
           "Safe sex practices",
           "Regular testing",
-          "Clean needle use"
-        ]
-      }
+          "Clean needle use",
+        ],
+      },
     },
     {
       id: "trichomoniasis",
@@ -1214,37 +1219,38 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       shortDescription: "A common parasitic STI, often without symptoms.",
       longDescription:
         "Trichomoniasis is a sexually transmitted infection caused by the parasite Trichomonas vaginalis. Many infected individuals show no symptoms, but it can cause discomfort and increase the risk of other STIs. It is treatable with prescribed medications.",
-      imageUrl: "https://almostadoctor.co.uk/wp-content/uploads/2017/06/23975AB1-24A8-4A3A-8B70-E56CA4C4DE2D-scaled.jpeg",
+      imageUrl:
+        "https://almostadoctor.co.uk/wp-content/uploads/2017/06/23975AB1-24A8-4A3A-8B70-E56CA4C4DE2D-scaled.jpeg",
       symptoms: {
         common: [
           "Frothy vaginal discharge",
           "Itching or irritation",
           "Pain during urination",
           "Discomfort during sex",
-          "Redness or swelling"
+          "Redness or swelling",
         ],
         severe: [
           "Pelvic inflammatory disease",
           "Increased HIV risk",
           "Pregnancy complications",
           "Urethritis",
-          "Prostatitis"
+          "Prostatitis",
         ],
         longTerm: [
           "Chronic infection",
           "Increased STI susceptibility",
           "Pregnancy complications",
           "Relationship issues",
-          "Recurrent infections"
+          "Recurrent infections",
         ],
         prevention: [
           "Regular STI testing",
           "Safe sex practices",
           "Partner treatment",
           "Abstinence during treatment",
-          "Regular medical care"
-        ]
-      }
+          "Regular medical care",
+        ],
+      },
     },
     {
       id: "hepatitis_b",
@@ -1254,38 +1260,39 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "A viral infection affecting the liver, transmissible through sexual contact.",
       longDescription:
         "Hepatitis B is a liver infection caused by the hepatitis B virus. It can be acute or chronic and is transmitted through bodily fluids, including during sexual activity. Vaccination is the most effective prevention method.",
-      imageUrl: "https://www.hepb.org/blog/wp-content/uploads/2012/08/Unknown.jpeg ",
+      imageUrl:
+        "https://www.hepb.org/blog/wp-content/uploads/2012/08/Unknown.jpeg ",
       symptoms: {
         common: [
           "Fatigue",
           "Abdominal pain",
           "Loss of appetite",
           "Nausea and vomiting",
-          "Joint pain"
+          "Joint pain",
         ],
         severe: [
           "Liver failure",
           "Cirrhosis",
           "Liver cancer",
           "Kidney problems",
-          "Blood disorders"
+          "Blood disorders",
         ],
         longTerm: [
           "Chronic liver disease",
           "Liver cancer risk",
           "Cirrhosis",
           "Liver failure",
-          "Death (if untreated)"
+          "Death (if untreated)",
         ],
         prevention: [
           "Hepatitis B vaccination",
           "Safe sex practices",
           "Avoiding shared needles",
           "Regular testing",
-          "Medical precautions"
-        ]
-      }
-    }
+          "Medical precautions",
+        ],
+      },
+    },
   ],
   recent_developments: [
     {
@@ -1296,7 +1303,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Liechtenstein's same-sex marriage law comes into effect.",
       longDescription:
         "On January 1, 2025, Liechtenstein's law allowing same-sex marriages officially came into effect, marking a significant step forward for LGBTQ+ rights in the country.",
-      imageUrl: "https://www.politico.eu/cdn-cgi/image/width=1160,height=773,quality=80,onerror=redirect,format=auto/wp-content/uploads/2024/05/17/GettyImages-1244635842-scaled.jpg",
+      imageUrl:
+        "https://www.politico.eu/cdn-cgi/image/width=1160,height=773,quality=80,onerror=redirect,format=auto/wp-content/uploads/2024/05/17/GettyImages-1244635842-scaled.jpg",
     },
     {
       id: "thailand_same_sex_marriage",
@@ -1305,7 +1313,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       shortDescription: "Thailand's same-sex marriage law comes into effect.",
       longDescription:
         "On January 23, 2025, Thailand's law allowing same-sex marriages officially came into effect, making it the first Southeast Asian country to legalize same-sex marriage.",
-      imageUrl: "https://c.ndtvimg.com/2025-01/8psnnv3_thailand-same-sex-marriage-actors-apiwat-porsch-apiwatsayree-and-sappanyoo-arm-panatkool_625x300_23_January_25.jpeg",
+      imageUrl:
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-560w,f_auto,q_auto:best/rockcms/2024-09/240924-Bangkok-Pride-Parade-ac-1151p-19fd6a.jpg",
     },
     {
       id: "trump_executive_order_gender_identity",
@@ -1315,7 +1324,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Executive order mandates federal recognition of gender as binary.",
       longDescription:
         "On January 20, 2025, President Donald Trump signed an executive order titled 'Defending Women from Gender Ideology Extremism and Restoring Biological Truth to the Federal Government,' requiring federal departments to recognize gender as a male-female binary only, determined by biological sex assigned at conception.",
-      imageUrl: "https://images.axios.com/CjRHu2VYUKdLTJNwuRo9896-GHU=/0x70:4481x2591/1920x1080/2025/02/05/1738782742981.jpg",
+      imageUrl:
+        "https://images.axios.com/CjRHu2VYUKdLTJNwuRo9896-GHU=/0x70:4481x2591/1920x1080/2025/02/05/1738782742981.jpg",
     },
     {
       id: "hungary_bans_lgbtq_events",
@@ -1324,7 +1334,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       shortDescription: "Hungarian parliament votes to ban LGBTQ+ events.",
       longDescription:
         "On March 18, 2025, the Hungarian parliament voted 136–27 to ban LGBTQ+ events in the country, including the annual Budapest Pride event, as part of a series of anti-LGBTQ+ legislative measures.",
-      imageUrl: "https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2025-04/250414-hungary-lgbtq-se-313p-d53142.jpg",
+      imageUrl:
+        "https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2025-04/250414-hungary-lgbtq-se-313p-d53142.jpg",
     },
     {
       id: "utah_bans_pride_flags",
@@ -1334,7 +1345,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Utah becomes first U.S. state to ban pride flags in government spaces.",
       longDescription:
         "On March 28, 2025, Utah enacted a law banning LGBTQ+ pride flags in government buildings and schools, becoming the first U.S. state to implement such a measure.",
-      imageUrl: "https://lailluminator.com/wp-content/uploads/2025/03/SLC-pride-flag-2-2048x1365-1-1536x1024.jpg",
+      imageUrl:
+        "https://lailluminator.com/wp-content/uploads/2025/03/SLC-pride-flag-2-2048x1365-1-1536x1024.jpg",
     },
     {
       id: "idaho_resolution_same_sex_marriage",
@@ -1345,7 +1357,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Idaho House votes for resolution to reconsider Obergefell v. Hodges.",
       longDescription:
         "On January 27, 2025, the Idaho House of Representatives voted for a resolution calling for the U.S. Supreme Court to reconsider its 2015 decision in Obergefell v. Hodges, which legalized same-sex marriage nationwide.",
-      imageUrl: "https://media.cnn.com/api/v1/images/stellar/prod/150626101106-04-scotus-same-sex-0626.jpg?q=w_3425,h_2284,x_0,y_0,c_fill",
+      imageUrl:
+        "https://media.cnn.com/api/v1/images/stellar/prod/150626101106-04-scotus-same-sex-0626.jpg?q=w_3425,h_2284,x_0,y_0,c_fill",
     },
     {
       id: "uk_supreme_court_gender_definition",
@@ -1355,7 +1368,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "UK Supreme Court defines legal gender based on birth sex.",
       longDescription:
         "On April 16, 2025, the Supreme Court of the United Kingdom ruled that legal gender is based upon sex assigned at birth, excluding transgender women from the legal definition of 'woman' for the purposes of the Equality Act 2010.",
-      imageUrl: "https://media.licdn.com/dms/image/v2/D4D12AQGNu4rd9qokEQ/article-cover_image-shrink_720_1280/B4DZZCVimFHAAI-/0/1744869666363?e=2147483647&v=beta&t=mxTbXkCvx88B3W-Ritvn4OsQ4hLqZJ_DuNEaVaxY5DI",
+      imageUrl:
+        "https://media.licdn.com/dms/image/v2/D4D12AQGNu4rd9qokEQ/article-cover_image-shrink_720_1280/B4DZZCVimFHAAI-/0/1744869666363?e=2147483647&v=beta&t=mxTbXkCvx88B3W-Ritvn4OsQ4hLqZJ_DuNEaVaxY5DI",
     },
     {
       id: "lithuania_same_sex_partnerships",
@@ -1365,7 +1379,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Lithuania's Constitutional Court allows same-sex partnership registration.",
       longDescription:
         "On April 17, 2025, the Constitutional Court of Lithuania granted same-sex couples the right to register their partnerships with the courts until the Seimas adopts a comprehensive law on registered partnerships.",
-      imageUrl: "https://www.aljazeera.com/wp-content/uploads/2022/05/AP21247573855481.jpg?resize=1920%2C1440",
+      imageUrl:
+        "https://www.aljazeera.com/wp-content/uploads/2022/05/AP21247573855481.jpg?resize=1920%2C1440",
     },
     {
       id: "poland_abolishes_lgbt_free_zones",
@@ -1374,7 +1389,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       shortDescription: "Poland's last 'LGBT-free zone' is abolished.",
       longDescription:
         "On April 30, 2025, the last 'LGBT-free zone' in Poland was abolished, marking a significant step toward LGBTQ+ inclusivity in the country.",
-      imageUrl: "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/VNGCO2TVYRIXHBT3GZZLGTNXVM.jpg",
+      imageUrl:
+        "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/VNGCO2TVYRIXHBT3GZZLGTNXVM.jpg",
     },
     {
       id: "italy_recognizes_lesbian_parenthood",
@@ -1384,7 +1400,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Italy's Constitutional Court recognizes automatic parenthood for children of lesbian partnerships.",
       longDescription:
         "On May 22, 2025, Italy's Constitutional Court recognized automatic parenthood on birth certificates for children of lesbian partnerships, eliminating the need for adoption procedures.",
-      imageUrl: "https://media.zenfs.com/en/gcn_uk_889/912cc88bc2ddddd3beac98679c703ab0",
+      imageUrl:
+        "https://media.zenfs.com/en/gcn_uk_889/912cc88bc2ddddd3beac98679c703ab0",
     },
   ],
 };

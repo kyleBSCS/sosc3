@@ -82,7 +82,7 @@ const nextConfig: NextConfig = {
       {
         protocol: "https",
         hostname: "www.hepb.org",
-      },  
+      },
       {
         protocol: "https",
         hostname: "images.theconversation.com",
@@ -154,6 +154,42 @@ const nextConfig: NextConfig = {
       {
         protocol: "https",
         hostname: "hips.hearstapps.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.politico.eu",
+      },
+      {
+        protocol: "https",
+        hostname: "c.ndtvimg.com",
+      },
+      {
+        protocol: "https",
+        hostname: "images.axios.com",
+      },
+      {
+        protocol: "https",
+        hostname: "cloudfront-us-east-2.images.arcpublishing.com",
+      },
+      {
+        protocol: "https",
+        hostname: "media.zenfs.com",
+      },
+      {
+        protocol: "https",
+        hostname: "lailluminator.com",
+      },
+      {
+        protocol: "https",
+        hostname: "media.cnn.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.aljazeera.com",
+      },
+      {
+        protocol: "https",
+        hostname: "media-cldnry.s-nbcnews.com",
       },
     ],
   },
