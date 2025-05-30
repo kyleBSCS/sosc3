@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { MuseumItem } from "../types";
 import GlassCard from "./GlassCard";
@@ -7,6 +7,7 @@ import Image from "next/image";
 import ProminentFigureSidebar from "./ProminentFigureSidebar";
 import STDSymptomsSidebar from "./STDSymptomsSidebar";
 import GenderFluiditySidebar from "./GenderFluiditySidebar";
+import ReferencesModal from "./ReferencesModal";
 
 interface DetailModalProps {
   item: MuseumItem | null;
@@ -14,7 +15,12 @@ interface DetailModalProps {
 }
 
 const DetailModal: React.FC<DetailModalProps> = ({ item, onClose }) => {
-  if (!item) return null;
+  const [isReferencesModalOpen, setIsReferencesModalOpen] = useState(false);
+
+  const backdropVariants = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1 },
+  };
 
   const modalVariants = {
     hidden: { opacity: 0, scale: 0.9 },
@@ -22,15 +28,21 @@ const DetailModal: React.FC<DetailModalProps> = ({ item, onClose }) => {
     exit: { opacity: 0, scale: 0.9 },
   };
 
+  if (!item) return null;
+
+  const hasReferences = item.referenceUrl && item.referenceUrl.length > 0;
+
   return (
-    <AnimatePresence>
-      {item && (
+    <>
+      <AnimatePresence>
         <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm"
-          onClick={onClose}
+          key="backdrop"
+          className="fixed inset-0 bg-black/70 flex items-center justify-center p-4 z-40"
+          variants={backdropVariants}
+          initial="hidden"
+          animate="visible"
+          exit="exit"
+          onClick={onClose} // Close on backdrop click
         >
           <motion.div
             key="modal"
@@ -39,13 +51,13 @@ const DetailModal: React.FC<DetailModalProps> = ({ item, onClose }) => {
             animate="visible"
             exit="exit"
             className="w-full max-w-6xl max-h-[90vh] relative"
-            onClick={(e) => e.stopPropagation()}
+            onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside modal
           >
             <div
               className={
                 item.prominentFigure || item.category === "STDs" || item.category === "gender_fluidity"
                   ? "flex flex-col md:flex-row h-full max-h-[90vh] gap-0 md:gap-4"
-                  : "h-full max-h-[90vh] overflow-y-auto"
+                  : "h-full max-h-[90vh] overflow-y-auto "
               }
             >
               {/* Main Content - Glass Card */}
@@ -57,6 +69,13 @@ const DetailModal: React.FC<DetailModalProps> = ({ item, onClose }) => {
                 }`}
               >
                 <div className="relative w-full flex-grow min-h-[800px] rounded-xl overflow-hidden flex-shrink-0">
+                <div
+                  className={`relative w-full flex-grow rounded-xl overflow-hidden flex-shrink-0 ${
+                    item.prominentFigure
+                      ? "min-h-[200px]"
+                      : "min-h-[350px] md:min-h-[400px]"
+                  }`}
+                >
                   <Image
                     src={item.imageUrl}
                     alt={item.title}
@@ -78,9 +97,20 @@ const DetailModal: React.FC<DetailModalProps> = ({ item, onClose }) => {
                   <h2 className="text-2xl md:text-3xl font-bold text-white mb-3">
                     {item.title}
                   </h2>
-                  <p className="text-base text-gray-200 whitespace-pre-line leading-relaxed">
+                  <p className="text-base text-gray-200 whitespace-pre-line leading-relaxed mb-4">
                     {item.longDescription}
                   </p>
+                  {/* References Button */}
+                  {hasReferences && (
+                    <div className="flex justify-end">
+                      <button
+                        onClick={() => setIsReferencesModalOpen(true)}
+                        className="glassmorphism px-4 py-2 rounded-lg text-white hover:bg-white/20 transition-colors duration-300 text-sm font-medium border border-white/20"
+                      >
+                        View References ({item.referenceUrl!.length})
+                      </button>
+                    </div>
+                  )}
                 </div>
               </GlassCard>
 
@@ -101,8 +131,16 @@ const DetailModal: React.FC<DetailModalProps> = ({ item, onClose }) => {
             </div>
           </motion.div>
         </motion.div>
-      )}
-    </AnimatePresence>
+      </AnimatePresence>
+
+      {/* References Modal */}
+      <ReferencesModal
+        isOpen={isReferencesModalOpen}
+        onClose={() => setIsReferencesModalOpen(false)}
+        references={item?.referenceUrl || []}
+        title={item?.title || ""}
+      />
+    </>
   );
 };
 

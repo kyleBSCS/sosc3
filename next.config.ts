@@ -193,11 +193,116 @@ const nextConfig: NextConfig = {
       {
         protocol:"https",
         hostname:"encrypted-tbn2.gstatic.com",
-      }
-      
-      
+      },
+      {
+        protocol:"https",
+        hostname: "images.theconversation.com",
+      },
+      {
+        protocol: "https",
+        hostname: "m.media-amazon.com",
+      },
+      {
+        protocol: "https",
+        hostname: "media-cldnry.s-nbcnews.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.blackpast.org",
+      },
+      {
+        protocol: "https",
+        hostname: "obamawhitehouse.archives.gov",
+      },
+      {
+        protocol: "https",
+        hostname: "blogs.publishersweekly.com",
+      },
+      {
+        protocol: "https",
+        hostname: "static01.nyt.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.nypl.org",
+      },
+      {
+        protocol: "https",
+        hostname: "i.ytimg.com",
+      },
+      {
+        protocol: "https",
+        hostname: "images.squarespace-cdn.com",
+      },
+      {
+        protocol: "https",
+        hostname: "humanrightsconnected.org",
+      },
+      {
+        protocol: "https",
+        hostname: "daily.jstor.org",
+      },
+      {
+        protocol: "https",
+        hostname: "static1.squarespace.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.penguin.co.uk",
+      },
+      {
+        protocol: "https",
+        hostname: "fractals.blackfeministfuture.org",
+      },
+      {
+        protocol: "https",
+        hostname: "www.penguin.co.uk",
+      },
+      {
+        protocol: "https",
+        hostname: "cdn.britannica.com",
+      },
+      {
+        protocol: "https",
+        hostname: "hips.hearstapps.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.politico.eu",
+      },
+      {
+        protocol: "https",
+        hostname: "c.ndtvimg.com",
+      },
+      {
+        protocol: "https",
+        hostname: "images.axios.com",
+      },
+      {
+        protocol: "https",
+        hostname: "cloudfront-us-east-2.images.arcpublishing.com",
+      },
+      {
+        protocol: "https",
+        hostname: "media.zenfs.com",
+      },
+      {
+        protocol: "https",
+        hostname: "lailluminator.com",
+      },
+      {
+        protocol: "https",
+        hostname: "media.cnn.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.aljazeera.com",
+      },
+      {
+        protocol: "https",
+        hostname: "media-cldnry.s-nbcnews.com",
+      },
     ],
-
   },
 };
 

@@ -98,6 +98,10 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         ],
         imageUrl: "/public-figs/langston-hughes.webp",
       },
+      referenceUrl: [
+        "https://www.biography.com/writer/langston-hughes",
+        "https://www.poetryfoundation.org/poets/langston-hughes",
+      ],
     },
     {
       id: "james_baldwin",
@@ -155,6 +159,12 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         imageUrl:
           "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/jamesbaldwin.jpg",
       },
+      referenceUrl: [
+        "https://www.biography.com/writer/james-baldwin",
+        "https://www.poetryfoundation.org/poets/james-baldwin",
+        "https://www.pbs.org/wnet/americanmasters/james-baldwin-bibliography/2651/",
+        "https://www.pbs.org/wnet/americanmasters/james-baldwin-about-the-author/59/",
+      ],
     },
     {
       id: "barbara_jordan",
@@ -199,6 +209,10 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         imageUrl:
           "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/barbarajordan.png",
       },
+      referenceUrl: [
+        "https://nmaahc.si.edu/barbara-jordan",
+        "https://www.womenshistory.org/education-resources/biographies/barbara-jordan",
+      ],
     },
     {
       id: "hulleah_tsinhnahjinnie",
@@ -243,6 +257,10 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         imageUrl:
           "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/hulleahtisnhanahjinnie.jpg",
       },
+      referenceUrl: [
+        "https://www.hulleah.com/9to5/HT%20Publications.htm",
+        "https://nas.ucdavis.edu/people/hulleah-tsinhnahjinnie-seminolemuscogeedine",
+      ],
     },
     {
       id: "audre_lorde",
@@ -263,34 +281,38 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
           {
             title: "Sister Outsider: Essays and Speeches (1984)",
             imageUrl:
-              "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1553282706i/32951.jpg",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeCvJvuNxGWbCFZeK_SfwLnNytHrFulonAzA&s",
           },
           {
             title: "Zami: A New Spelling of My Name (1982)",
             imageUrl:
-              "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348482332i/32960.jpg",
+              "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388344915i/395220.jpg",
           },
           {
             title: "The Cancer Journals (1980)",
             imageUrl:
-              "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1347309687i/32953.jpg",
+              "https://www.penguin.co.uk/_next/image?url=https%3A%2F%2Fcdn.penguin.co.uk%2Fdam-assets%2Fbooks%2F9780241453506%2F9780241453506-jacket-large.jpg&w=819&q=100",
           },
         ],
         events: [
           {
             title: "Co-founder of Kitchen Table: Women of Color Press (1980)",
             imageUrl:
-              "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
+              "https://fractals.blackfeministfuture.org/wp-content/uploads/2021/10/BarbaraAudreCherrieHattiec1980.jpeg",
           },
           {
             title: "Activism in feminist and civil rights movements",
             imageUrl:
-              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+              "https://cdn.britannica.com/62/206062-050-14316A0D/Rally-for-Womens-Lives-April-9-1999-Washignton-DC.jpg",
           },
         ],
         imageUrl:
           "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/audrelorde.jpg",
       },
+      referenceUrl: [
+        "https://www.poetryfoundation.org/poets/audre-lorde",
+        "https://en.wikipedia.org/wiki/Audre_Lorde",
+      ],
     },
     {
       id: "ceyenne_doroshow",
@@ -310,29 +332,35 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
           {
             title: "Cooking in Heels (Cookbook and Memoir)",
             imageUrl:
-              "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400&h=300&fit=crop",
+              "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1347341035i/16002606.jpg",
           },
           {
             title: "Founding G.L.I.T.S. Inc.",
             imageUrl:
-              "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=400&h=300&fit=crop",
+              "https://static1.squarespace.com/static/60776efe4e12000dd2ecf219/t/60884c8a04b7e97ee116b332/1619545236487/IMG_0193.PNG?format=1500w",
           },
         ],
         events: [
           {
             title: "Advocacy for transgender rights and sex workers' rights",
             imageUrl:
-              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+              "https://images.squarespace-cdn.com/content/v1/60776efe4e12000dd2ecf219/141bcf48-faf1-4722-a5d2-a67e5ff564f1/sidewalkkilla_brooklyn_liberation_march_2020-7041.JPG",
           },
           {
             title: "Establishing housing initiatives for Black trans people",
             imageUrl:
-              "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=400&h=300&fit=crop",
+              "https://images.squarespace-cdn.com/content/v1/60776efe4e12000dd2ecf219/261d34fe-5673-42bb-af8e-1dc29f68c0d2/IMG_7734.jpg",
           },
         ],
         imageUrl:
           "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/ceyenne-doroshow.jpg",
       },
+      referenceUrl: [
+        "https://en.wikipedia.org/wiki/Ceyenne_Doroshow",
+        "https://www.instagram.com/doroshow/?hl=en",
+        "https://www.glitsinc.org/executivedirector",
+        "https://www.them.us/story/ceyenne-doroshow-transgender-society-glits-activist-profile-million-fundraiser",
+      ],
     },
     {
       id: "erestine_eckstein",
@@ -351,25 +379,30 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
           {
             title: "Leadership in Daughters of Bilitis, New York Chapter",
             imageUrl:
-              "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuWCK_mRE5Orf6pI9bdAi8VO7SqYpAEpMMeQ&s",
           },
         ],
         events: [
           {
             title: "Participation in early LGBTQ+ rights pickets (mid-1960s)",
             imageUrl:
-              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROYoBZ7F1mQenlTL31mysLkMHYgL4OTpMtUA&s",
           },
           {
             title:
               "Featured on the cover of 'The Ladder' (June 1966), a prominent lesbian publication",
             imageUrl:
-              "https://images.unsplash.com/photo-1580130379629-170229f87908?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbefFeT0ky4JmLkxDEiaZUxPYUmbV6YHbNqw&s",
           },
         ],
         imageUrl:
           "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/erestein-eckstein.jpg",
       },
+      referenceUrl: [
+        "https://en.wikipedia.org/wiki/Erestine_Eckstein",
+        "https://makinggayhistory.org/podcast/ernestine-eckstein/",
+        "https://epgn.com/2022/02/09/black-history-month-ernestine-eckstein/",
+      ],
     },
     {
       id: "barbara_gittings",
@@ -388,7 +421,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
           {
             title: "Editor of 'The Ladder' (1963-1966)",
             imageUrl:
-              "https://images.unsplash.com/photo-1580130379629-170229f87908?w=400&h=300&fit=crop",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/The_Ladder%2C_October_1957.jpg/250px-The_Ladder%2C_October_1957.jpg",
           },
         ],
         events: [
@@ -396,23 +429,28 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
             title:
               "Organized 'Annual Reminder' pickets at Independence Hall (1965-1969)",
             imageUrl:
-              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAqMRrgXtLFkuJgSfEQMB1sOIYEKwD7WLuLQ&s",
           },
           {
             title:
               "Campaigned to remove homosexuality from APA's list of mental illnesses (successfully in 1973)",
             imageUrl:
-              "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=400&h=300&fit=crop",
+              "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/rockcms/2024-04/240405-chicago-gay-crusader-ch-1420-a3b9ff.jpg",
           },
           {
             title: "Headed the American Library Association's Gay Task Force",
             imageUrl:
-              "https://images.unsplash.com/photo-1549675584-b942d1000650?w=400&h=300&fit=crop",
+              "https://static01.nyt.com/images/2007/03/15/us/15gittings_lg.jpg?quality=75&auto=webp&disable=upscale",
           },
         ],
         imageUrl:
           "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/barbara-gittings.jpg",
       },
+      referenceUrl: [
+        "https://en.wikipedia.org/wiki/Barbara_Gittings",
+        "https://ppimhs.org/newspost/barbara-gittings-mother-of-the-lgbt-civil-rights-movement/",
+        "https://history.delaware.gov/lgbtq/barbara-gittings/",
+      ],
     },
     {
       id: "major_griffin_gracy",
@@ -434,25 +472,30 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
             title:
               "Founding The House of GG (Griffin-Gracy Educational Retreat & Historical Center)",
             imageUrl:
-              "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=400&h=300&fit=crop",
+              "https://humanrightsconnected.org/wp-content/uploads/2020/06/org_logo_HouseofGG-1.png",
           },
         ],
         events: [
           {
             title: "Participant in the Stonewall Riots (1969)",
             imageUrl:
-              "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=400&h=300&fit=crop",
+              "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_3840,h_1920,g_auto/dpr_auto/f_auto/q_auto:eco/v1/stonewall-gettyimages-661695126?_a=BAVAZGDX0",
           },
           {
             title:
               "Lifelong advocacy for transgender women of color, incarcerated individuals, and sex workers",
             imageUrl:
-              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2KwUiTxl9GegGbRQN2piWuc1sO4sRpb5Cxg&s",
           },
         ],
         imageUrl:
           "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/miss-major-griffin-gracy.jpg",
       },
+      referenceUrl: [
+        "https://en.wikipedia.org/wiki/Miss_Major_Griffin-Gracy",
+        "https://missmajor.net/",
+        "https://wams.nyhistory.org/end-of-the-twentieth-century/the-information-age/miss-major-griffin-gracy/",
+      ],
     },
     {
       id: "marsha_p_johnson",
@@ -474,29 +517,33 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
             title:
               "Co-founder of Street Transvestite Action Revolutionaries (STAR)",
             imageUrl:
-              "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
+              "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1497005425i/34659225.jpg",
           },
           {
             title: "Performances with Hot Peaches drag troupe",
             imageUrl:
-              "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT76DEP2JAXQc06cq8R-OLFHCr6Xh-qxd7aBQ&s",
           },
         ],
         events: [
           {
             title: "Key figure in the Stonewall Uprising (1969)",
             imageUrl:
-              "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=400&h=300&fit=crop",
+              "https://images.squarespace-cdn.com/content/v1/631250318225492f20231654/9df601d7-9033-45b7-91a2-5278ac07b903/marsha-p-johnson-stonewall-riots.jpg",
           },
           {
             title: "Activism with Gay Liberation Front and ACT UP",
             imageUrl:
-              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+              "https://daily.jstor.org/wp-content/uploads/2020/06/from_gay_liberation_to_marriage_equality_1050x700.jpg",
           },
         ],
         imageUrl:
           "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/marsha-p-johnson.jpg",
       },
+      referenceUrl: [
+        "https://en.wikipedia.org/wiki/Marsha_P._Johnson",
+        "https://www.biography.com/activist/marsha-p-johnson",
+      ],
     },
     {
       id: "ifti_nasim",
@@ -516,24 +563,28 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
           {
             title: "Narman (Poetry Collection, 1994)",
             imageUrl:
-              "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400&h=300&fit=crop",
+              "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1696562973i/166642219.jpg",
           },
         ],
         events: [
           {
             title: "Co-founder of Sangat/Chicago",
             imageUrl:
-              "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB29DYmx1hz4R7HjU8UhbO0BgDwfvxjzmqMQ&s",
           },
           {
             title: "Inducted into Chicago Gay and Lesbian Hall of Fame (1996)",
-            imageUrl:
-              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+            imageUrl: "https://i.ytimg.com/vi/ntsu3MQVJ4g/hqdefault.jpg",
           },
         ],
         imageUrl:
           "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/ifti-nasim.jpg",
       },
+      referenceUrl: [
+        "https://en.wikipedia.org/wiki/Ifti_Nasim",
+        "https://chicagolgbthalloffame.org/nasim-ifti/",
+        "https://www.makingqueerhistory.com/articles/2021/8/28/ifti-nasim",
+      ],
     },
     {
       id: "simon_nkoli",
@@ -554,30 +605,35 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
             title:
               "Founding Gay and Lesbian Organisation of the Witwatersrand (GLOW)",
             imageUrl:
-              "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1_2dsQALKnWNjDMVJIqMxN84LgXWAkzbHvg&s",
           },
         ],
         events: [
           {
             title: "Delmas Treason Trial defendant (1985-1989)",
             imageUrl:
-              "https://images.unsplash.com/photo-1541845019790-852108165250?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6CZs0cbuxcNyGJGkrZNfAFDDrZh_Nzkjtow&s",
           },
           {
             title:
               "Campaigning for the inclusion of non-discrimination based on sexual orientation in the South African Constitution",
             imageUrl:
-              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_JUEe4HKXEYWkOH7NZeeyfmIIq-damZTnhw&s",
           },
           {
             title: "One of the first openly HIV-positive African men",
             imageUrl:
-              "https://images.unsplash.com/photo-1605065030960-7c31f06400aa?w=400&h=300&fit=crop",
+              "https://images.theconversation.com/files/496715/original/file-20221122-21-6degfb.jpg?ixlib=rb-4.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
           },
         ],
         imageUrl:
           "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/simon-nkoli.jpg",
       },
+      referenceUrl: [
+        "https://en.wikipedia.org/wiki/Simon_Nkoli",
+        "https://www.sahistory.org.za/people/simon-nkoli",
+        "https://theconversation.com/simon-nkolis-fight-for-queer-rights-in-south-africa-is-finally-being-celebrated-24-years-after-he-died-194741",
+      ],
     },
     {
       id: "sylvia_rivera",
@@ -598,31 +654,37 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
             title:
               "Co-founder of Street Transvestite Action Revolutionaries (STAR)",
             imageUrl:
-              "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/STAR_Rally.jpg/1200px-STAR_Rally.jpg",
           },
         ],
         events: [
           {
             title: "Key figure in the Stonewall Uprising (1969)",
             imageUrl:
-              "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=400&h=300&fit=crop",
+              "https://static01.nyt.com/images/2019/06/07/nyregion/07stonewalljp1-print/06stonewall31-superJumbo.jpg",
           },
           {
             title:
               "Advocacy for transgender rights and inclusion within the broader LGBTQ+ movement",
             imageUrl:
-              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ151zHr4Dg_Lz7bM7TtNIGexrKr2zN-MVW6w&s",
           },
           {
             title:
               "'Y'all Better Quiet Down' speech (1973 Christopher Street Liberation Day Rally)",
             imageUrl:
-              "https://images.unsplash.com/photo-1605065030960-7c31f06400aa?w=400&h=300&fit=crop",
+              "https://www.nypl.org/sites-drupal/default/files/styles/max_scale_640x640/public/field_ers_item_record_image/2022-06/sylvia.jpg?itok=5iUbCTiD",
           },
         ],
         imageUrl:
           "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/sylvia-rivera.jpg",
       },
+      referenceUrl: [
+        "https://en.wikipedia.org/wiki/Sylvia_Rivera",
+        "https://www.womenshistory.org/education-resources/biographies/sylvia-rivera",
+        "https://www.britannica.com/biography/Sylvia-Rivera",
+        "https://www.biography.com/activist/sylvia-rivera",
+      ],
     },
     {
       id: "hannah_mouseback",
@@ -643,7 +705,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
             title:
               "Homeland: My Father Dreams of Palestine (as Hannah Moushabeck)",
             imageUrl:
-              "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400&h=300&fit=crop",
+              "https://blogs.publishersweekly.com/blogs/shelftalker/wp-content/uploads/2023/02/9781797202051_b9a05.jpg",
           },
         ],
         events: [
@@ -651,12 +713,16 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
             title:
               "Public speaking on literature, Palestinian heritage, and queer identity (as Hannah Moushabeck)",
             imageUrl:
-              "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5qLNoB0snzqupODAkSrVXLxhhB8xIyQSM7g&s",
           },
         ],
         imageUrl:
           "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/hannahmoucheback.jpg",
       },
+      referenceUrl: [
+        "https://www.hannahmoushabeck.com/",
+        "https://www.publishersweekly.com/9781797202051",
+      ],
     },
     {
       id: "bayard_rustin",
@@ -678,30 +744,35 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
             title:
               "Organizer of the March on Washington for Jobs and Freedom (1963)",
             imageUrl:
-              "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=400&h=300&fit=crop",
+              "https://www.blackpast.org/wp-content/uploads/2024/08/Bayard_Rustin_and_Cleveland_Robinson_Photo_by_Orlando_Fernandez.jpg",
           },
         ],
         events: [
           {
             title: "Advisor to Martin Luther King Jr. on nonviolent tactics",
             imageUrl:
-              "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx_kSIP6AmaI24FR2yVn0bNP30HD4O03b0gA&s",
           },
           {
             title: "Advocacy for gay rights, particularly in his later years",
             imageUrl:
-              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+              "https://images.theconversation.com/files/505703/original/file-20230121-31574-irg6sz.jpg?ixlib=rb-4.1.0&rect=95%2C106%2C3647%2C5044&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
           },
           {
             title:
               "Posthumously awarded the Presidential Medal of Freedom (2013)",
             imageUrl:
-              "https://images.unsplash.com/photo-1541845019790-852108165250?w=400&h=300&fit=crop",
+              "https://obamawhitehouse.archives.gov/sites/default/files/image/image_file/p112013ps-0298.jpg",
           },
         ],
         imageUrl:
           "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/bayard-rustin.jpg",
       },
+      referenceUrl: [
+        "https://en.wikipedia.org/wiki/Bayard_Rustin",
+        "https://www.biography.com/activist/bayard-rustin",
+        "https://www.nytimes.com/2020/02/05/us/bayard-rustin-pardon.html",
+      ],
     },
     {
       id: "jackie_shane",
@@ -720,30 +791,34 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
           {
             title: "Any Other Way (Live album, reissued 2017)",
             imageUrl:
-              "https://images-na.ssl-images-amazon.com/images/I/81yV-w3nZpL._SL1500_.jpg",
+              "https://m.media-amazon.com/images/M/MV5BMTg0OGUwNWItOWExMy00YzRmLTllYjktNTUxNmFhYzkxNTBlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
           },
           {
             title: "Stand Up Straight and Tall (Single)",
             imageUrl:
-              "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-Lr5BdIUtjoqDdRvztb9pQBlTvCi7MyHw4A&s",
           },
         ],
         events: [
           {
             title: "Prominent R&B performance career in Toronto (1960s)",
             imageUrl:
-              "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=400&h=300&fit=crop",
+              "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/rockcms/2024-09/240920-nashville-jackie-shane-ch-1031-0c75e3.jpg",
           },
           {
             title:
               "Grammy Award nomination for Best Historical Album for 'Any Other Way' (2019)",
             imageUrl:
-              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGSIklsmhHvzWqkvElOwkCnujRAsWU4MWE-A&s",
           },
         ],
         imageUrl:
           "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/jackie-shane.jpg",
       },
+      referenceUrl: [
+        "https://en.wikipedia.org/wiki/Jackie_Shane",
+        "https://www.nytimes.com/2019/02/22/obituaries/jackie-shane-dead.html",
+      ],
     },
   ],
   queer_history_moments: [
@@ -754,20 +829,58 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       shortDescription:
         "A series of spontaneous demonstrations by members of the LGBTQ+ community in response to a police raid.",
       longDescription:
-        "The Stonewall Riots, which began in the early hours of June 28, 1969, at the Stonewall Inn in New York City, are widely considered the single most important event leading to the gay liberation movement and the modern fight for LGBTQ+ rights in the United States. Patrons of the bar, along with other community members, resisted a police raid, sparking six days of protests and clashes with law enforcement. Stonewall marked a shift from a more passive rights movement to radical, direct action.",
-      imageUrl:
-        "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=800&h=600&fit=crop",
+        "The Stonewall Riots, erupting in the early morning hours of June 28, 1969, at the mafia-owned Stonewall Inn in New York City's Greenwich Village, are widely considered the single most important catalyst for the gay liberation movement and the modern fight for LGBTQ+ rights in the United States. At the time, the Stonewall Inn was one of the few establishments that welcomed openly gay individuals, despite operating without a liquor license and under constant threat of police raids. When police raided the bar that night, patrons—a diverse crowd including drag queens, transgender individuals, gay men, lesbians, and people of color, with figures like Marsha P. Johnson and Sylvia Rivera becoming prominent—along with other community members, spontaneously resisted arrest and police harassment. This ignited six days of protests, street demonstrations, and violent clashes with law enforcement. Stonewall marked a profound shift from the more assimilationist 'homophile' movement to a radical, confrontational, and direct-action approach, leading to the formation of numerous LGBTQ+ rights organizations, such as the Gay Liberation Front and the Gay Activists Alliance, and fundamentally changing the landscape of queer activism.",
+      imageUrl: "/events/stonewall_.png",
+      referenceUrl: [
+        "https://en.wikipedia.org/wiki/Stonewall_riots",
+        "https://www.history.com/topics/gay-rights/the-stonewall-riots",
+        "https://www.britannica.com/event/Stonewall-riots",
+      ],
     },
     {
       id: "act_up_formation",
       title: "ACT UP Formation",
-      date: "1987",
+      date: "March 1987",
       shortDescription:
         "Formation of AIDS Coalition to Unleash Power (ACT UP), a direct-action advocacy group.",
       longDescription:
-        "ACT UP was formed in March 1987 in New York City to combat the AIDS pandemic through direct action, medical research, treatment advocacy, and policy changes. Frustrated by government inaction and societal indifference, ACT UP used confrontational protests and civil disobedience to raise awareness, demand research funding, and accelerate the availability of life-saving treatments. Their activism significantly impacted public health policy and the fight against HIV/AIDS.",
-      imageUrl:
-        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=600&fit=crop",
+        "The AIDS Coalition to Unleash Power (ACT UP) was formed in March 1987 in New York City, following a galvanizing speech by writer and activist Larry Kramer. It emerged as a pivotal direct-action advocacy group dedicated to combating the devastating AIDS pandemic through aggressive public demonstrations, medical research, treatment advocacy, and profound policy changes. Deeply frustrated by governmental inaction, societal indifference, widespread stigma, and the slow pace of drug development, ACT UP utilized confrontational civil disobedience tactics. Their iconic 'Silence = Death' campaign, 'die-ins' at public spaces, and targeted protests at institutions like the FDA, NIH, and Wall Street, dramatically raised public awareness, demanded urgent research funding, and successfully pressured for accelerated availability of life-saving treatments. ACT UP's activism, characterized by sophisticated media strategies and well-researched policy demands, significantly impacted public health policy, transformed the drug approval process, and forever changed the relationship between patients and the medical establishment in the fight against HIV/AIDS.",
+      imageUrl: "/events/act.jpg",
+      referenceUrl: [
+        "https://en.wikipedia.org/wiki/ACT_UP",
+        "https://actupny.org/",
+        "https://www.poz.com/basics/hiv-basics/act-up",
+      ],
+    },
+    {
+      id: "harvey_milk_election",
+      title: "Harvey Milk Elected to San Francisco Board of Supervisors",
+      date: "November 8, 1977",
+      shortDescription:
+        "Harvey Milk becomes one of the first openly gay elected officials in the United States.",
+      longDescription:
+        "Harvey Milk's election to the San Francisco Board of Supervisors on November 8, 1977, was a groundbreaking moment for LGBTQ+ political power and visibility, making him one of the first openly gay men elected to a significant public office in the United States. Operating from his Castro Camera shop, which became an informal community center, Milk built a diverse 'Rainbow Coalition' of supporters, championing not only gay rights but also the concerns of ethnic minorities, seniors, and labor unions. His platform emphasized neighborhood empowerment, affordable housing, and public services, resonating broadly. Milk's charismatic leadership and his famous 'Hope Speech,' urging LGBTQ+ individuals to come out and live authentically to combat prejudice, inspired a generation. Tragically, his promising tenure was cut short when he, along with Mayor George Moscone, was assassinated by former Supervisor Dan White on November 27, 1978, just eleven months after taking office. Despite his brief time in office, Milk's legacy as a pioneering activist, a symbol of hope, and a martyr for the cause endures, continuing to inspire movements for equality and political engagement worldwide.",
+      imageUrl: "/events/harvey.jpg",
+      referenceUrl: [
+        "https://en.wikipedia.org/wiki/Harvey_Milk",
+        "https://www.history.com/topics/gay-rights/harvey-milk",
+        "https://www.biography.com/political-figure/harvey-milk",
+      ],
+    },
+    {
+      id: "dadt_repeal",
+      title: "Repeal of 'Don't Ask, Don't Tell'",
+      date: "September 20, 2011",
+      shortDescription:
+        "U.S. policy allowing gay, lesbian, and bisexual individuals to serve openly in the military was certified as repealed.",
+      longDescription:
+        "The certification of the repeal of 'Don't Ask, Don't Tell' (DADT) on September 20, 2011, marked a historic victory for LGBTQ+ rights, allowing gay, lesbian, and bisexual individuals to serve openly in the United States military for the first time. Enacted in 1993 under President Bill Clinton, DADT was a compromise policy that prohibited military personnel from discriminating against or harassing closeted homosexual or bisexual service members, but it barred openly gay, lesbian, or bisexual persons from military service. This policy forced an estimated 65,000 service members to conceal their identity, live in constant fear of exposure, and led to the discharge of over 13,000 individuals solely based on their sexual orientation. The repeal, signed into law by President Barack Obama on December 22, 2010, followed years of persistent activism, legal challenges by groups like the Servicemembers Legal Defense Network (SLDN), and courageous testimonies from discharged veterans. Its implementation nearly nine months later finally ended a discriminatory practice, affirming that the dedication and patriotism of service members should not be contingent on their sexual orientation, and strengthening the U.S. armed forces by allowing qualified individuals to serve with honesty and integrity.",
+      imageUrl: "/events/repeal.webp",
+      referenceUrl: [
+        "https://en.wikipedia.org/wiki/Don%27t_ask,_don%27t_tell",
+        "https://www.history.com/topics/us-government/dont-ask-dont-tell",
+        "https://www.cfr.org/backgrounder/us-military-and-lgbt-policy",
+      ],
     },
     {
       id: "obergefell_v_hodges",
@@ -776,9 +889,13 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       shortDescription:
         "U.S. Supreme Court ruling legalizing same-sex marriage nationwide.",
       longDescription:
-        "In a landmark decision, the U.S. Supreme Court ruled in Obergefell v. Hodges that the fundamental right to marry is guaranteed to same-sex couples by both the Due Process Clause and the Equal Protection Clause of the Fourteenth Amendment. This ruling legalized same-sex marriage in all fifty states, marking a pivotal victory for LGBTQ+ rights and equality in the United States after decades of activism and legal challenges.",
-      imageUrl:
-        "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=800&h=600&fit=crop",
+        "In the landmark 5-4 decision of Obergefell v. Hodges on June 26, 2015, the U.S. Supreme Court ruled that the fundamental right to marry is guaranteed to same-sex couples by both the Due Process Clause and the Equal Protection Clause of the Fourteenth Amendment to the United States Constitution. This historic ruling, with the majority opinion penned by Justice Anthony Kennedy, legalized same-sex marriage in all fifty states, effectively overturning previous state bans and resolving conflicting lower court decisions. The case was brought by several groups of same-sex couples, including lead plaintiff Jim Obergefell who sought to be recognized as the surviving spouse on his late husband John Arthur's Ohio death certificate. The decision marked a pivotal victory for the LGBTQ+ rights movement, culminating decades of relentless activism, legal challenges, public education campaigns, and evolving public opinion, starting from early state-level victories like Massachusetts in 2004. Beyond the legal right to marry, the ruling represented a significant affirmation of dignity and equality for LGBTQ+ individuals and families across the nation, though advocates noted that the fight for comprehensive non-discrimination protections and full lived equality continues.",
+      imageUrl: "/events/marriage.jpg",
+      referenceUrl: [
+        "https://en.wikipedia.org/wiki/Obergefell_v._Hodges",
+        "https://www.oyez.org/cases/2014/14-556",
+        "https://www.history.com/topics/gay-rights/obergefell-v-hodges",
+      ],
     },
   ],
   gender_fluidity: [
@@ -1046,37 +1163,38 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       shortDescription: "A common bacterial STI that often shows no symptoms.",
       longDescription:
         "Chlamydia is a prevalent sexually transmitted infection caused by the bacterium Chlamydia trachomatis. It's often asymptomatic, making regular screenings crucial. If untreated, it can lead to serious reproductive complications. Fortunately, it is easily curable with antibiotics.",
-      imageUrl: "https://cdn.std.uw.edu/doc/568-1/adult-chlamydial-inclusion-conjunctivitis-.jpg",
+      imageUrl:
+        "https://cdn.std.uw.edu/doc/568-1/adult-chlamydial-inclusion-conjunctivitis-.jpg",
       symptoms: {
         common: [
           "Abnormal vaginal discharge",
           "Burning sensation during urination",
           "Pain during sexual intercourse",
           "Bleeding between periods",
-          "Testicular pain or swelling"
+          "Testicular pain or swelling",
         ],
         severe: [
           "Pelvic inflammatory disease",
           "Chronic pelvic pain",
           "Epididymitis in men",
           "Proctitis (rectal inflammation)",
-          "Conjunctivitis"
+          "Conjunctivitis",
         ],
         longTerm: [
           "Infertility in women",
           "Increased risk of ectopic pregnancy",
           "Chronic pelvic pain",
           "Reactive arthritis",
-          "Increased risk of HIV transmission"
+          "Increased risk of HIV transmission",
         ],
         prevention: [
           "Regular STI testing",
           "Consistent condom use",
           "Limiting sexual partners",
           "Open communication with partners",
-          "Annual screening for sexually active individuals"
-        ]
-      }
+          "Annual screening for sexually active individuals",
+        ],
+      },
     },
     {
       id: "gonorrhea",
@@ -1093,30 +1211,30 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
           "Painful urination",
           "Increased vaginal discharge",
           "Bleeding between periods",
-          "Swollen testicles"
+          "Swollen testicles",
         ],
         severe: [
           "Disseminated gonococcal infection",
           "Meningitis",
           "Endocarditis",
           "Septic arthritis",
-          "Pelvic inflammatory disease"
+          "Pelvic inflammatory disease",
         ],
         longTerm: [
           "Infertility",
           "Chronic pelvic pain",
           "Increased risk of HIV",
           "Ectopic pregnancy risk",
-          "Joint damage"
+          "Joint damage",
         ],
         prevention: [
           "Regular STI testing",
           "Consistent condom use",
           "Mutual monogamy",
           "Regular medical check-ups",
-          "Partner notification and testing"
-        ]
-      }
+          "Partner notification and testing",
+        ],
+      },
     },
     {
       id: "hpv",
@@ -1126,37 +1244,38 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "The most common STI, with some types leading to warts or cancer.",
       longDescription:
         "HPV is a widespread sexually transmitted infection with over 100 types. While many infections resolve on their own, some can cause genital warts or lead to cancers such as cervical cancer. Vaccination and regular screenings are key preventive measures.",
-      imageUrl: "https://images.everydayhealth.com/images/stds/hpv/hpv-warts-722x406.jpg",
+      imageUrl:
+        "https://images.everydayhealth.com/images/stds/hpv/hpv-warts-722x406.jpg",
       symptoms: {
         common: [
           "Genital warts",
           "Common warts on hands",
           "Plantar warts on feet",
           "Flat warts on face",
-          "No visible symptoms (most cases)"
+          "No visible symptoms (most cases)",
         ],
         severe: [
           "Cervical cancer",
           "Anal cancer",
           "Penile cancer",
           "Throat cancer",
-          "Vulvar cancer"
+          "Vulvar cancer",
         ],
         longTerm: [
           "Persistent infection",
           "Recurrent warts",
           "Increased cancer risk",
           "Psychological impact",
-          "Relationship challenges"
+          "Relationship challenges",
         ],
         prevention: [
           "HPV vaccination",
           "Regular Pap smears",
           "Safe sex practices",
           "Limiting sexual partners",
-          "Regular health screenings"
-        ]
-      }
+          "Regular health screenings",
+        ],
+      },
     },
     {
       id: "herpes",
@@ -1165,37 +1284,38 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       shortDescription: "A viral STI causing painful blisters or ulcers.",
       longDescription:
         "Herpes simplex virus, encompassing HSV-1 and HSV-2, leads to infections that can cause blisters or ulcers, commonly around the mouth or genitals. The virus remains in the body for life, with symptoms managed through antiviral medications.",
-      imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvfyguxyA7qrPvjA37jVuQhaYURvAouSWttw&s",
+      imageUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvfyguxyA7qrPvjA37jVuQhaYURvAouSWttw&s",
       symptoms: {
         common: [
           "Painful blisters or ulcers",
           "Flu-like symptoms",
           "Swollen lymph nodes",
           "Burning sensation",
-          "Itching or tingling"
+          "Itching or tingling",
         ],
         severe: [
           "Severe outbreaks",
           "Meningitis",
           "Encephalitis",
           "Eye infections",
-          "Neonatal herpes"
+          "Neonatal herpes",
         ],
         longTerm: [
           "Recurrent outbreaks",
           "Psychological impact",
           "Relationship challenges",
           "Increased HIV risk",
-          "Chronic pain"
+          "Chronic pain",
         ],
         prevention: [
           "Antiviral medication",
           "Safe sex practices",
           "Avoiding contact during outbreaks",
           "Regular medical care",
-          "Stress management"
-        ]
-      }
+          "Stress management",
+        ],
+      },
     },
     {
       id: "syphilis",
@@ -1205,37 +1325,38 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "A bacterial STI with multiple stages, potentially leading to severe health issues.",
       longDescription:
         "Syphilis is a sexually transmitted infection that progresses through stages: primary, secondary, latent, and tertiary. Early stages may present sores or rashes, while later stages can cause serious health problems. Early detection and antibiotic treatment are crucial.",
-      imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYX7NlhbELZGFW0k1zAp-abK5V2PrCfEmLyg&s",
+      imageUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYX7NlhbELZGFW0k1zAp-abK5V2PrCfEmLyg&s",
       symptoms: {
         common: [
           "Painless sores (chancre)",
           "Rash on palms and soles",
           "Fever and fatigue",
           "Swollen lymph nodes",
-          "Muscle aches"
+          "Muscle aches",
         ],
         severe: [
           "Neurosyphilis",
           "Cardiovascular complications",
           "Gummatous lesions",
           "Hearing loss",
-          "Vision problems"
+          "Vision problems",
         ],
         longTerm: [
           "Brain damage",
           "Heart disease",
           "Organ damage",
           "Mental health issues",
-          "Death (if untreated)"
+          "Death (if untreated)",
         ],
         prevention: [
           "Regular STI testing",
           "Safe sex practices",
           "Early treatment",
           "Partner notification",
-          "Regular medical check-ups"
-        ]
-      }
+          "Regular medical check-ups",
+        ],
+      },
     },
     {
       id: "hiv",
@@ -1245,37 +1366,38 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "A virus that attacks the immune system, potentially leading to AIDS.",
       longDescription:
         "HIV is a virus that compromises the immune system, making individuals more susceptible to infections and diseases. Without treatment, it can progress to AIDS. While there's no cure, antiretroviral therapy allows individuals to manage the virus effectively.",
-      imageUrl: "https://www.verywellhealth.com/thmb/KvDUuWf8x7VdR9bLys2spw68_5k=/965x610/filters:no_upscale():max_bytes(150000):strip_icc()/maculopapular-569fdede3df78cafda9eb2dd.png",
+      imageUrl:
+        "https://www.verywellhealth.com/thmb/KvDUuWf8x7VdR9bLys2spw68_5k=/965x610/filters:no_upscale():max_bytes(150000):strip_icc()/maculopapular-569fdede3df78cafda9eb2dd.png",
       symptoms: {
         common: [
           "Flu-like symptoms",
           "Fever and chills",
           "Night sweats",
           "Muscle aches",
-          "Fatigue"
+          "Fatigue",
         ],
         severe: [
           "Opportunistic infections",
           "Rapid weight loss",
           "Pneumonia",
           "Tuberculosis",
-          "Certain cancers"
+          "Certain cancers",
         ],
         longTerm: [
           "AIDS development",
           "Immune system damage",
           "Chronic infections",
           "Neurological problems",
-          "Organ failure"
+          "Organ failure",
         ],
         prevention: [
           "Pre-exposure prophylaxis (PrEP)",
           "Post-exposure prophylaxis (PEP)",
           "Safe sex practices",
           "Regular testing",
-          "Clean needle use"
-        ]
-      }
+          "Clean needle use",
+        ],
+      },
     },
     {
       id: "trichomoniasis",
@@ -1284,37 +1406,38 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       shortDescription: "A common parasitic STI, often without symptoms.",
       longDescription:
         "Trichomoniasis is a sexually transmitted infection caused by the parasite Trichomonas vaginalis. Many infected individuals show no symptoms, but it can cause discomfort and increase the risk of other STIs. It is treatable with prescribed medications.",
-      imageUrl: "https://almostadoctor.co.uk/wp-content/uploads/2017/06/23975AB1-24A8-4A3A-8B70-E56CA4C4DE2D-scaled.jpeg",
+      imageUrl:
+        "https://almostadoctor.co.uk/wp-content/uploads/2017/06/23975AB1-24A8-4A3A-8B70-E56CA4C4DE2D-scaled.jpeg",
       symptoms: {
         common: [
           "Frothy vaginal discharge",
           "Itching or irritation",
           "Pain during urination",
           "Discomfort during sex",
-          "Redness or swelling"
+          "Redness or swelling",
         ],
         severe: [
           "Pelvic inflammatory disease",
           "Increased HIV risk",
           "Pregnancy complications",
           "Urethritis",
-          "Prostatitis"
+          "Prostatitis",
         ],
         longTerm: [
           "Chronic infection",
           "Increased STI susceptibility",
           "Pregnancy complications",
           "Relationship issues",
-          "Recurrent infections"
+          "Recurrent infections",
         ],
         prevention: [
           "Regular STI testing",
           "Safe sex practices",
           "Partner treatment",
           "Abstinence during treatment",
-          "Regular medical care"
-        ]
-      }
+          "Regular medical care",
+        ],
+      },
     },
     {
       id: "hepatitis_b",
@@ -1324,38 +1447,39 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "A viral infection affecting the liver, transmissible through sexual contact.",
       longDescription:
         "Hepatitis B is a liver infection caused by the hepatitis B virus. It can be acute or chronic and is transmitted through bodily fluids, including during sexual activity. Vaccination is the most effective prevention method.",
-      imageUrl: "https://www.hepb.org/blog/wp-content/uploads/2012/08/Unknown.jpeg ",
+      imageUrl:
+        "https://www.hepb.org/blog/wp-content/uploads/2012/08/Unknown.jpeg ",
       symptoms: {
         common: [
           "Fatigue",
           "Abdominal pain",
           "Loss of appetite",
           "Nausea and vomiting",
-          "Joint pain"
+          "Joint pain",
         ],
         severe: [
           "Liver failure",
           "Cirrhosis",
           "Liver cancer",
           "Kidney problems",
-          "Blood disorders"
+          "Blood disorders",
         ],
         longTerm: [
           "Chronic liver disease",
           "Liver cancer risk",
           "Cirrhosis",
           "Liver failure",
-          "Death (if untreated)"
+          "Death (if untreated)",
         ],
         prevention: [
           "Hepatitis B vaccination",
           "Safe sex practices",
           "Avoiding shared needles",
           "Regular testing",
-          "Medical precautions"
-        ]
-      }
-    }
+          "Medical precautions",
+        ],
+      },
+    },
   ],
   recent_developments: [
     {
@@ -1366,7 +1490,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Liechtenstein's same-sex marriage law comes into effect.",
       longDescription:
         "On January 1, 2025, Liechtenstein's law allowing same-sex marriages officially came into effect, marking a significant step forward for LGBTQ+ rights in the country.",
-      imageUrl: "https://www.politico.eu/cdn-cgi/image/width=1160,height=773,quality=80,onerror=redirect,format=auto/wp-content/uploads/2024/05/17/GettyImages-1244635842-scaled.jpg",
+      imageUrl:
+        "https://www.politico.eu/cdn-cgi/image/width=1160,height=773,quality=80,onerror=redirect,format=auto/wp-content/uploads/2024/05/17/GettyImages-1244635842-scaled.jpg",
     },
     {
       id: "thailand_same_sex_marriage",
@@ -1375,7 +1500,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       shortDescription: "Thailand's same-sex marriage law comes into effect.",
       longDescription:
         "On January 23, 2025, Thailand's law allowing same-sex marriages officially came into effect, making it the first Southeast Asian country to legalize same-sex marriage.",
-      imageUrl: "https://c.ndtvimg.com/2025-01/8psnnv3_thailand-same-sex-marriage-actors-apiwat-porsch-apiwatsayree-and-sappanyoo-arm-panatkool_625x300_23_January_25.jpeg",
+      imageUrl:
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-560w,f_auto,q_auto:best/rockcms/2024-09/240924-Bangkok-Pride-Parade-ac-1151p-19fd6a.jpg",
     },
     {
       id: "trump_executive_order_gender_identity",
@@ -1385,7 +1511,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Executive order mandates federal recognition of gender as binary.",
       longDescription:
         "On January 20, 2025, President Donald Trump signed an executive order titled 'Defending Women from Gender Ideology Extremism and Restoring Biological Truth to the Federal Government,' requiring federal departments to recognize gender as a male-female binary only, determined by biological sex assigned at conception.",
-      imageUrl: "https://images.axios.com/CjRHu2VYUKdLTJNwuRo9896-GHU=/0x70:4481x2591/1920x1080/2025/02/05/1738782742981.jpg",
+      imageUrl:
+        "https://images.axios.com/CjRHu2VYUKdLTJNwuRo9896-GHU=/0x70:4481x2591/1920x1080/2025/02/05/1738782742981.jpg",
     },
     {
       id: "hungary_bans_lgbtq_events",
@@ -1394,7 +1521,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       shortDescription: "Hungarian parliament votes to ban LGBTQ+ events.",
       longDescription:
         "On March 18, 2025, the Hungarian parliament voted 136–27 to ban LGBTQ+ events in the country, including the annual Budapest Pride event, as part of a series of anti-LGBTQ+ legislative measures.",
-      imageUrl: "https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2025-04/250414-hungary-lgbtq-se-313p-d53142.jpg",
+      imageUrl:
+        "https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2025-04/250414-hungary-lgbtq-se-313p-d53142.jpg",
     },
     {
       id: "utah_bans_pride_flags",
@@ -1404,7 +1532,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Utah becomes first U.S. state to ban pride flags in government spaces.",
       longDescription:
         "On March 28, 2025, Utah enacted a law banning LGBTQ+ pride flags in government buildings and schools, becoming the first U.S. state to implement such a measure.",
-      imageUrl: "https://lailluminator.com/wp-content/uploads/2025/03/SLC-pride-flag-2-2048x1365-1-1536x1024.jpg",
+      imageUrl:
+        "https://lailluminator.com/wp-content/uploads/2025/03/SLC-pride-flag-2-2048x1365-1-1536x1024.jpg",
     },
     {
       id: "idaho_resolution_same_sex_marriage",
@@ -1415,7 +1544,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Idaho House votes for resolution to reconsider Obergefell v. Hodges.",
       longDescription:
         "On January 27, 2025, the Idaho House of Representatives voted for a resolution calling for the U.S. Supreme Court to reconsider its 2015 decision in Obergefell v. Hodges, which legalized same-sex marriage nationwide.",
-      imageUrl: "https://media.cnn.com/api/v1/images/stellar/prod/150626101106-04-scotus-same-sex-0626.jpg?q=w_3425,h_2284,x_0,y_0,c_fill",
+      imageUrl:
+        "https://media.cnn.com/api/v1/images/stellar/prod/150626101106-04-scotus-same-sex-0626.jpg?q=w_3425,h_2284,x_0,y_0,c_fill",
     },
     {
       id: "uk_supreme_court_gender_definition",
@@ -1425,7 +1555,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "UK Supreme Court defines legal gender based on birth sex.",
       longDescription:
         "On April 16, 2025, the Supreme Court of the United Kingdom ruled that legal gender is based upon sex assigned at birth, excluding transgender women from the legal definition of 'woman' for the purposes of the Equality Act 2010.",
-      imageUrl: "https://media.licdn.com/dms/image/v2/D4D12AQGNu4rd9qokEQ/article-cover_image-shrink_720_1280/B4DZZCVimFHAAI-/0/1744869666363?e=2147483647&v=beta&t=mxTbXkCvx88B3W-Ritvn4OsQ4hLqZJ_DuNEaVaxY5DI",
+      imageUrl:
+        "https://media.licdn.com/dms/image/v2/D4D12AQGNu4rd9qokEQ/article-cover_image-shrink_720_1280/B4DZZCVimFHAAI-/0/1744869666363?e=2147483647&v=beta&t=mxTbXkCvx88B3W-Ritvn4OsQ4hLqZJ_DuNEaVaxY5DI",
     },
     {
       id: "lithuania_same_sex_partnerships",
@@ -1435,7 +1566,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Lithuania's Constitutional Court allows same-sex partnership registration.",
       longDescription:
         "On April 17, 2025, the Constitutional Court of Lithuania granted same-sex couples the right to register their partnerships with the courts until the Seimas adopts a comprehensive law on registered partnerships.",
-      imageUrl: "https://www.aljazeera.com/wp-content/uploads/2022/05/AP21247573855481.jpg?resize=1920%2C1440",
+      imageUrl:
+        "https://www.aljazeera.com/wp-content/uploads/2022/05/AP21247573855481.jpg?resize=1920%2C1440",
     },
     {
       id: "poland_abolishes_lgbt_free_zones",
@@ -1444,7 +1576,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       shortDescription: "Poland's last 'LGBT-free zone' is abolished.",
       longDescription:
         "On April 30, 2025, the last 'LGBT-free zone' in Poland was abolished, marking a significant step toward LGBTQ+ inclusivity in the country.",
-      imageUrl: "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/VNGCO2TVYRIXHBT3GZZLGTNXVM.jpg",
+      imageUrl:
+        "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/VNGCO2TVYRIXHBT3GZZLGTNXVM.jpg",
     },
     {
       id: "italy_recognizes_lesbian_parenthood",
@@ -1454,7 +1587,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Italy's Constitutional Court recognizes automatic parenthood for children of lesbian partnerships.",
       longDescription:
         "On May 22, 2025, Italy's Constitutional Court recognized automatic parenthood on birth certificates for children of lesbian partnerships, eliminating the need for adoption procedures.",
-      imageUrl: "https://media.zenfs.com/en/gcn_uk_889/912cc88bc2ddddd3beac98679c703ab0",
+      imageUrl:
+        "https://media.zenfs.com/en/gcn_uk_889/912cc88bc2ddddd3beac98679c703ab0",
     },
   ],
 };
