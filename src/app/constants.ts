@@ -435,7 +435,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
             title:
               "Campaigned to remove homosexuality from APA's list of mental illnesses (successfully in 1973)",
             imageUrl:
-              "/works/chicago.jpg",
+              "/works/chicago.jpeg",
           },
           {
             title: "Headed the American Library Association's Gay Task Force",
@@ -574,7 +574,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
           },
           {
             title: "Inducted into Chicago Gay and Lesbian Hall of Fame (1996)",
-            imageUrl: "/works/chicago.jpeg",
+            imageUrl: "/works/chicago2.jpg",
           },
         ],
         imageUrl:
