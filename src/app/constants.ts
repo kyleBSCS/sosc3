@@ -474,24 +474,24 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
             title:
               "Co-founder of Street Transvestite Action Revolutionaries (STAR)",
             imageUrl:
-              "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
+              "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1497005425i/34659225.jpg",
           },
           {
             title: "Performances with Hot Peaches drag troupe",
             imageUrl:
-              "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT76DEP2JAXQc06cq8R-OLFHCr6Xh-qxd7aBQ&s",
           },
         ],
         events: [
           {
             title: "Key figure in the Stonewall Uprising (1969)",
             imageUrl:
-              "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=400&h=300&fit=crop",
+              "https://images.squarespace-cdn.com/content/v1/631250318225492f20231654/9df601d7-9033-45b7-91a2-5278ac07b903/marsha-p-johnson-stonewall-riots.jpg",
           },
           {
             title: "Activism with Gay Liberation Front and ACT UP",
             imageUrl:
-              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+              "https://daily.jstor.org/wp-content/uploads/2020/06/from_gay_liberation_to_marriage_equality_1050x700.jpg",
           },
         ],
         imageUrl:
@@ -516,19 +516,18 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
           {
             title: "Narman (Poetry Collection, 1994)",
             imageUrl:
-              "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400&h=300&fit=crop",
+              "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1696562973i/166642219.jpg",
           },
         ],
         events: [
           {
             title: "Co-founder of Sangat/Chicago",
             imageUrl:
-              "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB29DYmx1hz4R7HjU8UhbO0BgDwfvxjzmqMQ&s",
           },
           {
             title: "Inducted into Chicago Gay and Lesbian Hall of Fame (1996)",
-            imageUrl:
-              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+            imageUrl: "https://i.ytimg.com/vi/ntsu3MQVJ4g/hqdefault.jpg",
           },
         ],
         imageUrl:
