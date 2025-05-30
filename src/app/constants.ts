@@ -753,20 +753,38 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       shortDescription:
         "A series of spontaneous demonstrations by members of the LGBTQ+ community in response to a police raid.",
       longDescription:
-        "The Stonewall Riots, which began in the early hours of June 28, 1969, at the Stonewall Inn in New York City, are widely considered the single most important event leading to the gay liberation movement and the modern fight for LGBTQ+ rights in the United States. Patrons of the bar, along with other community members, resisted a police raid, sparking six days of protests and clashes with law enforcement. Stonewall marked a shift from a more passive rights movement to radical, direct action.",
-      imageUrl:
-        "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=800&h=600&fit=crop",
+        "The Stonewall Riots, erupting in the early morning hours of June 28, 1969, at the mafia-owned Stonewall Inn in New York City's Greenwich Village, are widely considered the single most important catalyst for the gay liberation movement and the modern fight for LGBTQ+ rights in the United States. At the time, the Stonewall Inn was one of the few establishments that welcomed openly gay individuals, despite operating without a liquor license and under constant threat of police raids. When police raided the bar that night, patrons—a diverse crowd including drag queens, transgender individuals, gay men, lesbians, and people of color, with figures like Marsha P. Johnson and Sylvia Rivera becoming prominent—along with other community members, spontaneously resisted arrest and police harassment. This ignited six days of protests, street demonstrations, and violent clashes with law enforcement. Stonewall marked a profound shift from the more assimilationist 'homophile' movement to a radical, confrontational, and direct-action approach, leading to the formation of numerous LGBTQ+ rights organizations, such as the Gay Liberation Front and the Gay Activists Alliance, and fundamentally changing the landscape of queer activism.",
+      imageUrl: "/events/stonewall_.png",
     },
     {
       id: "act_up_formation",
       title: "ACT UP Formation",
-      date: "1987",
+      date: "March 1987",
       shortDescription:
         "Formation of AIDS Coalition to Unleash Power (ACT UP), a direct-action advocacy group.",
       longDescription:
-        "ACT UP was formed in March 1987 in New York City to combat the AIDS pandemic through direct action, medical research, treatment advocacy, and policy changes. Frustrated by government inaction and societal indifference, ACT UP used confrontational protests and civil disobedience to raise awareness, demand research funding, and accelerate the availability of life-saving treatments. Their activism significantly impacted public health policy and the fight against HIV/AIDS.",
-      imageUrl:
-        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=600&fit=crop",
+        "The AIDS Coalition to Unleash Power (ACT UP) was formed in March 1987 in New York City, following a galvanizing speech by writer and activist Larry Kramer. It emerged as a pivotal direct-action advocacy group dedicated to combating the devastating AIDS pandemic through aggressive public demonstrations, medical research, treatment advocacy, and profound policy changes. Deeply frustrated by governmental inaction, societal indifference, widespread stigma, and the slow pace of drug development, ACT UP utilized confrontational civil disobedience tactics. Their iconic 'Silence = Death' campaign, 'die-ins' at public spaces, and targeted protests at institutions like the FDA, NIH, and Wall Street, dramatically raised public awareness, demanded urgent research funding, and successfully pressured for accelerated availability of life-saving treatments. ACT UP's activism, characterized by sophisticated media strategies and well-researched policy demands, significantly impacted public health policy, transformed the drug approval process, and forever changed the relationship between patients and the medical establishment in the fight against HIV/AIDS.",
+      imageUrl: "/events/act.jpg",
+    },
+    {
+      id: "harvey_milk_election",
+      title: "Harvey Milk Elected to San Francisco Board of Supervisors",
+      date: "November 8, 1977",
+      shortDescription:
+        "Harvey Milk becomes one of the first openly gay elected officials in the United States.",
+      longDescription:
+        "Harvey Milk's election to the San Francisco Board of Supervisors on November 8, 1977, was a groundbreaking moment for LGBTQ+ political power and visibility, making him one of the first openly gay men elected to a significant public office in the United States. Operating from his Castro Camera shop, which became an informal community center, Milk built a diverse 'Rainbow Coalition' of supporters, championing not only gay rights but also the concerns of ethnic minorities, seniors, and labor unions. His platform emphasized neighborhood empowerment, affordable housing, and public services, resonating broadly. Milk's charismatic leadership and his famous 'Hope Speech,' urging LGBTQ+ individuals to come out and live authentically to combat prejudice, inspired a generation. Tragically, his promising tenure was cut short when he, along with Mayor George Moscone, was assassinated by former Supervisor Dan White on November 27, 1978, just eleven months after taking office. Despite his brief time in office, Milk's legacy as a pioneering activist, a symbol of hope, and a martyr for the cause endures, continuing to inspire movements for equality and political engagement worldwide.",
+      imageUrl: "/events/harvey.jpg",
+    },
+    {
+      id: "dadt_repeal",
+      title: "Repeal of 'Don't Ask, Don't Tell'",
+      date: "September 20, 2011",
+      shortDescription:
+        "U.S. policy allowing gay, lesbian, and bisexual individuals to serve openly in the military was certified as repealed.",
+      longDescription:
+        "The certification of the repeal of 'Don't Ask, Don't Tell' (DADT) on September 20, 2011, marked a historic victory for LGBTQ+ rights, allowing gay, lesbian, and bisexual individuals to serve openly in the United States military for the first time. Enacted in 1993 under President Bill Clinton, DADT was a compromise policy that prohibited military personnel from discriminating against or harassing closeted homosexual or bisexual service members, but it barred openly gay, lesbian, or bisexual persons from military service. This policy forced an estimated 65,000 service members to conceal their identity, live in constant fear of exposure, and led to the discharge of over 13,000 individuals solely based on their sexual orientation. The repeal, signed into law by President Barack Obama on December 22, 2010, followed years of persistent activism, legal challenges by groups like the Servicemembers Legal Defense Network (SLDN), and courageous testimonies from discharged veterans. Its implementation nearly nine months later finally ended a discriminatory practice, affirming that the dedication and patriotism of service members should not be contingent on their sexual orientation, and strengthening the U.S. armed forces by allowing qualified individuals to serve with honesty and integrity.",
+      imageUrl: "/events/repeal.webp",
     },
     {
       id: "obergefell_v_hodges",
@@ -775,9 +793,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       shortDescription:
         "U.S. Supreme Court ruling legalizing same-sex marriage nationwide.",
       longDescription:
-        "In a landmark decision, the U.S. Supreme Court ruled in Obergefell v. Hodges that the fundamental right to marry is guaranteed to same-sex couples by both the Due Process Clause and the Equal Protection Clause of the Fourteenth Amendment. This ruling legalized same-sex marriage in all fifty states, marking a pivotal victory for LGBTQ+ rights and equality in the United States after decades of activism and legal challenges.",
-      imageUrl:
-        "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=800&h=600&fit=crop",
+        "In the landmark 5-4 decision of Obergefell v. Hodges on June 26, 2015, the U.S. Supreme Court ruled that the fundamental right to marry is guaranteed to same-sex couples by both the Due Process Clause and the Equal Protection Clause of the Fourteenth Amendment to the United States Constitution. This historic ruling, with the majority opinion penned by Justice Anthony Kennedy, legalized same-sex marriage in all fifty states, effectively overturning previous state bans and resolving conflicting lower court decisions. The case was brought by several groups of same-sex couples, including lead plaintiff Jim Obergefell who sought to be recognized as the surviving spouse on his late husband John Arthur's Ohio death certificate. The decision marked a pivotal victory for the LGBTQ+ rights movement, culminating decades of relentless activism, legal challenges, public education campaigns, and evolving public opinion, starting from early state-level victories like Massachusetts in 2004. Beyond the legal right to marry, the ruling represented a significant affirmation of dignity and equality for LGBTQ+ individuals and families across the nation, though advocates noted that the fight for comprehensive non-discrimination protections and full lived equality continues.",
+      imageUrl: "/events/marriage.jpg",
     },
   ],
   gender_fluidity: [

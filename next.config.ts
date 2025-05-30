@@ -123,6 +123,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "cdn.britannica.com",
       },
+      {
+        protocol: "https",
+        hostname: "hips.hearstapps.com",
+      },
     ],
   },
 };
