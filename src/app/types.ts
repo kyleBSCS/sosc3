@@ -16,7 +16,8 @@ export interface MuseumItem {
   longDescription: string;
   imageUrl: string;
   category: string;
-  prominentFigure?: ProminentFigure; // Only for relevant items
+  prominentFigure?: ProminentFigure;
+  referenceUrl?: string[];
 }
 
 export type ViewMode = "main_menu" | "slideshow" | "detail" | "about";

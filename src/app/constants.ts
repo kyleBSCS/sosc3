@@ -98,6 +98,10 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         ],
         imageUrl: "/public-figs/langston-hughes.webp",
       },
+      referenceUrl: [
+        "https://www.biography.com/writer/langston-hughes",
+        "https://www.poetryfoundation.org/poets/langston-hughes",
+      ],
     },
     {
       id: "james_baldwin",

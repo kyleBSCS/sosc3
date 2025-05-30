@@ -62,7 +62,7 @@ const Background: React.FC<BackgroundProps> = ({
   ];
 
   return (
-    <div className="fixed inset-0 -z-10 w-full h-full pointer-events-none overflow-hidden">
+    <div className="fixed inset-0 -z-10 w-full h-full pointer-events-none overflow-hidden bg-black">
       <AnimatePresence mode="wait">
         <motion.div
           key={meshGradientClass}
