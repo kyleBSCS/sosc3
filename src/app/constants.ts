@@ -310,24 +310,24 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
           {
             title: "Cooking in Heels (Cookbook and Memoir)",
             imageUrl:
-              "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400&h=300&fit=crop",
+              "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1347341035i/16002606.jpg",
           },
           {
             title: "Founding G.L.I.T.S. Inc.",
             imageUrl:
-              "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=400&h=300&fit=crop",
+              "https://static1.squarespace.com/static/60776efe4e12000dd2ecf219/t/60884c8a04b7e97ee116b332/1619545236487/IMG_0193.PNG?format=1500w",
           },
         ],
         events: [
           {
             title: "Advocacy for transgender rights and sex workers' rights",
             imageUrl:
-              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+              "https://images.squarespace-cdn.com/content/v1/60776efe4e12000dd2ecf219/141bcf48-faf1-4722-a5d2-a67e5ff564f1/sidewalkkilla_brooklyn_liberation_march_2020-7041.JPG",
           },
           {
             title: "Establishing housing initiatives for Black trans people",
             imageUrl:
-              "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=400&h=300&fit=crop",
+              "https://images.squarespace-cdn.com/content/v1/60776efe4e12000dd2ecf219/261d34fe-5673-42bb-af8e-1dc29f68c0d2/IMG_7734.jpg",
           },
         ],
         imageUrl:
@@ -351,20 +351,20 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
           {
             title: "Leadership in Daughters of Bilitis, New York Chapter",
             imageUrl:
-              "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuWCK_mRE5Orf6pI9bdAi8VO7SqYpAEpMMeQ&s",
           },
         ],
         events: [
           {
             title: "Participation in early LGBTQ+ rights pickets (mid-1960s)",
             imageUrl:
-              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROYoBZ7F1mQenlTL31mysLkMHYgL4OTpMtUA&s",
           },
           {
             title:
               "Featured on the cover of 'The Ladder' (June 1966), a prominent lesbian publication",
             imageUrl:
-              "https://images.unsplash.com/photo-1580130379629-170229f87908?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbefFeT0ky4JmLkxDEiaZUxPYUmbV6YHbNqw&s",
           },
         ],
         imageUrl:
