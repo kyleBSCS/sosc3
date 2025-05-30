@@ -23,6 +23,7 @@ export interface MuseumItem {
     longTerm: string[];
     prevention: string[];
   };
+  referenceUrl?: string[];
 }
 
 export type ViewMode = "main_menu" | "slideshow" | "detail" | "about";
