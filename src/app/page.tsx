@@ -10,6 +10,7 @@ import DetailModal from "./components/DetailModal";
 import Background from "./components/Background";
 import LoadingIndicator from "./components/LoadingIndicator";
 import AboutModal from "./components/AboutModal";
+import TriggerWarningModal from "./components/TriggerWarningModal";
 
 const App: React.FC = () => {
   const [currentView, setCurrentView] = useState<ViewMode>("main_menu");
@@ -19,6 +20,8 @@ const App: React.FC = () => {
   const [currentCarouselIndex, setCurrentCarouselIndex] = useState<number>(0);
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
+  const [showTriggerWarning, setShowTriggerWarning] = useState(false);
+  const [pendingTopic, setPendingTopic] = useState<MuseumTopic | null>(null);
 
   const fetchItemsForTopic = useCallback((topic: MuseumTopic) => {
     if (!topic) return;
@@ -47,8 +50,27 @@ const App: React.FC = () => {
   }, []);
 
   const handleTopicSelect = (topic: MuseumTopic) => {
-    setSelectedTopic(topic);
-    fetchItemsForTopic(topic);
+    if (topic.id === "STDs") {
+      setPendingTopic(topic);
+      setShowTriggerWarning(true);
+    } else {
+      setSelectedTopic(topic);
+      fetchItemsForTopic(topic);
+    }
+  };
+
+  const handleTriggerWarningAcknowledge = () => {
+    setShowTriggerWarning(false);
+    if (pendingTopic) {
+      setSelectedTopic(pendingTopic);
+      fetchItemsForTopic(pendingTopic);
+      setPendingTopic(null);
+    }
+  };
+
+  const handleTriggerWarningDecline = () => {
+    setShowTriggerWarning(false);
+    setPendingTopic(null);
   };
 
   const handleItemSelect = (item: MuseumItem) => {
@@ -120,6 +142,7 @@ const App: React.FC = () => {
               onShowAbout={handleShowAbout}
             />
           )}
+          
           {currentView === "slideshow" && selectedTopic && (
             <SlideshowView
               topic={selectedTopic}
@@ -130,12 +153,20 @@ const App: React.FC = () => {
               onBackToMenu={handleBackToMenu}
             />
           )}
+          
           {currentView === "detail" && selectedItem && (
             <DetailModal item={selectedItem} onClose={handleCloseDetail} />
           )}
+          
           {currentView === "about" && (
             <AboutModal onBackToMenu={handleBackToMenu} />
           )}
+
+          <TriggerWarningModal
+            isOpen={showTriggerWarning}
+            onAcknowledge={handleTriggerWarningAcknowledge}
+            onDecline={handleTriggerWarningDecline}
+          />
         </>
       )}
     </div>

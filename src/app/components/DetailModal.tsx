@@ -5,6 +5,7 @@ import GlassCard from "./GlassCard";
 import { CloseIcon } from "./icons/NavigationIcons";
 import Image from "next/image";
 import ProminentFigureSidebar from "./ProminentFigureSidebar";
+import STDSymptomsSidebar from "./STDSymptomsSidebar";
 import ReferencesModal from "./ReferencesModal";
 
 interface DetailModalProps {
@@ -21,27 +22,14 @@ const DetailModal: React.FC<DetailModalProps> = ({ item, onClose }) => {
   };
 
   const modalVariants = {
-    hidden: { opacity: 0, scale: 0.8, y: 50 },
-    visible: {
-      opacity: 1,
-      scale: 1,
-      y: 0,
-      transition: {
-        type: "spring",
-        stiffness: 300,
-        damping: 30,
-        duration: 0.3,
-      },
-    },
-    exit: {
-      opacity: 0,
-      scale: 0.8,
-      y: 50,
-      transition: { duration: 0.2 },
-    },
+    hidden: { opacity: 0, scale: 0.9 },
+    visible: { opacity: 1, scale: 1 },
+    exit: { opacity: 0, scale: 0.9 },
   };
-
+  
   if (!item) return null;
+  
+
 
   const hasReferences = item.referenceUrl && item.referenceUrl.length > 0;
 
@@ -55,6 +43,24 @@ const DetailModal: React.FC<DetailModalProps> = ({ item, onClose }) => {
             variants={backdropVariants}
             initial="hidden"
             animate="visible"
+            exit="exit"
+            className="w-full max-w-6xl max-h-[90vh] relative"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div
+              className={
+                item.prominentFigure || item.category === "STDs"
+                  ? "flex flex-col md:flex-row h-full max-h-[90vh] gap-0 md:gap-4"
+                  : "h-full max-h-[90vh] overflow-y-auto"
+              }
+            >
+              {/* Main Content - Glass Card */}
+              <GlassCard
+                className={`flex flex-col rounded-2xl overflow-hidden ${
+                  item.prominentFigure || item.category === "STDs"
+                    ? "flex-1 md:h-[90vh] md:overflow-y-auto"
+                    : "w-full h-full"
+                }`}
             exit="hidden"
             onClick={onClose} // Close on backdrop click
           >
@@ -113,6 +119,18 @@ const DetailModal: React.FC<DetailModalProps> = ({ item, onClose }) => {
                     <p className="text-base text-gray-200 whitespace-pre-line leading-relaxed mb-4">
                       {item.longDescription}
                     </p>
+
+              {/* Sidebar */}
+              {(item.prominentFigure || item.category === "STDs") && (
+                <div className="md:w-80 md:flex-shrink-0 md:h-[90vh] md:overflow-y-auto overflow-x-hidden">
+                  {item.prominentFigure && (
+                    <ProminentFigureSidebar figure={item.prominentFigure} />
+                  )}
+                  {item.category === "STDs" && item.symptoms && (
+                    <STDSymptomsSidebar symptoms={item.symptoms} />
+                  )}
+                </div>
+              )}
 
                     {/* References Button */}
                     {hasReferences && (
