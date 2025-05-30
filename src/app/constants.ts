@@ -909,11 +909,6 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Two-Spirit is an umbrella term created in 1990 by Indigenous LGBTQ+ activists to describe individuals in many Native American and First Nations cultures who embody both masculine and feminine spirits. These individuals often held respected spiritual and social roles within their communities, long before European colonization. The term aims to reclaim and honor pre-colonial understandings of gender diversity that were suppressed by colonization and Western binary gender norms.",
       imageUrl:
         "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
-      referenceUrl: [
-        "https://en.wikipedia.org/wiki/Two-spirit",
-        "https://www.ihs.gov/lgbt/health/twospirit/",
-        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2377288/",
-      ],
     },
     {
       id: "hijra_community",
@@ -925,11 +920,6 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Hijras are a recognized third gender community in South Asia with a recorded history spanning thousands of years. Traditionally, they have held significant social and religious roles, often associated with blessings and performances at ceremonies. While facing discrimination and marginalization in modern times, the Hijra community continues to be a visible and culturally significant part of South Asian society, and some countries have legally recognized them as a third gender.",
       imageUrl:
         "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=800&h=600&fit=crop",
-      referenceUrl: [
-        "https://en.wikipedia.org/wiki/Hijra_(South_Asia)",
-        "https://www.britannica.com/topic/hijra-third-gender-group",
-        "https://www.hrw.org/news/2016/07/25/india-recognizes-transgender-people-third-gender",
-      ],
     },
     {
       id: "nonbinary_identities",
@@ -941,11 +931,6 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         'Non-binary is an umbrella term for people whose gender identity does not fit neatly into the categories of "man" or "woman." Non-binary identities are diverse and can include people who identify as having no gender, multiple genders, or a gender that fluctuates. The increasing visibility and understanding of non-binary identities challenge traditional binary notions of gender and highlight the spectrum of human experience.',
       imageUrl:
         "https://images.unsplash.com/photo-1506629905770-b42efb4cc492?w=800&h=600&fit=crop",
-      referenceUrl: [
-        "https://en.wikipedia.org/wiki/Non-binary_gender",
-        "https://transequality.org/issues/resources/understanding-non-binary-people-how-to-be-respectful-and-supportive",
-        "https://www.healthline.com/health/nonbinary",
-      ],
     },
   ],
   womens_history_unsung: [
@@ -959,11 +944,6 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Augusta Ada King, Countess of Lovelace, was an English mathematician and writer chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. She was the first to recognize that the machine had applications beyond pure calculation and published the first algorithm intended to be carried out by such a machine. As a result, she is often regarded as the first computer programmer.",
       imageUrl:
         "https://images.unsplash.com/photo-1594736797933-d0cc2fe0a6d6?w=800&h=600&fit=crop",
-      referenceUrl: [
-        "https://en.wikipedia.org/wiki/Ada_Lovelace",
-        "https://www.britannica.com/biography/Ada-Lovelace",
-        "https://www.scientificamerican.com/article/ada-lovelace-the-first-computer-programmer/",
-      ],
     },
     {
       id: "hildegard_von_bingen",
@@ -975,11 +955,6 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Hildegard von Bingen was a remarkable polymath of the High Middle Ages. She founded monasteries, composed an entire corpus of liturgical music, wrote theological, botanical, and medicinal texts, as well as letters, and liturgical songs. Her visionary theology and scientific insights were extraordinary for her time. Despite the constraints placed on women, she became an influential figure, advising popes, emperors, and other notables.",
       imageUrl:
         "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=800&h=600&fit=crop",
-      referenceUrl: [
-        "https://en.wikipedia.org/wiki/Hildegard_of_Bingen",
-        "https://www.britannica.com/biography/Hildegard",
-        "https://www.history.com/news/hildegard-von-bingen-medieval-mystic",
-      ],
     },
     {
       id: "artemisia_gentileschi",
@@ -991,11 +966,6 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "Artemisia Gentileschi was a pioneering Italian Baroque painter, renowned for her dramatic and naturalistic depictions of strong women from myths, allegories, and the Bible. In an era when female painters were not easily accepted, she achieved international success. Her works often feature female heroines and victims, imbued with a powerful emotional intensity, reflecting her own life experiences and challenging patriarchal norms.",
       imageUrl:
         "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop",
-      referenceUrl: [
-        "https://en.wikipedia.org/wiki/Artemisia_Gentileschi",
-        "https://www.britannica.com/biography/Artemisia-Gentileschi",
-        "https://www.nationalgallery.org.uk/artists/artemisia-gentileschi",
-      ],
     },
   ],
   STDs: [
@@ -1007,11 +977,6 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "Chlamydia is a prevalent sexually transmitted infection caused by the bacterium Chlamydia trachomatis. It's often asymptomatic, making regular screenings crucial. If untreated, it can lead to serious reproductive complications. Fortunately, it is easily curable with antibiotics.",
       imageUrl: "",
-      referenceUrl: [
-        "https://www.cdc.gov/std/chlamydia/stdfact-chlamydia.htm",
-        "https://www.who.int/news-room/fact-sheets/detail/chlamydia",
-        "https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/chlamydia",
-      ],
     },
     {
       id: "gonorrhea",
@@ -1022,11 +987,6 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "Gonorrhea is a common sexually transmitted infection caused by Neisseria gonorrhoeae. It can affect multiple areas of the body and often presents no symptoms, especially in women. If left untreated, it can cause serious health issues. Prompt antibiotic treatment is effective.",
       imageUrl: "",
-      referenceUrl: [
-        "https://www.cdc.gov/std/gonorrhea/stdfact-gonorrhea.htm",
-        "https://www.who.int/news-room/fact-sheets/detail/gonorrhoea",
-        "https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/gonorrhea",
-      ],
     },
     {
       id: "hpv",
@@ -1037,11 +997,6 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "HPV is a widespread sexually transmitted infection with over 100 types. While many infections resolve on their own, some can cause genital warts or lead to cancers such as cervical cancer. Vaccination and regular screenings are key preventive measures.",
       imageUrl: "",
-      referenceUrl: [
-        "https://www.cdc.gov/std/hpv/stdfact-hpv.htm",
-        "https://www.who.int/news-room/fact-sheets/detail/human-papillomavirus-(hpv)-and-cervical-cancer",
-        "https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/hpv",
-      ],
     },
     {
       id: "herpes",
@@ -1051,11 +1006,6 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "Herpes simplex virus, encompassing HSV-1 and HSV-2, leads to infections that can cause blisters or ulcers, commonly around the mouth or genitals. The virus remains in the body for life, with symptoms managed through antiviral medications.",
       imageUrl: "",
-      referenceUrl: [
-        "https://www.cdc.gov/std/herpes/stdfact-herpes.htm",
-        "https://www.who.int/news-room/fact-sheets/detail/herpes-simplex-virus",
-        "https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/herpes",
-      ],
     },
     {
       id: "syphilis",
@@ -1066,11 +1016,6 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "Syphilis is a sexually transmitted infection that progresses through stages: primary, secondary, latent, and tertiary. Early stages may present sores or rashes, while later stages can cause serious health problems. Early detection and antibiotic treatment are crucial.",
       imageUrl: "",
-      referenceUrl: [
-        "https://www.cdc.gov/std/syphilis/stdfact-syphilis.htm",
-        "https://www.who.int/news-room/fact-sheets/detail/syphilis",
-        "https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/syphilis",
-      ],
     },
     {
       id: "hiv",
@@ -1081,11 +1026,6 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "HIV is a virus that compromises the immune system, making individuals more susceptible to infections and diseases. Without treatment, it can progress to AIDS. While there's no cure, antiretroviral therapy allows individuals to manage the virus effectively.",
       imageUrl: "",
-      referenceUrl: [
-        "https://www.cdc.gov/hiv/basics/whatishiv.html",
-        "https://www.who.int/news-room/fact-sheets/detail/hiv-aids",
-        "https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/hiv-aids",
-      ],
     },
     {
       id: "trichomoniasis",
@@ -1095,11 +1035,6 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "Trichomoniasis is a sexually transmitted infection caused by the parasite Trichomonas vaginalis. Many infected individuals show no symptoms, but it can cause discomfort and increase the risk of other STIs. It is treatable with prescribed medications.",
       imageUrl: "",
-      referenceUrl: [
-        "https://www.cdc.gov/std/trichomonas/stdfact-trichomoniasis.htm",
-        "https://www.who.int/news-room/fact-sheets/detail/trichomoniasis",
-        "https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/trichomoniasis",
-      ],
     },
     {
       id: "hepatitis_b",
@@ -1110,11 +1045,6 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "Hepatitis B is a liver infection caused by the hepatitis B virus. It can be acute or chronic and is transmitted through bodily fluids, including during sexual activity. Vaccination is the most effective prevention method.",
       imageUrl: "",
-      referenceUrl: [
-        "https://www.cdc.gov/hepatitis/hbv/index.htm",
-        "https://www.who.int/news-room/fact-sheets/detail/hepatitis-b",
-        "https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/hepatitis-b",
-      ],
     },
   ],
   recent_developments: [
@@ -1127,10 +1057,6 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "On January 1, 2025, Liechtenstein's law allowing same-sex marriages officially came into effect, marking a significant step forward for LGBTQ+ rights in the country.",
       imageUrl: "",
-      referenceUrl: [
-        "https://www.bbc.com/news/world-europe-67890123",
-        "https://www.reuters.com/world/europe/liechtenstein-legalises-same-sex-marriage-2025-01-01/",
-      ],
     },
     {
       id: "thailand_same_sex_marriage",
@@ -1140,10 +1066,6 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "On January 23, 2025, Thailand's law allowing same-sex marriages officially came into effect, making it the first Southeast Asian country to legalize same-sex marriage.",
       imageUrl: "",
-      referenceUrl: [
-        "https://www.bbc.com/news/world-asia-67912345",
-        "https://www.reuters.com/world/asia-pacific/thailand-legalises-same-sex-marriage-2025-01-23/",
-      ],
     },
     {
       id: "trump_executive_order_gender_identity",
@@ -1154,10 +1076,6 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "On January 20, 2025, President Donald Trump signed an executive order titled 'Defending Women from Gender Ideology Extremism and Restoring Biological Truth to the Federal Government,' requiring federal departments to recognize gender as a male-female binary only, determined by biological sex assigned at conception.",
       imageUrl: "",
-      referenceUrl: [
-        "https://www.nytimes.com/2025/01/20/us/politics/trump-gender-identity-executive-order.html",
-        "https://www.cnn.com/2025/01/20/politics/trump-gender-identity-executive-order/index.html",
-      ],
     },
     {
       id: "hungary_bans_lgbtq_events",
@@ -1167,10 +1085,6 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "On March 18, 2025, the Hungarian parliament voted 136–27 to ban LGBTQ+ events in the country, including the annual Budapest Pride event, as part of a series of anti-LGBTQ+ legislative measures.",
       imageUrl: "",
-      referenceUrl: [
-        "https://www.bbc.com/news/world-europe-67945678",
-        "https://www.reuters.com/world/europe/hungary-bans-lgbtq-events-2025-03-18/",
-      ],
     },
     {
       id: "utah_bans_pride_flags",
@@ -1181,10 +1095,6 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "On March 28, 2025, Utah enacted a law banning LGBTQ+ pride flags in government buildings and schools, becoming the first U.S. state to implement such a measure.",
       imageUrl: "",
-      referenceUrl: [
-        "https://www.npr.org/2025/03/28/utah-bans-pride-flags-government-buildings",
-        "https://www.sltrib.com/news/politics/2025/03/28/utah-bans-pride-flags/",
-      ],
     },
     {
       id: "idaho_resolution_same_sex_marriage",
@@ -1196,10 +1106,6 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "On January 27, 2025, the Idaho House of Representatives voted for a resolution calling for the U.S. Supreme Court to reconsider its 2015 decision in Obergefell v. Hodges, which legalized same-sex marriage nationwide.",
       imageUrl: "",
-      referenceUrl: [
-        "https://www.idahostatesman.com/news/politics-government/state-politics/article279876123.html",
-        "https://www.nbcnews.com/news/us-news/idaho-house-resolution-same-sex-marriage-2025-01-27",
-      ],
     },
     {
       id: "uk_supreme_court_gender_definition",
@@ -1210,10 +1116,6 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "On April 16, 2025, the Supreme Court of the United Kingdom ruled that legal gender is based upon sex assigned at birth, excluding transgender women from the legal definition of 'woman' for the purposes of the Equality Act 2010.",
       imageUrl: "",
-      referenceUrl: [
-        "https://www.bbc.com/news/uk-legal-gender-definition-2025-04-16",
-        "https://www.theguardian.com/uk-news/2025/apr/16/uk-supreme-court-gender-definition-ruling",
-      ],
     },
     {
       id: "lithuania_same_sex_partnerships",
@@ -1224,10 +1126,6 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "On April 17, 2025, the Constitutional Court of Lithuania granted same-sex couples the right to register their partnerships with the courts until the Seimas adopts a comprehensive law on registered partnerships.",
       imageUrl: "",
-      referenceUrl: [
-        "https://www.baltictimes.com/lithuania-court-same-sex-partnerships-2025-04-17/",
-        "https://www.lrt.lt/en/news-in-english/19/2187652/lithuania-court-same-sex-partnerships",
-      ],
     },
     {
       id: "poland_abolishes_lgbt_free_zones",
@@ -1237,10 +1135,6 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "On April 30, 2025, the last 'LGBT-free zone' in Poland was abolished, marking a significant step toward LGBTQ+ inclusivity in the country.",
       imageUrl: "",
-      referenceUrl: [
-        "https://www.bbc.com/news/world-europe-67978901",
-        "https://notesfrompoland.com/2025/04/30/poland-abolishes-last-lgbt-free-zone/",
-      ],
     },
     {
       id: "italy_recognizes_lesbian_parenthood",
@@ -1251,10 +1145,6 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "On May 22, 2025, Italy's Constitutional Court recognized automatic parenthood on birth certificates for children of lesbian partnerships, eliminating the need for adoption procedures.",
       imageUrl: "",
-      referenceUrl: [
-        "https://www.ansa.it/english/news/politics/2025/05/22/italy-court-lesbian-parenthood_0e1a2b3c-4d5e-4f6a-8b2e-1c2d3e4f5a6b.html",
-        "https://www.reuters.com/world/europe/italy-court-lesbian-parenthood-2025-05-22/",
-      ],
     },
   ],
 };
