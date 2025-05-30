@@ -22,7 +22,12 @@ export interface MuseumItem {
     severe: string[];
     longTerm: string[];
     prevention: string[];
-  };
+  famousPeople?: {
+    name: string;
+    born: string;
+    bio: string;
+    imageUrl: string;
+  }[]; // Correctly represent an array of objects
   referenceUrl?: string[];
 }
 

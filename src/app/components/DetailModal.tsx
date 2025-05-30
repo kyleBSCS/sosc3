@@ -6,6 +6,7 @@ import { CloseIcon } from "./icons/NavigationIcons";
 import Image from "next/image";
 import ProminentFigureSidebar from "./ProminentFigureSidebar";
 import STDSymptomsSidebar from "./STDSymptomsSidebar";
+import GenderFluiditySidebar from "./GenderFluiditySidebar";
 import ReferencesModal from "./ReferencesModal";
 
 interface DetailModalProps {
@@ -54,7 +55,7 @@ const DetailModal: React.FC<DetailModalProps> = ({ item, onClose }) => {
           >
             <div
               className={
-                item.prominentFigure || item.category === "STDs"
+                item.prominentFigure || item.category === "STDs" || item.category === "gender_fluidity"
                   ? "flex flex-col md:flex-row h-full max-h-[90vh] gap-0 md:gap-4"
                   : "h-full max-h-[90vh] overflow-y-auto "
               }
@@ -62,11 +63,12 @@ const DetailModal: React.FC<DetailModalProps> = ({ item, onClose }) => {
               {/* Main Content - Glass Card */}
               <GlassCard
                 className={`flex flex-col rounded-2xl overflow-hidden ${
-                  item.prominentFigure || item.category === "STDs"
+                  item.prominentFigure || item.category === "STDs" || item.category === "gender_fluidity"
                     ? "flex-1 md:h-[90vh] md:overflow-y-auto"
                     : "w-full h-full"
                 }`}
               >
+                <div className="relative w-full flex-grow min-h-[800px] rounded-xl overflow-hidden flex-shrink-0">
                 <div
                   className={`relative w-full flex-grow rounded-xl overflow-hidden flex-shrink-0 ${
                     item.prominentFigure
@@ -113,13 +115,16 @@ const DetailModal: React.FC<DetailModalProps> = ({ item, onClose }) => {
               </GlassCard>
 
               {/* Sidebar */}
-              {(item.prominentFigure || item.category === "STDs") && (
+              {(item.prominentFigure || item.category === "STDs" || item.category === "gender_fluidity") && (
                 <div className="md:w-80 md:flex-shrink-0 md:h-[90vh] md:overflow-y-auto overflow-x-hidden">
                   {item.prominentFigure && (
                     <ProminentFigureSidebar figure={item.prominentFigure} />
                   )}
                   {item.category === "STDs" && item.symptoms && (
                     <STDSymptomsSidebar symptoms={item.symptoms} />
+                  )}
+                  {item.category === "gender_fluidity" && item.famousPeople && (
+                    <GenderFluiditySidebar famousPeople={item.famousPeople} />
                   )}
                 </div>
               )}

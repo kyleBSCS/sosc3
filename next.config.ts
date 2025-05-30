@@ -29,10 +29,6 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "www.unco.edu",
-      },
-      {
-        protocol: "https",
         hostname: "images-na.ssl-images-amazon.com",
       },
       {
@@ -57,6 +53,39 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
+        hostname: "plus.unsplash.com",
+      },
+      {
+        protocol: "https",
+        hostname: "thumbs.dreamstime.com",
+      },
+      {
+        protocol: "https",
+        hostname: "therevealer.org",
+      },
+      {
+        protocol: "https",
+        hostname: "equaliteach.co.uk",
+      },
+      {
+        protocol: "https",
+        hostname: "static.vecteezy.com",
+      },
+      {
+        protocol: "https",
+        hostname: "i.pinimg.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.wikihow.com",
+      },
+      {
+        protocol:"https",
+        hostname:"media.craiyon.com",
+      },
+      {
+        protocol: "https",
+
         hostname: "cdn.std.uw.edu",
       },
       {
@@ -85,6 +114,88 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
+        hostname: "external-preview.redd.it",
+      },
+      {
+        protocol: "https",
+        hostname: "thebookishtype.co.uk",
+      },
+      {
+        protocol: "https",
+        hostname: "media.philstar.com",
+      },
+      {
+        protocol: "https",
+        hostname: "aphrodite.gmanetwork.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.gaytimes.co.uk",
+      },
+      
+      {
+        protocol:"https",
+        hostname:"od2-image-api.abs-cbn.com"
+      },
+      {
+        protocol:"https",
+        hostname:"media.pitchfork.com"
+      },
+      {
+        protocol:"https",
+        hostname:"metro.co.uk"
+      },
+      {
+        protocol:"https",
+        hostname:"static.wikia.nocookie.net"
+      },
+      {
+        protocol: "https",
+        hostname:"i.abcnewsfe.com",
+      },
+      {
+        protocol: "https",
+        hostname:"media-cldnry.s-nbcnews.com",
+      },
+      {
+        protocol: "https",
+        hostname:"s.yimg.com",
+      },
+      {
+        protocol:"https",
+        hostname:"www.uvic.ca",
+      },
+      
+      {
+        protocol:"https",
+        hostname:"images.squarespace-cdn.com",
+      },
+      {
+        protocol:"https",
+        hostname:"media.vanityfair.com",
+      },
+      {
+        protocol:"https",
+        hostname:"encrypted-tbn0.gstatic.com",
+      },
+      {
+        protocol:"https",
+        hostname:"encrypted-tbn2.gstatic.com",
+      },
+      {
+        protocol:"https",
+        hostname:"i.guim.co.uk",
+      },
+      {
+        protocol:"https",
+        hostname:"cultmtl.com",
+      },
+      {
+        protocol:"https",
+        hostname:"encrypted-tbn2.gstatic.com",
+      },
+      {
+        protocol:"https",
         hostname: "images.theconversation.com",
       },
       {
