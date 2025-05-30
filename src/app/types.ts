@@ -22,13 +22,14 @@ export interface MuseumItem {
     severe: string[];
     longTerm: string[];
     prevention: string[];
+  };
+  referenceUrl?: string[];
   famousPeople?: {
     name: string;
     born: string;
     bio: string;
     imageUrl: string;
-  }[]; // Correctly represent an array of objects
-  referenceUrl?: string[];
+  }[];
 }
 
 export type ViewMode = "main_menu" | "slideshow" | "detail" | "about";

@@ -37,7 +37,7 @@ export const TOPICS: MuseumTopic[] = [
     description:
       "Learn about the different kinds of STDs/STIs and how to prevent them.",
     imageUrl:
-      "https://img.freepik.com/free-photo/daughter-holding-her-mothers-hand-hospital_53876-139572.jpg?semt=ais_hybrid&w=740",
+      "/std.jpg",
   },
   {
     id: "recent_developments",
@@ -70,7 +70,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
           {
             title: "The Weary Blues (1925)",
             imageUrl:
-              "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1708067460i/15762561.jpg",
+              "/works/weary_blues.jpg",
           },
           {
             title: "Not Without Laughter (1930)",
@@ -251,7 +251,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
           {
             title: "Numerous solo and group exhibitions internationally",
             imageUrl:
-              "https://sam.nmartmuseum.org/internal/media/dispatcher/11732/thumbnail",
+              "/works/dispatcher.jpeg",
           },
         ],
         imageUrl:
@@ -271,7 +271,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "Audre Lorde described herself as a 'Black, lesbian, mother, warrior, poet.' Her powerful writings explored themes of racism, sexism, homophobia, and classism. Lorde emphasized the importance of intersectionality and using differences as a catalyst for change. Her essays and poems, such as 'Sister Outsider' and 'Zami: A New Spelling of My Name,' continue to inspire activists and thinkers worldwide.",
       imageUrl:
-        "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/audrelorde.jpg",
+        "/public-figs/audre-lorde.jpg",
       prominentFigure: {
         name: "Audre Lorde",
         born: "Feb 18, 1934",
@@ -291,14 +291,14 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
           {
             title: "The Cancer Journals (1980)",
             imageUrl:
-              "https://www.penguin.co.uk/_next/image?url=https%3A%2F%2Fcdn.penguin.co.uk%2Fdam-assets%2Fbooks%2F9780241453506%2F9780241453506-jacket-large.jpg&w=819&q=100",
+              "/works/the_cancer_journals.jpeg",
           },
         ],
         events: [
           {
             title: "Co-founder of Kitchen Table: Women of Color Press (1980)",
             imageUrl:
-              "https://fractals.blackfeministfuture.org/wp-content/uploads/2021/10/BarbaraAudreCherrieHattiec1980.jpeg",
+              "/works/Women_Of_The_Colors.jpeg",
           },
           {
             title: "Activism in feminist and civil rights movements",
@@ -435,7 +435,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
             title:
               "Campaigned to remove homosexuality from APA's list of mental illnesses (successfully in 1973)",
             imageUrl:
-              "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/rockcms/2024-04/240405-chicago-gay-crusader-ch-1420-a3b9ff.jpg",
+              "/works/chicago.jpg",
           },
           {
             title: "Headed the American Library Association's Gay Task Force",
@@ -472,14 +472,14 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
             title:
               "Founding The House of GG (Griffin-Gracy Educational Retreat & Historical Center)",
             imageUrl:
-              "https://humanrightsconnected.org/wp-content/uploads/2020/06/org_logo_HouseofGG-1.png",
+              "/works/gg.png",
           },
         ],
         events: [
           {
             title: "Participant in the Stonewall Riots (1969)",
             imageUrl:
-              "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_3840,h_1920,g_auto/dpr_auto/f_auto/q_auto:eco/v1/stonewall-gettyimages-661695126?_a=BAVAZGDX0",
+              "/works/stonewall.jpeg",
           },
           {
             title:
@@ -534,7 +534,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
           {
             title: "Activism with Gay Liberation Front and ACT UP",
             imageUrl:
-              "https://daily.jstor.org/wp-content/uploads/2020/06/from_gay_liberation_to_marriage_equality_1050x700.jpg",
+              "/works/activism.jpg",
           },
         ],
         imageUrl:
@@ -574,7 +574,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
           },
           {
             title: "Inducted into Chicago Gay and Lesbian Hall of Fame (1996)",
-            imageUrl: "https://i.ytimg.com/vi/ntsu3MQVJ4g/hqdefault.jpg",
+            imageUrl: "/works/chicago.jpeg",
           },
         ],
         imageUrl:
@@ -673,7 +673,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
             title:
               "'Y'all Better Quiet Down' speech (1973 Christopher Street Liberation Day Rally)",
             imageUrl:
-              "https://www.nypl.org/sites-drupal/default/files/styles/max_scale_640x640/public/field_ers_item_record_image/2022-06/sylvia.jpg?itok=5iUbCTiD",
+              "/works/speech.jpg",
           },
         ],
         imageUrl:
@@ -705,7 +705,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
             title:
               "Homeland: My Father Dreams of Palestine (as Hannah Moushabeck)",
             imageUrl:
-              "https://blogs.publishersweekly.com/blogs/shelftalker/wp-content/uploads/2023/02/9781797202051_b9a05.jpg",
+              "/works/homeland.jpg",
           },
         ],
         events: [
@@ -744,7 +744,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
             title:
               "Organizer of the March on Washington for Jobs and Freedom (1963)",
             imageUrl:
-              "https://www.blackpast.org/wp-content/uploads/2024/08/Bayard_Rustin_and_Cleveland_Robinson_Photo_by_Orlando_Fernandez.jpg",
+              "/works/1963.jpg",
           },
         ],
         events: [
@@ -762,7 +762,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
             title:
               "Posthumously awarded the Presidential Medal of Freedom (2013)",
             imageUrl:
-              "https://obamawhitehouse.archives.gov/sites/default/files/image/image_file/p112013ps-0298.jpg",
+              "/works/obama.jpg",
           },
         ],
         imageUrl:
@@ -1006,7 +1006,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
           name:"Cara Delevingne",
           born:"August 12, 1992",
           bio:"Delevingne is openly bisexual/pansexual. In May 2018, Delevingne came out as genderfluid.In a 2019 article she stated, `The whole idea of gender is so fixed. I just want to, like, explode it. I'm not nonbinary, but I feel as much man as I am woman.` She echoed this sentiment in a 2020 interview with Variety, saying `Some days, I feel more womanly. Some days, I feel more like a man.`",
-          imageUrl:"https://i.abcnewsfe.com/a/d4d53e07-7efc-4c30-8b43-469b9726b54e/Cara-Delevingne-gty-bb-230725_1690297129589_hpMain.jpg"
+          imageUrl:"/public-figs/cara.jpg"
         },
         {
           name:"Jaden Smith",
@@ -1060,13 +1060,13 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       date: "",
       shortDescription: "An umbrella term for gender identities that are not exclusively male or female.",
       longDescription: "Nonbinary people may identify as a mix of both male and female, neither, or as a different gender entirely. It challenges the binary notion of gender and encompasses a variety of identities.",
-      imageUrl: "https://thebookishtype.co.uk/cdn/shop/products/Non-Binary-0_1200x1200.jpg?v=1674126381",
+      imageUrl: "/works/nonbinary.jpg",
       famousPeople: [
         {
           name: "Sam Smith",
           born: "May 19, 1992",
           bio: "Sam Smith is a British singer and songwriter who identifies as nonbinary and uses they/them pronouns. They have been open about their gender identity and advocate for LGBTQ+ rights.",
-          imageUrl: "https://cdn.theatlantic.com/thumbor/qSS7ULu4G4y0o3kfqy3d58L30CY=/1287x0:4212x2925/1080x1080/media/img/mt/2023/01/GettyImages_1449497510/original.jpg",
+          imageUrl: "/public-figs/samsmith.jpg",
         },
         {
           name: "Emma Corrin",
@@ -1078,7 +1078,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
           name:"Halsey",
           born:"September 29, 1994",
           bio:"Halsey uses the pronouns she/they and identifies as gender-bendy or non-binary. She has stated that she is comfortable with both pronouns and finds the inclusion of (they) in addition to she to be most authentic. ",
-          imageUrl:"https://media.pitchfork.com/photos/5e20be6dd7f8cd0008150d49/1:1/w_450%2Cc_limit/Manic_Halsey.jpg"
+          imageUrl:"/public-figs/halsey.jpg"
         }
       ],
       
@@ -1164,7 +1164,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "Chlamydia is a prevalent sexually transmitted infection caused by the bacterium Chlamydia trachomatis. It's often asymptomatic, making regular screenings crucial. If untreated, it can lead to serious reproductive complications. Fortunately, it is easily curable with antibiotics.",
       imageUrl:
-        "https://cdn.std.uw.edu/doc/568-1/adult-chlamydial-inclusion-conjunctivitis-.jpg",
+        "/stds/chlamydia.jpg",
       symptoms: {
         common: [
           "Abnormal vaginal discharge",
@@ -1204,7 +1204,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
         "A bacterial STI that can infect the genitals, rectum, and throat.",
       longDescription:
         "Gonorrhea is a common sexually transmitted infection caused by Neisseria gonorrhoeae. It can affect multiple areas of the body and often presents no symptoms, especially in women. If left untreated, it can cause serious health issues. Prompt antibiotic treatment is effective.",
-      imageUrl: "https://img.medscapestatic.com/pi/meds/ckb/34/37134tn.jpg",
+      imageUrl: "/stds/gonorrhea.jpg",
       symptoms: {
         common: [
           "Thick, cloudy discharge",
@@ -1245,7 +1245,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "HPV is a widespread sexually transmitted infection with over 100 types. While many infections resolve on their own, some can cause genital warts or lead to cancers such as cervical cancer. Vaccination and regular screenings are key preventive measures.",
       imageUrl:
-        "https://images.everydayhealth.com/images/stds/hpv/hpv-warts-722x406.jpg",
+        "/stds/hpv.webp",
       symptoms: {
         common: [
           "Genital warts",
@@ -1285,7 +1285,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "Herpes simplex virus, encompassing HSV-1 and HSV-2, leads to infections that can cause blisters or ulcers, commonly around the mouth or genitals. The virus remains in the body for life, with symptoms managed through antiviral medications.",
       imageUrl:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvfyguxyA7qrPvjA37jVuQhaYURvAouSWttw&s",
+        "/stds/herpes.jpeg",
       symptoms: {
         common: [
           "Painful blisters or ulcers",
@@ -1326,7 +1326,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "Syphilis is a sexually transmitted infection that progresses through stages: primary, secondary, latent, and tertiary. Early stages may present sores or rashes, while later stages can cause serious health problems. Early detection and antibiotic treatment are crucial.",
       imageUrl:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYX7NlhbELZGFW0k1zAp-abK5V2PrCfEmLyg&s",
+        "/stds/syphilis.jpeg",
       symptoms: {
         common: [
           "Painless sores (chancre)",
@@ -1367,7 +1367,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "HIV is a virus that compromises the immune system, making individuals more susceptible to infections and diseases. Without treatment, it can progress to AIDS. While there's no cure, antiretroviral therapy allows individuals to manage the virus effectively.",
       imageUrl:
-        "https://www.verywellhealth.com/thmb/KvDUuWf8x7VdR9bLys2spw68_5k=/965x610/filters:no_upscale():max_bytes(150000):strip_icc()/maculopapular-569fdede3df78cafda9eb2dd.png",
+        "/stds/hiv.png",
       symptoms: {
         common: [
           "Flu-like symptoms",
@@ -1407,7 +1407,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "Trichomoniasis is a sexually transmitted infection caused by the parasite Trichomonas vaginalis. Many infected individuals show no symptoms, but it can cause discomfort and increase the risk of other STIs. It is treatable with prescribed medications.",
       imageUrl:
-        "https://almostadoctor.co.uk/wp-content/uploads/2017/06/23975AB1-24A8-4A3A-8B70-E56CA4C4DE2D-scaled.jpeg",
+        "/stds/trichomoniasis.jpeg",
       symptoms: {
         common: [
           "Frothy vaginal discharge",
@@ -1448,7 +1448,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "Hepatitis B is a liver infection caused by the hepatitis B virus. It can be acute or chronic and is transmitted through bodily fluids, including during sexual activity. Vaccination is the most effective prevention method.",
       imageUrl:
-        "https://www.hepb.org/blog/wp-content/uploads/2012/08/Unknown.jpeg ",
+        "/stds/hepatitis_b.jpeg",
       symptoms: {
         common: [
           "Fatigue",
@@ -1491,7 +1491,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "On January 1, 2025, Liechtenstein's law allowing same-sex marriages officially came into effect, marking a significant step forward for LGBTQ+ rights in the country.",
       imageUrl:
-        "https://www.politico.eu/cdn-cgi/image/width=1160,height=773,quality=80,onerror=redirect,format=auto/wp-content/uploads/2024/05/17/GettyImages-1244635842-scaled.jpg",
+        "/recent_developments/liechtenstein_same_sex_marriage.jpg",
     },
     {
       id: "thailand_same_sex_marriage",
@@ -1501,7 +1501,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "On January 23, 2025, Thailand's law allowing same-sex marriages officially came into effect, making it the first Southeast Asian country to legalize same-sex marriage.",
       imageUrl:
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-560w,f_auto,q_auto:best/rockcms/2024-09/240924-Bangkok-Pride-Parade-ac-1151p-19fd6a.jpg",
+        "/recent_developments/thailand_same_sex_marriage.jpeg",
     },
     {
       id: "trump_executive_order_gender_identity",
@@ -1512,7 +1512,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "On January 20, 2025, President Donald Trump signed an executive order titled 'Defending Women from Gender Ideology Extremism and Restoring Biological Truth to the Federal Government,' requiring federal departments to recognize gender as a male-female binary only, determined by biological sex assigned at conception.",
       imageUrl:
-        "https://images.axios.com/CjRHu2VYUKdLTJNwuRo9896-GHU=/0x70:4481x2591/1920x1080/2025/02/05/1738782742981.jpg",
+        "/recent_developments/trump_executive_order_gender_identity.jpg",
     },
     {
       id: "hungary_bans_lgbtq_events",
@@ -1522,7 +1522,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "On March 18, 2025, the Hungarian parliament voted 136–27 to ban LGBTQ+ events in the country, including the annual Budapest Pride event, as part of a series of anti-LGBTQ+ legislative measures.",
       imageUrl:
-        "https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2025-04/250414-hungary-lgbtq-se-313p-d53142.jpg",
+        "/recent_developments/hungary_bans_lgbtq_events.jpg",
     },
     {
       id: "utah_bans_pride_flags",
@@ -1533,7 +1533,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "On March 28, 2025, Utah enacted a law banning LGBTQ+ pride flags in government buildings and schools, becoming the first U.S. state to implement such a measure.",
       imageUrl:
-        "https://lailluminator.com/wp-content/uploads/2025/03/SLC-pride-flag-2-2048x1365-1-1536x1024.jpg",
+        "/recent_developments/utah_bans_pride_flags.jpg",
     },
     {
       id: "idaho_resolution_same_sex_marriage",
@@ -1545,7 +1545,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "On January 27, 2025, the Idaho House of Representatives voted for a resolution calling for the U.S. Supreme Court to reconsider its 2015 decision in Obergefell v. Hodges, which legalized same-sex marriage nationwide.",
       imageUrl:
-        "https://media.cnn.com/api/v1/images/stellar/prod/150626101106-04-scotus-same-sex-0626.jpg?q=w_3425,h_2284,x_0,y_0,c_fill",
+        "/recent_developments/idaho_resolution_same_sex_marriage.jpg",
     },
     {
       id: "uk_supreme_court_gender_definition",
@@ -1556,7 +1556,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "On April 16, 2025, the Supreme Court of the United Kingdom ruled that legal gender is based upon sex assigned at birth, excluding transgender women from the legal definition of 'woman' for the purposes of the Equality Act 2010.",
       imageUrl:
-        "https://media.licdn.com/dms/image/v2/D4D12AQGNu4rd9qokEQ/article-cover_image-shrink_720_1280/B4DZZCVimFHAAI-/0/1744869666363?e=2147483647&v=beta&t=mxTbXkCvx88B3W-Ritvn4OsQ4hLqZJ_DuNEaVaxY5DI",
+        "/recent_developments/uk_supreme_court_gender_definition.jpeg",
     },
     {
       id: "lithuania_same_sex_partnerships",
@@ -1567,7 +1567,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "On April 17, 2025, the Constitutional Court of Lithuania granted same-sex couples the right to register their partnerships with the courts until the Seimas adopts a comprehensive law on registered partnerships.",
       imageUrl:
-        "https://www.aljazeera.com/wp-content/uploads/2022/05/AP21247573855481.jpg?resize=1920%2C1440",
+        "/recent_developments/lithuania_same_sex_partnerships.jpg",
     },
     {
       id: "poland_abolishes_lgbt_free_zones",
@@ -1577,7 +1577,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "On April 30, 2025, the last 'LGBT-free zone' in Poland was abolished, marking a significant step toward LGBTQ+ inclusivity in the country.",
       imageUrl:
-        "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/VNGCO2TVYRIXHBT3GZZLGTNXVM.jpg",
+        "/recent_developments/poland_abolishes_lgbt_free_zones.jpg",
     },
     {
       id: "italy_recognizes_lesbian_parenthood",
@@ -1588,7 +1588,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       longDescription:
         "On May 22, 2025, Italy's Constitutional Court recognized automatic parenthood on birth certificates for children of lesbian partnerships, eliminating the need for adoption procedures.",
       imageUrl:
-        "https://media.zenfs.com/en/gcn_uk_889/912cc88bc2ddddd3beac98679c703ab0",
+        "/recent_developments/italy_recognizes_lesbian_parenthood.jpeg",
     },
   ],
 };
