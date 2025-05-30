@@ -112,7 +112,92 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "www.hepb.org",
       },
+      {
+        protocol: "https",
+        hostname: "external-preview.redd.it",
+      },
+      {
+        protocol: "https",
+        hostname: "thebookishtype.co.uk",
+      },
+      {
+        protocol: "https",
+        hostname: "media.philstar.com",
+      },
+      {
+        protocol: "https",
+        hostname: "aphrodite.gmanetwork.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.gaytimes.co.uk",
+      },
+      
+      {
+        protocol:"https",
+        hostname:"od2-image-api.abs-cbn.com"
+      },
+      {
+        protocol:"https",
+        hostname:"media.pitchfork.com"
+      },
+      {
+        protocol:"https",
+        hostname:"metro.co.uk"
+      },
+      {
+        protocol:"https",
+        hostname:"static.wikia.nocookie.net"
+      },
+      {
+        protocol: "https",
+        hostname:"i.abcnewsfe.com",
+      },
+      {
+        protocol: "https",
+        hostname:"media-cldnry.s-nbcnews.com",
+      },
+      {
+        protocol: "https",
+        hostname:"s.yimg.com",
+      },
+      {
+        protocol:"https",
+        hostname:"www.uvic.ca",
+      },
+      
+      {
+        protocol:"https",
+        hostname:"images.squarespace-cdn.com",
+      },
+      {
+        protocol:"https",
+        hostname:"media.vanityfair.com",
+      },
+      {
+        protocol:"https",
+        hostname:"encrypted-tbn0.gstatic.com",
+      },
+      {
+        protocol:"https",
+        hostname:"encrypted-tbn2.gstatic.com",
+      },
+      {
+        protocol:"https",
+        hostname:"i.guim.co.uk",
+      },
+      {
+        protocol:"https",
+        hostname:"cultmtl.com",
+      },
+      {
+        protocol:"https",
+        hostname:"encrypted-tbn2.gstatic.com",
+      }
+      
+      
     ],
+
   },
 };
 

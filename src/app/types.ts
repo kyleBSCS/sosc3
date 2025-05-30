@@ -23,6 +23,12 @@ export interface MuseumItem {
     longTerm: string[];
     prevention: string[];
   };
+  famousPeople?: {
+    name: string;
+    born: string;
+    bio: string;
+    imageUrl: string;
+  }[]; // Correctly represent an array of objects
 }
 
 export type ViewMode = "main_menu" | "slideshow" | "detail" | "about";

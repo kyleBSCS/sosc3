@@ -783,117 +783,223 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
   ],
   gender_fluidity: [
     {
-      id: "nonbinary",
-      title: "Nonbinary",
-      date: "",
-      shortDescription: "An umbrella term for gender identities that are not exclusively male or female.",
-      longDescription: "Nonbinary people may identify as a mix of both male and female, neither, or as a different gender entirely. It challenges the binary notion of gender and encompasses a variety of identities.",
-      imageUrl: "https://plus.unsplash.com/premium_photo-1673248252099-9afbcdeac347?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    },
-    {
-      id: "bigender",
-      title: "Bigender",
-      date: "",
-      shortDescription: "A person who identifies as having two distinct genders.",
-      longDescription: "Bigender individuals experience two gender identities, either simultaneously or switching between them. These genders can be male and female or any combination of genders.",
-      imageUrl: "https://img.freepik.com/free-vector/organic-flat-non-binary-people-illustration_23-2148911688.jpg?semt=ais_hybrid&w=740",
-    },
-    {
-      id: "demiboy",
-      title: "Demiboy",
-      date: "",
-      shortDescription: "Someone partially, but not fully, identifying as male.",
-      longDescription: "A demiboy feels a partial connection to being a boy or man, but does not wholly identify with male gender. This identity exists on a spectrum between male and other genders.",
-      imageUrl: "https://static.vecteezy.com/system/resources/previews/023/673/724/non_2x/gender-symbol-of-demiboy-in-pride-colors-free-vector.jpg",
-    },
-    {
-      id: "demigirl",
-      title: "Demigirl",
-      date: "",
-      shortDescription: "Someone partially, but not fully, identifying as female.",
-      longDescription: "A demigirl feels a partial connection to being a girl or woman, but does not fully identify with female gender. It represents a gender experience between female and other identities.",
-      imageUrl: "https://static.vecteezy.com/system/resources/previews/023/480/417/non_2x/gender-symbol-of-demigirl-in-pride-colors-vector.jpg",
-    },
-    {
-      id: "genderfluid",
-      title: "Genderfluid",
-      date: "",
-      shortDescription: "A gender identity that varies over time.",
-      longDescription: "Genderfluid people experience shifts in their gender identity or expression over time. Their gender can fluctuate between male, female, both, neither, or other genders.",
-      imageUrl: "https://i.pinimg.com/736x/b3/06/bc/b306bcb9218ce93b992912758a1f0075.jpg",
-    },
-    {
-      id: "maverique",
-      title: "Maverique",
-      date: "",
-      shortDescription: "A nonbinary gender that is independent from male, female, or anything in between.",
-      longDescription: "Maverique is a gender identity characterized by autonomy and inner conviction regarding gender, distinct from the binary or spectrum models. It is an independent gender experience.",
-      imageUrl: "https://img.freepik.com/free-vector/hand-drawn-background-pride-month-celebration_23-2150245080.jpg?semt=ais_hybrid&w=740",
-    },
-    {
-      id: "neutrois",
-      title: "Neutrois",
-      date: "",
-      shortDescription: "A nonbinary gender identity that is neutral or null.",
-      longDescription: "Neutrois individuals often identify as neutral or null gender, rejecting gendered classifications entirely. It is a nonbinary identity associated with neutrality or absence of gender.",
-      imageUrl: "https://img.freepik.com/free-vector/people-celebrating-pride-day_23-2148509528.jpg?semt=ais_hybrid&w=740",
-    },
-    {
-      id: "androgynous",
-      title: "Androgynous",
-      date: "",
-      shortDescription: "A gender identity blending both masculine and feminine traits.",
-      longDescription: "Androgynous people experience a mix of male and female characteristics, or identify as both genders simultaneously. It can describe a gender expression or identity that is balanced or ambiguous.",
-      imageUrl: "https://thumbs.dreamstime.com/b/drawn-abstract-image-androgyne-man-androgyne-symbols-295663401.jpg",
-    },
-    {
-      id: "two-spirit",
-      title: "Two-Spirit",
-      date: "",
-      shortDescription: "A term used by some Indigenous North American cultures to describe a person embodying both masculine and feminine qualities.",
-      longDescription: "Two-Spirit is a culturally specific identity used by Indigenous peoples of North America, encompassing gender diversity and spiritual roles beyond the male-female binary. It recognizes complex gender and social roles in those cultures.",
-      imageUrl: "https://therevealer.org/wp-content/uploads/2022/09/Artworkfor1stannualPowwow_MichaelHorse_2012.jpeg",
-    },
-    {
-      id: "pangender",
-      title: "Pangender",
-      date: "",
-      shortDescription: "A pangender person identifies with many or all genders, either simultaneously or over time.",
-      longDescription: "Pangender individuals experience a wide or infinite range of gender identities. They may feel connected to all genders or a multitude of gender expressions. Their identity may be fluid or consistent, and is often expansive and inclusive of all possible genders.",
-      imageUrl: "https://img.freepik.com/free-vector/cartoon-transgender-people-illustrated_23-2148967007.jpg",
-    },
-    {
-      id: "agender",
+      id:"agender",
       title: "Agender",
       date: "",
-      shortDescription: "Someone who identifies as having no gender.",
-      longDescription: "Agender people do not identify with any gender or feel a lack of gender altogether. It is sometimes described as genderlessness or gender neutrality.",
-      imageUrl: "https://www.wikihow.com/images/thumb/4/46/Live-As-an-Agender-Person-Step-1.jpg/v4-460px-Live-As-an-Agender-Person-Step-1.jpg",
+      shortDescription:"A person who identifies as having no gender or being gender-neutral.",
+      longDescription:"Agender individuals do not identify with any gender. They may describe themselves as genderless, gender-neutral, or lacking a gender identity altogether. This identity falls under the nonbinary umbrella, challenging traditional gender norms. Agender people may prefer gender-neutral pronouns like they/them, but pronoun preferences can vary. ",
+      imageUrl:"https://static.wikia.nocookie.net/gender/images/2/27/Agender_Alt.png/revision/latest?cb=20201015220316",
+      famousPeople: [
+        {
+          name:"Angel Haze",
+          born:"July 10, 1991",
+          bio:"Angel Haze identifies as agender, having no gender identity. Rather than using pronouns like he or she, people contort themselves as they write about Haze calling the MC `they`. It's something Haze is happy to give voice to, but doesn't take that seriously.",
+          imageUrl:"https://i.guim.co.uk/img/static/sys-images/Admin/BkFill/Default_image_group/2012/8/20/1345479496323/Angel-Haze-photographed-i-010.jpg?width=465&dpr=1&s=none&crop=none",
+
+        },
+        {
+          name:"Tyler Ford",
+          born:"October 25, 1990",
+          bio:"R. B. Lemberg is a queer, bigender, and autistic author, poet, and editor of speculative fiction.",
+          imageUrl:"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT6ApLj6oKaO2Ce7ajT_2oDW6MiZTMbHE7Q9Q-yNV4yZINtdBaG",
+
+        },
+        {
+          name:"Anjimile",
+          born:"1993",
+          bio:"Anjimile is a Black, non-binary Agender singer-songwriter (he/him, they/them) makes peace with a destructive former self once consumed by addiction while also discovering his place within his deep Malawian lineage. Perhaps most importantly, he embraces and introduces the world to his new trans identity — for the very first time, his mind, body, and spirit are aligned. ",
+          imageUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIwqHpLuewa-vUlb_sL7mGsKbLDq1mJK2--R2MNCyqxX_e8eAJPkJdoARpYeLSGr2TcCt5WWVBI8VTfJSZdmUuiw",
+
+        },
+
+
+      ],
+
     },
     {
-      id: "genderqueer",
-      title: "Genderqueer",
+      id:"bigender",
+      title: "Bigender",
       date: "",
-      shortDescription: "An umbrella term for gender identities that are not exclusively male or female.",
-      longDescription: "Genderqueer individuals may reject traditional gender distinctions or express a mix of genders. This term is often used broadly to describe nonbinary gender identities.",
-      imageUrl: "https://media.craiyon.com/2025-04-15/d6Kvf8QkRT2kfbhb2ZsEBg.webp",
+      shortDescription:"A person who identifies with two distinct gender identities, either simultaneously or alternating between them.",
+      longDescription:"Bigender individuals experience two gender identities, which can be male and female or a combination of different genders. These identities may be experienced at the same time or at different times. Bigender is a nonbinary identity that challenges the traditional gender binary and allows for a fluid experience of gender.",
+      imageUrl:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Bigender_Flag.svg/2560px-Bigender_Flag.svg.png",
+      famousPeople: [
+        {
+          name:"Ari Kane",
+          born:"1936",
+          bio:"Ari Kane, born in 1936, is a counselor, gerontologist, and sexologist known for founding the Outreach Institute of Gender Studies as well as Fantasia Fair, a yearly festival for the transgender and gender-nonconforming community. Kane is bi-gender and androgynous, identifying with both masculinity and femininity.",
+          imageUrl:"https://www.uvic.ca/transgenderarchives/assets/images/photo-galleries/ari-kane/Rikki-Swin_2008-006_05.04.jpg",
+
+        },
+        {
+          name:"R.B. Lemberg",
+          born:"September 27, 1976",
+          bio:"R. B. Lemberg is a queer, bigender, and autistic author, poet, and editor of speculative fiction.",
+          imageUrl:"https://images.squarespace-cdn.com/content/v1/650dc12b21fada27bc10d0e0/144c1bce-d179-44d2-9d9c-2b5deacb19d2/Lemberg+photo.jpeg",
+
+        },
+        {
+          name:"Jonathan van Ness",
+          born:"March 28, 1987",
+          bio:"Jonathan Van Ness identifies as non-binary, meaning their gender identity falls outside of the traditional binary of male and female. They have described themselves as `genderqueer` and have expressed that they feel most comfortable with he/him pronouns. Van Ness also stated that they don't always feel like a boy or a girl, and that they are comfortable with being `gender-bendy` or `non-conform-y`. ",
+          imageUrl:"https://media.vanityfair.com/photos/6256da5967f4b24bbe872165/master/w_2560%2Cc_limit/Jonathan-Van-Ness-press-by-Danielle-Levitt-2022-lede.jpg",
+
+        },
+      ],
     },
     {
       id: "cisgender",
       title: "Cisgender",
       date: "",
-      shortDescription: "A person whose gender identity matches their sex assigned at birth.",
-      longDescription: "Cisgender individuals identify with the gender they were assigned at birth, typically male or female. This term contrasts with transgender and nonbinary identities.",
-      imageUrl: "https://equaliteach.co.uk/wp-content/uploads/valentines.jpg",
+      shortDescription:"Cisgender people identify with the gender they were assigned at birth, and their gender identity aligns with societal expectations based on that assignment.",
+      longDescription:"Cisgender (or `cis`) individuals have a gender identity that corresponds with the sex they were designated at birth. For example, someone assigned male at birth who identifies as a man is cisgender. The term is used in contrast with transgender and helps highlight that not all gender identities follow the traditional binary or assigned roles. Being cisgender does not imply conformity to traditional gender roles—it simply refers to identity alignment.",
+      imageUrl:"https://static.wikia.nocookie.net/gender/images/8/87/Cisgender_Flag.png/revision/latest?cb=20250307092632",
+      famousPeople:[
+        {
+          name:"Chris Evans",
+          born:"June 13, 1981",
+          bio:"Chris Evans is an American actor best known for his role as Captain America in the Marvel Cinematic Universe. He began his career in television before transitioning to film, gaining widespread fame for his superhero roles. Evans is widely recognized as a cisgender man and supports various humanitarian and political causes.",
+          imageUrl:"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Chris_Evans_-_Captain_America_2_press_conference_%28cropped%29.jpg/250px-Chris_Evans_-_Captain_America_2_press_conference_%28cropped%29.jpg",
+
+        },
+        {
+          name:"Emma Watson",
+          born:"April 15, 1990",
+          bio:"Emma Watson is a cisgender woman. Her gender identity aligns with the sex assigned to her at birth. She is a well-known advocate for gender equality and women's rights, having served as a UN Women Goodwill Ambassador since 2014 and is a key figure in the HeForShe campaign. She has spoken publicly about her experiences with sexism and the importance of gender equality.",
+          imageUrl:"https://upload.wikimedia.org/wikipedia/commons/7/7f/Emma_Watson_2013.jpg"
+        },
+
+        {
+          name:"Taylor Swift",
+          born:"December 13, 1989",
+          bio:"Taylor Swift is an American singer-songwriter and actress known for her narrative songwriting and genre-spanning music, ranging from country to pop and indie rock. She began her career as a teenager and quickly rose to global fame with hits like Love Story, Blank Space, and Anti-Hero. Swift has won numerous awards, including Grammys, and is recognized for her activism, especially in women's rights and LGBTQ+ issues. She identifies as a cisgender woman.", 
+          imageUrl:"https://s.yimg.com/ny/api/res/1.2/TynxsgV3vfkmx8XE.waLAg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD04MTA-/https://media.zenfs.com/en/men_s_journal_718/e04906279c9f853c654573716796786a",
+        }
+      ],
+    },
+    {
+      id:"gender_fluid",
+      title:"Gender Fluid",
+      date:"",
+      shortDescription:"A gender identity that may shift over time between different expressions",
+      longDescription:"Genderfluid individuals experience a gender identity that is dynamic and flexible, often moving between different gender expressions or identities. Their gender may shift over hours, days, or years and can include male, female, both, neither, or other identities. Genderfluidity is a form of nonbinary identity and reflects the fluid nature of some people's experiences with gender beyond fixed categories.",
+      imageUrl:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Genderfluidity_Pride-Flag.svg/1200px-Genderfluidity_Pride-Flag.svg.png",
+      famousPeople:[
+        {
+          name:"Cara Delevingne",
+          born:"August 12, 1992",
+          bio:"Delevingne is openly bisexual/pansexual. In May 2018, Delevingne came out as genderfluid.In a 2019 article she stated, `The whole idea of gender is so fixed. I just want to, like, explode it. I'm not nonbinary, but I feel as much man as I am woman.` She echoed this sentiment in a 2020 interview with Variety, saying `Some days, I feel more womanly. Some days, I feel more like a man.`",
+          imageUrl:"https://i.abcnewsfe.com/a/d4d53e07-7efc-4c30-8b43-469b9726b54e/Cara-Delevingne-gty-bb-230725_1690297129589_hpMain.jpg"
+        },
+        {
+          name:"Jaden Smith",
+          born:"March 26, 1948",
+          bio:"Jaden Smith is known for his gender-fluid fashion choices and is a prominent figure in challenging traditional gender norms. He has consistently worn clothing that blurs the lines between masculine and feminine, including skirts, dresses, and heels, both on and off the red carpet. In 2016, he even launched his own gender-fluid clothing line, MSFTSrep, which embraces unconventional styles.",
+          imageUrl:"https://metro.co.uk/wp-content/uploads/2019/06/PRI_72119593-e1584641348855.jpg?quality=90&strip=all&w=646"
+        },
+        {
+          name:"Miley Cyrus",
+          born:"March 26, 1948",
+          bio:"Miley Cyrus has expressed that she feels `gender-neutral and gender-fluid`. She has stated that she doesn't identify strongly with traditional gender roles and feels that gender is `irrelevant` in relationships. She has also come out as pansexual, meaning she is attracted to people regardless of their gender. Miley has used her platform to advocate for gender equality and acceptance. ",
+          imageUrl:"https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/rockcms/2025-05/miley-cyrus-voice-zz-250522-af5d88.jpg"
+        },
+      ],
+
+    },
+
+
+    {
+      id:"genderqueer",
+      title: "Genderqueer",
+      date: "",
+      shortDescription:"A person whose gender identity exists outside the traditional binary of male and female.",
+      longDescription:"Genderqueer individuals reject or do not adhere to the conventional gender binary. Their gender identity may be a combination of genders, fluid, or entirely independent of traditional gender categories. The term emerged in the 1990s within activist communities and serves as an umbrella term for various nonbinary identities, including agender, bigender, and genderfluid. Genderqueer people may use diverse pronouns and often challenge societal norms related to gender.",
+      imageUrl:"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Genderqueer_Pride_Flag.svg/1200px-Genderqueer_Pride_Flag.svg.png",
+      famousPeople: [
+        {
+          name: "Alok Vaid-Menon",
+          born: "July 1, 1991",
+          bio: "Alok Vaid-Menon is an American writer, performance artist, and media personality. Vaid-Menon is gender non-conforming and transfeminine, and uses the singular they third person pronouns.",
+          imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRflC68R87Zbhr399RjjWVp9XZ4pOStoz0W7LYakkCz5X7hjTPzloew0CTUTCSnfpvEnbydT_ERyzBzvhbF67xckQ",
+        },
+        {
+          name: "King Princess (Mikaela Straus)",
+          born: "December 19, 1998",
+          bio: "King Princess, whose real name is Mikaela Straus, identifies as genderqueer and uses she/her pronouns. She has stated that her stage name reflects the `complexity of [her] gender`. She is also a lesbian. ",
+          imageUrl: "https://cultmtl.com/wp-content/uploads/2019/10/King-Princess.jpg",
+        },
+        {
+          name:"Demi Lovato",
+          born:"August 20, 1992",
+          bio:"Demi Lovato identifies as non-binary and uses both `they/them` and `she/her` pronouns. While Lovato initially transitioned to `they/them` pronouns in 2021, they have since re-adopted `she/her` pronouns, according to multiple news outlets. Lovato has also said that they feel most comfortable in gender-neutral spaces and prefer genderless bathrooms",
+          imageUrl:"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTac6Qb_TBZYwLyRj16PycDAQZu7FdgCpYkKddNxCBQuUZtTc5q3A28Yd-Q-EinbH3wrPuciIswpFAfvuFw65H3qQ"
+        }
+      ],
+    },
+
+    {
+      id: "nonbinary",
+      title: "Non-Binary",
+      date: "",
+      shortDescription: "An umbrella term for gender identities that are not exclusively male or female.",
+      longDescription: "Nonbinary people may identify as a mix of both male and female, neither, or as a different gender entirely. It challenges the binary notion of gender and encompasses a variety of identities.",
+      imageUrl: "https://thebookishtype.co.uk/cdn/shop/products/Non-Binary-0_1200x1200.jpg?v=1674126381",
+      famousPeople: [
+        {
+          name: "Sam Smith",
+          born: "May 19, 1992",
+          bio: "Sam Smith is a British singer and songwriter who identifies as nonbinary and uses they/them pronouns. They have been open about their gender identity and advocate for LGBTQ+ rights.",
+          imageUrl: "https://cdn.theatlantic.com/thumbor/qSS7ULu4G4y0o3kfqy3d58L30CY=/1287x0:4212x2925/1080x1080/media/img/mt/2023/01/GettyImages_1449497510/original.jpg",
+        },
+        {
+          name: "Emma Corrin",
+          born: "December 13, 1995",
+          bio: "Emma Corrin identifies as non-binary and uses they/them pronouns. They came out as queer and non-binary in 2021. Corrin also prefers the term actor over actress.",
+          imageUrl: "https://external-preview.redd.it/official-emma-corrin-joins-deadpool-3-v0-IZXM0fDibP_X90QI4wk0GDBam29scXR8ebP_m7BnBro.jpg?auto=webp&s=0974f0d02169b19f48b13d0de42ac9641bb04581",
+        },
+        {
+          name:"Halsey",
+          born:"September 29, 1994",
+          bio:"Halsey uses the pronouns she/they and identifies as gender-bendy or non-binary. She has stated that she is comfortable with both pronouns and finds the inclusion of (they) in addition to she to be most authentic. ",
+          imageUrl:"https://media.pitchfork.com/photos/5e20be6dd7f8cd0008150d49/1:1/w_450%2Cc_limit/Manic_Halsey.jpg"
+        }
+      ],
+      
     },
     {
       id: "transgender",
-      title: "Transgender",
-      date: "",
-      shortDescription: "A person whose gender identity differs from their sex assigned at birth.",
-      longDescription: "Transgender individuals identify as a gender different from the one assigned at birth. This can include binary transgender identities like trans men and trans women, as well as nonbinary trans identities.",
-      imageUrl: "https://img.freepik.com/free-vector/cartoon-transgender-people-pack_23-2148964621.jpg",
-    }
+      title:"Transgender",
+      date:"",
+      shortDescription:"A person whose gender identity differs from the sex assigned at birth.",
+      longDescription:"Transgender (or trans) people identify with a gender different from the one assigned to them at birth. This can include trans men, trans women, and nonbinary individuals. Being transgender is about gender identity, not biological sex or sexual orientation. Transitioning may involve social, medical, or legal steps, though not all trans people choose or can access these processes.",
+      imageUrl:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Transgender_Pride_flag.svg/1200px-Transgender_Pride_flag.svg.png",
+      famousPeople:[
+
+        {
+          name:"Angie Mead King",
+          born:"December 2, 1979",
+          bio: "Angie Mead King is a transgender woman, a race car driver, and a model. She came out as a transgender woman in 2016. She was formerly known as Ian King. Her journey to embracing her gender identity and coming out has been well-documented, including in various media outlets and on social media. ",
+          imageUrl:"https://aphrodite.gmanetwork.com/entertainment/articles/900_675_8_-20220628111534.jpg"
+        },
+        {
+          name: "BB Gandanghari",
+          born:"September 4, 1967",
+          bio:"In January 2009, Gandanghari came out as a transgender woman and chose to undergo gender confirmation surgery.",
+          imageUrl:"https://od2-image-api.abs-cbn.com/prod/20241113021120/f450530026402bcc0914cb02a7a0217e15c14ab62fe1fab82717c3bcfcd968b9.jpg"
+        },
+        {
+          name: "Ice Seguerra",
+          born: "September 17, 1983",
+          bio: "Formerly known as Aiza Seguerra, Ice Seguerra has embraced his true identity as a transgender man after initially coming out as a lesbian in 2007. He is a Filipino singer, actor, and director, known for his contributions to the entertainment industry and his advocacy for LGBTQ+ rights in the Philippines.",
+          imageUrl: "https://media.philstar.com/photos/2019/08/14/ice-seguerra_2019-08-14_23-37-15.jpg",
+
+        },
+        
+      ],
+    },
+
+
+ 
   ],
   womens_history_unsung: [
     {
@@ -929,6 +1035,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       imageUrl:
         "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop",
     },
+
+
   ],
   STDs: [
     {
