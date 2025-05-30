@@ -27,8 +27,10 @@ export interface MuseumItem {
   famousPeople?: {
     name: string;
     born: string;
+    achievement?:string
     bio: string;
     imageUrl: string;
+
   }[];
 }
 
