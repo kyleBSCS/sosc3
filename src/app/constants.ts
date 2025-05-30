@@ -1120,41 +1120,203 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
   ],
   womens_history_unsung: [
     {
-      id: "ada_lovelace",
-      title: "Ada Lovelace",
-      date: "1815-1852",
+      id: "human_rights",
+      title: "Human Rights & Social Justice",
+      date: "",
       shortDescription:
-        "English mathematician and writer, widely considered the first computer programmer.",
+        "These women were fearless advocates for justice, equality, and dignity—challenging deeply rooted systems of oppression and reshaping civil rights across the globe.",
       longDescription:
-        "Augusta Ada King, Countess of Lovelace, was an English mathematician and writer chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. She was the first to recognize that the machine had applications beyond pure calculation and published the first algorithm intended to be carried out by such a machine. As a result, she is often regarded as the first computer programmer.",
+        "These women were fearless advocates for justice, equality, and dignity—challenging deeply rooted systems of oppression and reshaping civil rights across the globe.",
       imageUrl:
-        "https://images.unsplash.com/photo-1594736797933-d0cc2fe0a6d6?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1616990630901-08b089148dd0?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      famousPeople: [
+        {
+          name: "Rosa Parks",
+          born: "1913–2005",
+          achievement:
+            "Refused to give up her bus seat to a white man in 1955, igniting the Montgomery Bus Boycott in Alabama.",
+          bio:
+            "Rosa Parks is widely recognized as the “Mother of the Civil Rights Movement” in the United States. Her quiet act of defiance became a powerful symbol in the fight against racial segregation. By inspiring a 381-day bus boycott led by Dr. Martin Luther King Jr., Parks helped shift public awareness and pushed for national civil rights reform. Her bravery taught generations that small actions can lead to massive social change.",
+        
+          imageUrl: "/public-figs/rosaparks.jpg",
+        },
+        {
+          name: "Malala Yousafzai",
+          born: "1997–present",
+          achievement:
+            "Survived an assassination attempt by the Taliban in 2012 and became a global advocate for girls' right to education.",
+          bio:
+            "Malala’s voice represents millions of silenced young girls who are denied the right to learn. After surviving a bullet to the head at age 15, she continued to speak out through books, speeches, and the Malala Fund. She became the youngest recipient of the Nobel Peace Prize in 2014. Her courage shows that even in the face of terror, the pursuit of knowledge and equality can prevail.",
+            imageUrl: "/public-figs/malala.jpg",
+        },
+        {
+          name: "Harriet Tubman",
+          born: "c. 1822–1913",
+          achievement:
+            "Escaped slavery and helped over 70 others find freedom via the Underground Railroad.",
+          bio:
+            "Harriet Tubman risked her life again and again to lead enslaved people to freedom. As a conductor of the Underground Railroad, she symbolized hope and resistance in a time of brutal slavery. Later, she worked as a nurse, scout, and spy during the Civil War. Her legacy as a fearless liberator continues to inspire movements for freedom and justice today.",
+            imageUrl: "/public-figs/harriet.jpg",
+        }
+      ]
     },
     {
-      id: "hildegard_von_bingen",
-      title: "Hildegard von Bingen",
-      date: "1098-1179",
+      id: "science_medicine",
+      title: "Science & Medicine",
+      date: "",
       shortDescription:
-        "German Benedictine abbess, writer, composer, philosopher, mystic, visionary, and medical writer.",
+        "These scientists and researchers expanded human knowledge and made discoveries that have saved countless lives.",
       longDescription:
-        "Hildegard von Bingen was a remarkable polymath of the High Middle Ages. She founded monasteries, composed an entire corpus of liturgical music, wrote theological, botanical, and medicinal texts, as well as letters, and liturgical songs. Her visionary theology and scientific insights were extraordinary for her time. Despite the constraints placed on women, she became an influential figure, advising popes, emperors, and other notables.",
-      imageUrl:
-        "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=800&h=600&fit=crop",
+        "These scientists and researchers expanded human knowledge and made discoveries that have saved countless lives, advancing public health and scientific understanding around the globe.",
+        imageUrl: "/public-figs/women.jpeg",
+      famousPeople: [
+        {
+          name: "Marie Curie",
+          born: "1867–1934",
+          achievement:
+            "First woman to win a Nobel Prize—and the only person to win in two sciences (Physics in 1903 and Chemistry in 1911).",
+          bio:
+            "Marie Curie shattered gender barriers in science and made groundbreaking discoveries in radioactivity, a term she coined. Her work led to the development of X-rays and cancer treatments. She also opened doors for women in academia, becoming the first female professor at the University of Paris. Her scientific brilliance and dedication changed the course of medical and atomic science forever.",
+            imageUrl: "/public-figs/curie.jpg",        },
+        {
+          name: "Katalin Karikó",
+          born: "1955–present",
+          achievement:
+            "Co-pioneer of mRNA vaccine technology that was critical in the development of the Pfizer-BioNTech and Moderna COVID-19 vaccines.",
+          bio:
+            "For decades, Katalin Karikó’s work on synthetic mRNA was dismissed as impractical. But her persistence paid off when her research became the foundation for COVID-19 vaccines, saving millions of lives worldwide. She proved that scientific perseverance could revolutionize public health, and her contribution is considered one of the most significant biomedical breakthroughs in modern history.",
+            imageUrl: "/public-figs/katalin.jpg",
+        },
+        {
+          name: "Tu Youyou",
+          born: "1930–present",
+          achievement:
+            "Discovered artemisinin, a drug that drastically reduced malaria deaths and earned her a Nobel Prize in 2015.",
+          bio:
+            "Drawing from ancient Chinese medicine and modern research, Tu Youyou developed a drug that has saved millions, especially in Africa and Asia. She became the first Chinese woman to receive a Nobel Prize in any category. Her work not only bridged traditional and modern medicine but also highlighted the importance of underrepresented voices in global health innovation.",
+            imageUrl: "/public-figs/yiuyou.webp",
+        }
+      ]
     },
     {
-      id: "artemisia_gentileschi",
-      title: "Artemisia Gentileschi",
-      date: "1593-c.1656",
+      id: "tech_innovation",
+      title: "Technology & Innovation",
+      date: "",
       shortDescription:
-        "Italian Baroque painter, one of the most accomplished painters in the generation following Caravaggio.",
+        "These women shaped the digital age and fought for inclusion in tech—paving the way for future innovators.",
       longDescription:
-        "Artemisia Gentileschi was a pioneering Italian Baroque painter, renowned for her dramatic and naturalistic depictions of strong women from myths, allegories, and the Bible. In an era when female painters were not easily accepted, she achieved international success. Her works often feature female heroines and victims, imbued with a powerful emotional intensity, reflecting her own life experiences and challenging patriarchal norms.",
-      imageUrl:
-        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop",
+        "These women shaped the digital age and fought for inclusion in tech—paving the way for future innovators. Their work laid the groundwork for programming, software development, and tech equity.",
+        imageUrl: "/public-figs/eniac.png",
+      famousPeople: [
+        {
+          name: "Ada Lovelace",
+          born: "1815–1852",
+          achievement:
+            "Wrote the first algorithm for Charles Babbage’s mechanical computer, the Analytical Engine.",
+          bio:
+            "Ada Lovelace is recognized as the world’s first computer programmer—long before computers existed as we know them. She imagined that machines could manipulate symbols and ideas, not just numbers—a vision that predicted the power of modern computing. Her legacy lives on in every algorithm that powers today’s digital world.",
+            imageUrl: "/public-figs/ada.webp",
+        },
+        {
+          name: "Grace Hopper",
+          born: "1906–1992",
+          achievement:
+            "Invented one of the first computer compilers and helped develop COBOL, a foundational programming language.",
+          bio:
+            "A U.S. Navy rear admiral, Grace Hopper revolutionized programming by making code more accessible through natural-language syntax. She also popularized the term 'debugging.' Hopper’s visionary work laid the foundation for software development, and she mentored generations of programmers, making tech more inclusive and innovative.",
+            imageUrl: "/public-figs/hopper.jpg",
+        },
+        {
+          name: "Kimberly Bryant",
+          born: "1967–present",
+          achievement:
+            "Founded Black Girls Code, which teaches coding to girls of color, aiming to diversify the tech industry.",
+          bio:
+            "Kimberly Bryant saw a lack of representation in Silicon Valley and took action. By creating Black Girls Code, she empowered thousands of young girls with skills in programming, robotics, and AI. Her mission challenges the status quo in tech and proves that innovation thrives when everyone has a seat at the table.",
+            imageUrl: "/public-figs/bryant.png",
+        }
+      ]
     },
-
-
+    {
+      id: "arts_literature",
+      title: "Arts & Literature",
+      date: "",
+      shortDescription:
+        "These women redefined storytelling and creative expression—amplifying underrepresented voices and transforming art forever.",
+      longDescription:
+        "From poetry and novels to performance and visual arts, these women used their talents to express identity, challenge norms, and create cultural legacies that continue to inspire new generations.",
+      imageUrl: "/public-figs/art.jpg",
+      famousPeople: [
+        {
+          name: "Frida Kahlo",
+          born: "1907–1954",
+          achievement:
+            "Mexican artist known for her vivid self-portraits exploring identity, pain, and the female experience.",
+          bio:
+            "Frida Kahlo broke conventions with her bold, personal, and surreal style. Despite suffering lifelong physical pain from polio and a bus accident, she painted haunting works that portrayed her emotional and physical struggles. Her unapologetic expression of womanhood, politics, and culture made her a feminist icon and an enduring force in modern art.",
+            imageUrl: "/public-figs/kahlo.jpg",
+        },
+        {
+          name: "Maya Angelou",
+          born: "1928–2014",
+          achievement:
+            "Author of 'I Know Why the Caged Bird Sings' and acclaimed poet and civil rights activist.",
+          bio:
+            "Maya Angelou gave voice to the Black American experience through her poetry, memoirs, and activism. Her powerful works explored themes of racism, identity, and resilience. Angelou's lyrical prose and commanding presence made her a cultural ambassador and moral leader, inspiring millions through both her words and her work for equality.",
+            imageUrl: "/public-figs/angelou.jpg",
+        },
+        {
+          name: "Chimamanda Ngozi Adichie",
+          born: "1977–present",
+          achievement:
+            "Nigerian writer whose works such as 'Half of a Yellow Sun' and 'We Should All Be Feminists' sparked global conversations on identity and feminism.",
+          bio:
+            "Chimamanda Ngozi Adichie is one of the most influential contemporary voices in literature. Through her novels and essays, she challenges colonial narratives and uplifts African voices. Her TED Talk-turned-book 'We Should All Be Feminists' ignited global discourse on gender equality and identity. She represents a bridge between cultures and generations of thinkers.",
+            imageUrl: "/public-figs/chima.webp",
+        }
+      ]
+    },
+    {
+      id: "environment_sustainability",
+      title: "Environment & Sustainability",
+      date: "",
+      shortDescription:
+        "These women fought to protect the planet, advocate for climate justice, and reshape how we care for the Earth.",
+      longDescription:
+        "From conservation to climate action, these women led environmental movements and influenced global policy. They show that preserving the Earth requires courage, knowledge, and collective responsibility.",
+        imageUrl: "/public-figs/envi.jpg",
+      famousPeople: [
+        {
+          name: "Rachel Carson",
+          born: "1907–1964",
+          achievement:
+            "Wrote 'Silent Spring,' a book that exposed the dangers of pesticides and launched the modern environmental movement.",
+          bio:
+            "Rachel Carson’s compelling writing warned the world about the ecological damage caused by synthetic chemicals. Her landmark book 'Silent Spring' catalyzed policy changes, including the eventual ban of DDT in the U.S., and led to the creation of the Environmental Protection Agency. She proved the pen could be as mighty as any protest.",
+            imageUrl: "/public-figs/rachel.png",
+        },
+        {
+          name: "Greta Thunberg",
+          born: "2003–present",
+          achievement:
+            "Swedish climate activist who sparked the global school strike for climate and addressed the UN on climate inaction.",
+          bio:
+            "Greta Thunberg turned a solitary protest into a global youth movement for climate action. Her clear, science-based demands and fearless speeches to world leaders helped elevate climate change to the forefront of global consciousness. Her activism has inspired millions to join the fight for a livable future.",
+            imageUrl: "/public-figs/greta.avif",
+        },
+        {
+          name: "Wangari Maathai",
+          born: "1940–2011",
+          achievement:
+            "Kenyan environmentalist and founder of the Green Belt Movement, promoting tree planting, conservation, and women’s rights.",
+          bio:
+            "Wangari Maathai combined environmental activism with social justice by empowering women to restore forests and reclaim agency over their land. She became the first African woman to win the Nobel Peace Prize. Her work showed that environmental care and human rights are inseparable.",
+            imageUrl: "/public-figs/wang.avif",
+        },
+      ],
+    },
   ],
+  
   STDs: [
     {
       id: "chlamydia",
