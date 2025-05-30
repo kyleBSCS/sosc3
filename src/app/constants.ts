@@ -388,7 +388,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
           {
             title: "Editor of 'The Ladder' (1963-1966)",
             imageUrl:
-              "https://images.unsplash.com/photo-1580130379629-170229f87908?w=400&h=300&fit=crop",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/The_Ladder%2C_October_1957.jpg/250px-The_Ladder%2C_October_1957.jpg",
           },
         ],
         events: [
@@ -396,18 +396,18 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
             title:
               "Organized 'Annual Reminder' pickets at Independence Hall (1965-1969)",
             imageUrl:
-              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAqMRrgXtLFkuJgSfEQMB1sOIYEKwD7WLuLQ&s",
           },
           {
             title:
               "Campaigned to remove homosexuality from APA's list of mental illnesses (successfully in 1973)",
             imageUrl:
-              "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=400&h=300&fit=crop",
+              "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/rockcms/2024-04/240405-chicago-gay-crusader-ch-1420-a3b9ff.jpg",
           },
           {
             title: "Headed the American Library Association's Gay Task Force",
             imageUrl:
-              "https://images.unsplash.com/photo-1549675584-b942d1000650?w=400&h=300&fit=crop",
+              "https://static01.nyt.com/images/2007/03/15/us/15gittings_lg.jpg?quality=75&auto=webp&disable=upscale",
           },
         ],
         imageUrl:
@@ -434,20 +434,20 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
             title:
               "Founding The House of GG (Griffin-Gracy Educational Retreat & Historical Center)",
             imageUrl:
-              "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=400&h=300&fit=crop",
+              "https://humanrightsconnected.org/wp-content/uploads/2020/06/org_logo_HouseofGG-1.png",
           },
         ],
         events: [
           {
             title: "Participant in the Stonewall Riots (1969)",
             imageUrl:
-              "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=400&h=300&fit=crop",
+              "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_3840,h_1920,g_auto/dpr_auto/f_auto/q_auto:eco/v1/stonewall-gettyimages-661695126?_a=BAVAZGDX0",
           },
           {
             title:
               "Lifelong advocacy for transgender women of color, incarcerated individuals, and sex workers",
             imageUrl:
-              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2KwUiTxl9GegGbRQN2piWuc1sO4sRpb5Cxg&s",
           },
         ],
         imageUrl:
