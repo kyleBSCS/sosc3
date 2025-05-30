@@ -356,9 +356,10 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
           "https://www.unco.edu/gender-sexuality-resource-center/images/historical-figures/ceyenne-doroshow.jpg",
       },
       referenceUrl: [
-        "https://www.gofundme.com/f/glitsnyc",
-        "https://www.them.us/story/ceyenne-doroshow-glits-interview",
-        "https://www.nbcnews.com/feature/nbc-out/ceyenne-doroshow-black-trans-activist-who-bought-building-homeless-lgbtq-n1238376",
+        "https://en.wikipedia.org/wiki/Ceyenne_Doroshow",
+        "https://www.instagram.com/doroshow/?hl=en",
+        "https://www.glitsinc.org/executivedirector",
+        "https://www.them.us/story/ceyenne-doroshow-transgender-society-glits-activist-profile-million-fundraiser",
       ],
     },
     {
@@ -399,8 +400,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       },
       referenceUrl: [
         "https://en.wikipedia.org/wiki/Erestine_Eckstein",
-        "https://outhistory.org/exhibits/show/erestine-eckstein/biography",
-        "https://www.nps.gov/people/erestine-eckstein.htm",
+        "https://makinggayhistory.org/podcast/ernestine-eckstein/",
+        "https://epgn.com/2022/02/09/black-history-month-ernestine-eckstein/",
       ],
     },
     {
@@ -447,8 +448,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       },
       referenceUrl: [
         "https://en.wikipedia.org/wiki/Barbara_Gittings",
-        "https://www.nytimes.com/2007/02/21/obituaries/21gittings.html",
-        "https://www.advocate.com/news/2019/10/02/barbara-gittings-mother-lgbtq-activism",
+        "https://ppimhs.org/newspost/barbara-gittings-mother-of-the-lgbt-civil-rights-movement/",
+        "https://history.delaware.gov/lgbtq/barbara-gittings/",
       ],
     },
     {
@@ -492,8 +493,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       },
       referenceUrl: [
         "https://en.wikipedia.org/wiki/Miss_Major_Griffin-Gracy",
-        "https://houseofgg.org/",
-        "https://www.them.us/story/miss-major-griffin-gracy-trans-activist",
+        "https://missmajor.net/",
+        "https://wams.nyhistory.org/end-of-the-twentieth-century/the-information-age/miss-major-griffin-gracy/",
       ],
     },
     {
@@ -541,7 +542,6 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       },
       referenceUrl: [
         "https://en.wikipedia.org/wiki/Marsha_P._Johnson",
-        "https://www.nytimes.com/2018/05/30/obituaries/marsha-p-johnson.html",
         "https://www.biography.com/activist/marsha-p-johnson",
       ],
     },
@@ -582,8 +582,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       },
       referenceUrl: [
         "https://en.wikipedia.org/wiki/Ifti_Nasim",
-        "https://www.chicagotribune.com/news/ct-xpm-2011-07-25-ct-met-nasim-obit-20110725-story.html",
-        "https://southasianist.wordpress.com/2011/07/25/ifti-nasim-1946-2011/",
+        "https://chicagolgbthalloffame.org/nasim-ifti/",
+        "https://www.makingqueerhistory.com/articles/2021/8/28/ifti-nasim",
       ],
     },
     {
@@ -632,7 +632,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       referenceUrl: [
         "https://en.wikipedia.org/wiki/Simon_Nkoli",
         "https://www.sahistory.org.za/people/simon-nkoli",
-        "https://www.theguardian.com/world/2019/jun/19/simon-nkoli-south-africa-gay-rights-activist",
+        "https://theconversation.com/simon-nkolis-fight-for-queer-rights-in-south-africa-is-finally-being-celebrated-24-years-after-he-died-194741",
       ],
     },
     {
@@ -681,7 +681,8 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       },
       referenceUrl: [
         "https://en.wikipedia.org/wiki/Sylvia_Rivera",
-        "https://www.nytimes.com/2019/06/06/obituaries/sylvia-rivera-overlooked.html",
+        "https://www.womenshistory.org/education-resources/biographies/sylvia-rivera",
+        "https://www.britannica.com/biography/Sylvia-Rivera",
         "https://www.biography.com/activist/sylvia-rivera",
       ],
     },
@@ -721,7 +722,6 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       referenceUrl: [
         "https://www.hannahmoushabeck.com/",
         "https://www.publishersweekly.com/9781797202051",
-        "https://www.lambdaliterary.org/2023/03/hannah-moushabeck/",
       ],
     },
     {
@@ -817,7 +817,6 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
       },
       referenceUrl: [
         "https://en.wikipedia.org/wiki/Jackie_Shane",
-        "https://www.npr.org/2019/02/22/697013964/jackie-shane-pioneering-transgender-soul-singer-dies-at-78",
         "https://www.nytimes.com/2019/02/22/obituaries/jackie-shane-dead.html",
       ],
     },
