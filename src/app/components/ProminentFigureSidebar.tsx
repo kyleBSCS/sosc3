@@ -36,7 +36,10 @@ const ProminentFigureSidebar: React.FC<Props> = ({ figure }) => {
             Age:{" "}
             {(() => {
               const born = new Date(figure.born);
-              const died = new Date(figure.died);
+              const died =
+                figure.died === "present"
+                  ? new Date("2025")
+                  : new Date(figure.died);
               const age = died.getFullYear() - born.getFullYear();
               const monthDiff = died.getMonth() - born.getMonth();
               return monthDiff < 0 ||

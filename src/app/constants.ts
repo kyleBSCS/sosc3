@@ -263,29 +263,29 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
           {
             title: "Sister Outsider: Essays and Speeches (1984)",
             imageUrl:
-              "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1553282706i/32951.jpg",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeCvJvuNxGWbCFZeK_SfwLnNytHrFulonAzA&s",
           },
           {
             title: "Zami: A New Spelling of My Name (1982)",
             imageUrl:
-              "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348482332i/32960.jpg",
+              "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388344915i/395220.jpg",
           },
           {
             title: "The Cancer Journals (1980)",
             imageUrl:
-              "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1347309687i/32953.jpg",
+              "https://www.penguin.co.uk/_next/image?url=https%3A%2F%2Fcdn.penguin.co.uk%2Fdam-assets%2Fbooks%2F9780241453506%2F9780241453506-jacket-large.jpg&w=819&q=100",
           },
         ],
         events: [
           {
             title: "Co-founder of Kitchen Table: Women of Color Press (1980)",
             imageUrl:
-              "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
+              "https://fractals.blackfeministfuture.org/wp-content/uploads/2021/10/BarbaraAudreCherrieHattiec1980.jpeg",
           },
           {
             title: "Activism in feminist and civil rights movements",
             imageUrl:
-              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+              "https://cdn.britannica.com/62/206062-050-14316A0D/Rally-for-Womens-Lives-April-9-1999-Washignton-DC.jpg",
           },
         ],
         imageUrl:
