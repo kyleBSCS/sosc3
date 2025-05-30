@@ -553,25 +553,25 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
             title:
               "Founding Gay and Lesbian Organisation of the Witwatersrand (GLOW)",
             imageUrl:
-              "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1_2dsQALKnWNjDMVJIqMxN84LgXWAkzbHvg&s",
           },
         ],
         events: [
           {
             title: "Delmas Treason Trial defendant (1985-1989)",
             imageUrl:
-              "https://images.unsplash.com/photo-1541845019790-852108165250?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6CZs0cbuxcNyGJGkrZNfAFDDrZh_Nzkjtow&s",
           },
           {
             title:
               "Campaigning for the inclusion of non-discrimination based on sexual orientation in the South African Constitution",
             imageUrl:
-              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_JUEe4HKXEYWkOH7NZeeyfmIIq-damZTnhw&s",
           },
           {
             title: "One of the first openly HIV-positive African men",
             imageUrl:
-              "https://images.unsplash.com/photo-1605065030960-7c31f06400aa?w=400&h=300&fit=crop",
+              "https://images.theconversation.com/files/496715/original/file-20221122-21-6degfb.jpg?ixlib=rb-4.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
           },
         ],
         imageUrl:
@@ -597,26 +597,26 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
             title:
               "Co-founder of Street Transvestite Action Revolutionaries (STAR)",
             imageUrl:
-              "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/STAR_Rally.jpg/1200px-STAR_Rally.jpg",
           },
         ],
         events: [
           {
             title: "Key figure in the Stonewall Uprising (1969)",
             imageUrl:
-              "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=400&h=300&fit=crop",
+              "https://static01.nyt.com/images/2019/06/07/nyregion/07stonewalljp1-print/06stonewall31-superJumbo.jpg",
           },
           {
             title:
               "Advocacy for transgender rights and inclusion within the broader LGBTQ+ movement",
             imageUrl:
-              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ151zHr4Dg_Lz7bM7TtNIGexrKr2zN-MVW6w&s",
           },
           {
             title:
               "'Y'all Better Quiet Down' speech (1973 Christopher Street Liberation Day Rally)",
             imageUrl:
-              "https://images.unsplash.com/photo-1605065030960-7c31f06400aa?w=400&h=300&fit=crop",
+              "https://www.nypl.org/sites-drupal/default/files/styles/max_scale_640x640/public/field_ers_item_record_image/2022-06/sylvia.jpg?itok=5iUbCTiD",
           },
         ],
         imageUrl:
@@ -642,7 +642,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
             title:
               "Homeland: My Father Dreams of Palestine (as Hannah Moushabeck)",
             imageUrl:
-              "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400&h=300&fit=crop",
+              "https://blogs.publishersweekly.com/blogs/shelftalker/wp-content/uploads/2023/02/9781797202051_b9a05.jpg",
           },
         ],
         events: [
@@ -650,7 +650,7 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
             title:
               "Public speaking on literature, Palestinian heritage, and queer identity (as Hannah Moushabeck)",
             imageUrl:
-              "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5qLNoB0snzqupODAkSrVXLxhhB8xIyQSM7g&s",
           },
         ],
         imageUrl:
@@ -677,25 +677,25 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
             title:
               "Organizer of the March on Washington for Jobs and Freedom (1963)",
             imageUrl:
-              "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=400&h=300&fit=crop",
+              "https://www.blackpast.org/wp-content/uploads/2024/08/Bayard_Rustin_and_Cleveland_Robinson_Photo_by_Orlando_Fernandez.jpg",
           },
         ],
         events: [
           {
             title: "Advisor to Martin Luther King Jr. on nonviolent tactics",
             imageUrl:
-              "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx_kSIP6AmaI24FR2yVn0bNP30HD4O03b0gA&s",
           },
           {
             title: "Advocacy for gay rights, particularly in his later years",
             imageUrl:
-              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+              "https://images.theconversation.com/files/505703/original/file-20230121-31574-irg6sz.jpg?ixlib=rb-4.1.0&rect=95%2C106%2C3647%2C5044&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
           },
           {
             title:
               "Posthumously awarded the Presidential Medal of Freedom (2013)",
             imageUrl:
-              "https://images.unsplash.com/photo-1541845019790-852108165250?w=400&h=300&fit=crop",
+              "https://obamawhitehouse.archives.gov/sites/default/files/image/image_file/p112013ps-0298.jpg",
           },
         ],
         imageUrl:
@@ -719,25 +719,25 @@ export const MUSEUM_DATA: Record<string, MuseumItemSeed[]> = {
           {
             title: "Any Other Way (Live album, reissued 2017)",
             imageUrl:
-              "https://images-na.ssl-images-amazon.com/images/I/81yV-w3nZpL._SL1500_.jpg",
+              "https://m.media-amazon.com/images/M/MV5BMTg0OGUwNWItOWExMy00YzRmLTllYjktNTUxNmFhYzkxNTBlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
           },
           {
             title: "Stand Up Straight and Tall (Single)",
             imageUrl:
-              "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-Lr5BdIUtjoqDdRvztb9pQBlTvCi7MyHw4A&s",
           },
         ],
         events: [
           {
             title: "Prominent R&B performance career in Toronto (1960s)",
             imageUrl:
-              "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=400&h=300&fit=crop",
+              "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/rockcms/2024-09/240920-nashville-jackie-shane-ch-1031-0c75e3.jpg",
           },
           {
             title:
               "Grammy Award nomination for Best Historical Album for 'Any Other Way' (2019)",
             imageUrl:
-              "https://images.unsplash.com/photo-1593113646773-5b8109a203c8?w=400&h=300&fit=crop",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGSIklsmhHvzWqkvElOwkCnujRAsWU4MWE-A&s",
           },
         ],
         imageUrl:
